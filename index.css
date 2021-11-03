@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: overlay;
+}
+
+.container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.diapositiva {
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#one{
+  background-color: red;
+}
+
+#two{
+  background-color: green;
+}
+
+#three{
+  background-color: blue;
+}
