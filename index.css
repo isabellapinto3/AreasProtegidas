@@ -31,6 +31,12 @@ body {
   grid-gap: 30vw;
 }
 
+#descripcion{
+  display: block;
+  width: 35vw;
+  margin-top: 10px;
+}
+
 #one{
   background-image: url(/img/fondo.png);
 }
