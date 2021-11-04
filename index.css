@@ -29,11 +29,11 @@ body {
 .diapositiva1{
   display: flex;
   align-items: left;
-  grid-gap: 16vw;
+  grid-gap: 10vw;
   padding: 5vw 0vw 0vw 12vw;
 }
 .texto-parque{
-
+  width: 50%;
 }
 
 #titulo-parque{
@@ -42,11 +42,12 @@ body {
 
 .mapaimg{
   height: auto;
-  width: 100%;
+  width: 86%;
+  margin-left: 5vw;
 }
 
 #logo-puelo{
-  width: 50%;
+  width: 10em;
 }
 
 #descripcion{
@@ -56,7 +57,7 @@ body {
   align-items: center;
 }
 #p-descripcion{
-  width: 50vw;
+  width: 80ch;
   }
 
 .footer{
@@ -106,8 +107,7 @@ flex-direction:row;
 }
 
 #five{
-  //background-image: url(/img/fondo.png);
-  background: grey;
+  background-image: url(/img/fondo.png);
   display: flex;
- flex-direction: column;
+  flex-direction: column;
 }
