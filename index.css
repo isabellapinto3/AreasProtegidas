@@ -33,7 +33,7 @@ body {
   padding: 5vw 0vw 0vw 12vw;
 }
 .texto-parque{
-  width: 50%;
+  /* width: 50%; */
 }
 
 #titulo-parque{
@@ -47,7 +47,7 @@ body {
 }
 
 #logo-puelo{
-  width: 10em;
+  width:10em;
 }
 
 #descripcion{
