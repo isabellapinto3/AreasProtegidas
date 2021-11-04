@@ -11,6 +11,25 @@ body {
   overflow: overlay;
 }
 
+::-webkit-scrollbar {
+  width: 0.8em;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 100vw;
+  margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 /* CONTENEDOR PRINCIPAL DE DIAPOSITIVAS */
 .container {
   height: 100vh;
@@ -27,6 +46,34 @@ body {
   /*justify-content: center;*/
   align-items: center;
 }
+
+/* ========================================== */
+/* ID DE CADA DIAPOSITIVA */
+
+#one {
+  background-image: url(/img/fondo.png);
+}
+
+#two {
+  background-color: green;
+  justify-content: center;
+}
+
+#three {
+  background-color: blue;
+}
+
+#four {}
+
+#five {
+  background-image: url(/img/fondo.png);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25vh 0vw 0vh 16vw;
+}
+
+/* ========================================== */
 
 /* ========================================== */
 /* PORTADA*/
@@ -101,30 +148,3 @@ body {
   width: 60%;
   text-align: center;
 }
-
-/* ========================================== */
-/* ID DE CADA DIAPOSITIVA */
-
-#one {
-  background-image: url(/img/fondo.png);
-}
-
-#two {
-  background-color: green;
-}
-
-#three {
-  background-color: blue;
-}
-
-#four {}
-
-#five {
-  background-image: url(/img/fondo.png);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 25vh 0vw 0vh 16vw;
-}
-
-/* ========================================== */
