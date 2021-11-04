@@ -28,8 +28,36 @@ body {
 
 .diapositiva1{
   display: flex;
-  grid-gap: 30vw;
+  align-items: left;
+  grid-gap: 16vw;
+  padding: 5vw 0vw 0vw 12vw;
 }
+.texto-parque{
+
+}
+
+#titulo-parque{
+  font-size: 6rem;
+}
+
+.mapaimg{
+  height: auto;
+  width: 100%;
+}
+
+#logo-puelo{
+  width: 50%;
+}
+
+#descripcion{
+  display:flex;
+  margin-top: 10px;
+  gap:2vw;
+  align-items: center;
+}
+#p-descripcion{
+  width: 50vw;
+  }
 
 .footer{
   background: black;
@@ -59,11 +87,7 @@ flex-direction:row;
 
 }
 
-#descripcion{
-  display: block;
-  width: 35vw;
-  margin-top: 10px;
-}
+
 
 #one{
   background-image: url(/img/fondo.png);
