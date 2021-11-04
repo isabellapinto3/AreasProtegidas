@@ -42,6 +42,23 @@ body {
     text-align: center;
 }
 
+.recomendaciones{
+  display: block;
+
+}
+
+.opciones{
+display: flex;
+flex-direction:row;
+ width: 100px;
+ height: 100px;
+ padding: 5px;
+  }
+  .Nahuel{
+  background: green;
+
+}
+
 #descripcion{
   display: block;
   width: 35vw;
@@ -65,5 +82,8 @@ body {
 }
 
 #five{
-  background-image: url(/img/fondo.png);
+  //background-image: url(/img/fondo.png);
+  background: grey;
+  display: flex;
+ flex-direction: column;
 }
