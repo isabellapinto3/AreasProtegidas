@@ -11,6 +11,7 @@ body {
   overflow: overlay;
 }
 
+/* CONTENEDOR PRINCIPAL DE DIAPOSITIVAS */
 .container {
   height: 100vh;
   scroll-snap-type: y mandatory;
@@ -18,96 +19,112 @@ body {
   scroll-behavior: smooth;
 }
 
+/* CLASE GENERAL DE DIAPOSITIVAS */
 .diapositiva {
   height: 100vh;
   scroll-snap-align: center;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
 }
 
-.diapositiva1{
+/* ========================================== */
+/* PORTADA*/
+.diapositiva1 {
   display: flex;
   align-items: left;
   grid-gap: 10vw;
   padding: 5vw 0vw 0vw 12vw;
 }
-.texto-parque{
+
+.texto-parque {
   /* width: 50%; */
 }
 
-#titulo-parque{
+#titulo-parque {
   font-size: 6rem;
 }
 
-.mapaimg{
+.mapaimg {
   height: auto;
   width: 86%;
   margin-left: 5vw;
 }
 
-#logo-puelo{
-  width:10em;
+#logo-puelo {
+  width: 10em;
 }
 
-#descripcion{
-  display:flex;
+#descripcion {
+  display: flex;
   margin-top: 10px;
-  gap:2vw;
+  gap: 2vw;
   align-items: center;
 }
-#p-descripcion{
-  width: 80ch;
-  }
 
-.footer{
+#p-descripcion {
+  width: 80ch;
+}
+
+/* ========================================== */
+/* RECOMENDACIONES (PANTALLA 5) */
+
+.recomendaciones {
+  display: block;
+}
+
+.opciones {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  height: 100px;
+  padding: 5px;
+}
+
+.Nahuel {
+  border-radius: 1.02em;
+  background: green;
+  width: 20vw;
+  padding: 1em;
+}
+
+/* ========================================== */
+/* FOOTER */
+#footer {
   background: black;
   margin: 50 10;
   padding: 10px;
-  }
-  .texto-footer{
-    margin: auto;
-    width: 60%;
-    text-align: center;
 }
 
-.recomendaciones{
-  display: block;
-
+.texto-footer {
+  margin: auto;
+  width: 60%;
+  text-align: center;
 }
 
-.opciones{
-display: flex;
-flex-direction:row;
- width: 100px;
- height: 100px;
- padding: 5px;
-  }
-  .Nahuel{
-  background: green;
+/* ========================================== */
+/* ID DE CADA DIAPOSITIVA */
 
-}
-
-
-
-#one{
+#one {
   background-image: url(/img/fondo.png);
 }
 
-#two{
+#two {
   background-color: green;
 }
 
-#three{
+#three {
   background-color: blue;
 }
 
-#four{
+#four {}
 
-}
-
-#five{
+#five {
   background-image: url(/img/fondo.png);
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 25vh 0vw 0vh 16vw;
 }
+
+/* ========================================== */
