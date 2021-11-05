@@ -125,7 +125,7 @@ body {
 }
 
 #parques-interesantes {
-  margin-top: 1em;
+  margin-top: 2.5em;
   margin-bottom: 1em;
 }
 
@@ -155,6 +155,14 @@ body {
   width: 70%;
 }
 
+.texto-recomendacion{
+  align-self: center;
+}
+
+.recomendacion-titulo{
+  font-size: 1.5em;
+  margin-top: 0.4em;
+}
 
 
 #tarjeta-recomendacion-1 {
