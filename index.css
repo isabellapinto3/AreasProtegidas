@@ -26,6 +26,7 @@ body {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 100vw;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.5);
 }
@@ -49,7 +50,6 @@ body {
 
 /* ========================================== */
 /* ID DE CADA DIAPOSITIVA */
-
 #one {
   background-image: url(./img/fondo.png);
 }
@@ -74,7 +74,6 @@ body {
 }
 
 /* ========================================== */
-
 /* ========================================== */
 /* PORTADA*/
 .diapositiva1 {
@@ -115,7 +114,6 @@ body {
 
 /* ========================================== */
 /* RECOMENDACIONES (PANTALLA 5) */
-
 .recomendaciones {
   display: block;
 }
@@ -130,9 +128,30 @@ body {
 
 .Nahuel {
   border-radius: 1.02em;
-  background: green;
   width: 20vw;
+  height: auto;
   padding: 1em;
+}
+
+#tarjeta-recomendacion-1 {
+  background: #52B8B0;
+}
+
+#tarjeta-recomendacion-2 {
+  background: #38BBEA;
+}
+
+#tarjeta-recomendacion-3 {
+  background: #38BBEA;
+}
+
+#vistazo-titulo {
+  font-size: 4rem;
+}
+
+#parques-interesantes {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* ========================================== */
