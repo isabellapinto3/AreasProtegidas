@@ -143,6 +143,7 @@ body {
   height: auto;
   padding: 1.1em 0em 1.1em 1.1em;
   display: flex;
+  margin-top: 1em;
 }
 
 .container-img-recomendacion{
@@ -167,14 +168,33 @@ body {
 
 #tarjeta-recomendacion-1 {
   background: #52B8B0;
+  position: relative;
+top: 0;
+transition: top ease 0.5s;
+}
+
+#tarjeta-recomendacion-1:hover{
+  top: -10px;
 }
 
 #tarjeta-recomendacion-2 {
   background: #38BBEA;
+  position: relative;
+top: 0;
+transition: top ease 0.5s;
+}
+#tarjeta-recomendacion-2:hover{
+  top: -10px;
 }
 
 #tarjeta-recomendacion-3 {
   background: #38BBEA;
+  position: relative;
+top: 0;
+transition: top ease 0.5s;
+}
+#tarjeta-recomendacion-3:hover{
+  top: -10px;
 }
 
 
