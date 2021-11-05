@@ -52,6 +52,7 @@ body {
 /* ID DE CADA DIAPOSITIVA */
 #one {
   background-image: url(./img/fondo.png);
+   background-size: cover;
 }
 
 #two {
@@ -67,6 +68,7 @@ body {
 
 #five {
   background-image: url(./img/fondo.png);
+   background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -139,12 +141,14 @@ body {
   border-radius: 1.02em;
   width: auto;
   height: auto;
-  padding: 1em;
+  padding: 1.1em 0em 1.1em 1.1em;
   display: flex;
 }
 
-.texto-recomendacion{
-
+.container-img-recomendacion{
+  width: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .img-recomendacion{
