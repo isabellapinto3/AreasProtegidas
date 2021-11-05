@@ -48,6 +48,46 @@ body {
   align-items: center;
 }
 
+
+/* --------------INDICE----------------*/
+.indice{
+  width: 300px;
+  position: relative;  
+  left: 3%;
+  overflow: visible;
+}
+.indice li{
+  padding: 10px 0px;
+}
+
+.indice li a{
+  font-size: 1.7vw;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+iframe{
+  margin-left: -16%;
+}
+/* 1 */
+#one .indice li a{
+  color: white;
+}
+/* 2 - 3 - 4 */
+#two .indice li a, #three .indice li a, #four .indice li a{
+  color: black;
+}
+
+/* 5 */
+
+/* ----------------------------------- */
+
+
+
 /* ========================================== */
 /* ID DE CADA DIAPOSITIVA */
 #one {
@@ -68,23 +108,18 @@ body {
 
 #five {
   background-image: url(./img/fondo.png);
-   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 25vh 0vw 0vh 16vw;
+  background-size: cover;
+  
 }
 
 /* ========================================== */
-/* ========================================== */
-/* PORTADA*/
+/* PANTALLA 1 -PORTADA -*/
 .diapositiva1 {
   display: flex;
   align-items: left;
   grid-gap: 10vw;
   padding: 5vw 0vw 0vw 12vw;
 }
-
 .texto-parque {
   /* width: 50%; */
 }
@@ -116,6 +151,18 @@ body {
 
 /* ========================================== */
 /* RECOMENDACIONES (PANTALLA 5) */
+
+.diapositiva5{
+  width: 100%;
+  display: flex;
+  /*flex-direction: column;*/
+  align-items: flex-start;
+  /*padding: 25vh 0vw 0vh 16vw;*/
+}
+.contenido5{
+  margin-left: 10%;
+}
+
 .recomendaciones {
   display: block;
 }
