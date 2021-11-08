@@ -257,8 +257,40 @@ a:-webkit-any-link {
 .Info {
 
 background-color: white;
-width: 74.5%;
+width: 67%;
 height: 100%;
+
+}
+
+p.Info {
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 112.69%;
+/* or 23px */
+
+
+color: #131313;
+
+}
+
+
+.TituloSección{
+
+  font-family: Roboto;
+  font-style: black;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 100.69%;
+
+}
+
+.turquesa{
+
+  color: #26CAC6;
+
 
 }
 
