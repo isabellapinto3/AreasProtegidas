@@ -302,6 +302,19 @@ background-image: url("./img/FALagoPuelo.png");
 
 }
 
+.ScrollHorizontal{
+
+display: flex;
+
+}
+
+.Actividad{
+
+  width: 400px;
+  height: 200px;
+
+}
+
 /* ========================================== */
 /* RECOMENDACIONES (PANTALLA 5) */
 
