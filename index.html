@@ -4,19 +4,23 @@
 <head>
   <meta charset="utf-8">
   <title>Areas Protegidas</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+
+  <!-- Caratula -->
   <div class="container">
     <div class="diapositiva" id="one">
       <!-- indice -->
       <ul class="indice">
-        <li><a href="#one" id="i1" style="font-weight: 600;">01</a><span>Inicio</span></li>
-        <li><a href="#two" id="i2">02</a><span>Actividades</span></li>
-        <li><a href="#three" id="i3">03</a><span>Flora</span></li>
-        <li><a href="#four" id="i4">04</a><span>Fauna</span></li>
-        <li><a href="#five" id="i5">05</a><span>Recomendaciones</span></li>
+        <li class="hvr-grow"><a href="#one" id="i1" style="font-weight: 600; opacity: 100%;">01<span> Inicio</span></a></li>
+        <li class="hvr-grow"><a href="#two" id="i2">02<span> Actividades</span></a></li>
+        <li class="hvr-grow"><a href="#three" id="i3">03<span> Flora</span></a></li>
+        <li class="hvr-grow"><a href="#four" id="i4">04<span> Fauna</span></a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05<span> Recomendaciones</span></a></li>
       </ul>
       <!-- contenido -->
       <div class="diapositiva1">
@@ -34,10 +38,20 @@
         </div>
         <div class="mapa">
           <img class="mapaimg" src="img/mapa.png" alt="">
+          <button class="animate__animated animate__heartBeat btnMapa" id="btn1"></button>
+          <button class="animate__animated animate__heartBeat btnMapa" id="btn2"></button>
+          <button class="animate__animated animate__heartBeat btnMapa" id="btn3"></button>
+          <button class="animate__animated animate__heartBeat btnMapa" id="btn4"></button>
+          <button class="animate__animated animate__heartBeat btnMapa" id="btn5"></button>
+          <button class="animate__animated animate__heartBeat btnMapa" id="btn6"></button>
+          <button class="animate__animated animate__heartBeat btnMapa" id="btn7"></button>
+          <button class="animate__animated animate__heartBeat btnMapa" id="btn8"></button>
+          <button class="animate__animated animate__bounce btnMapa" id="btn9"></button>
         </div>
       </div>
     </div>
 
+    <!-- Actividades -->
     <div class="diapositiva" id="two">
       <div class="Info">
         <div class="VisitaPorTemporada">
@@ -156,42 +170,46 @@
       </div>
     </div>
 
+    <!-- Flora -->
     <div class="diapositiva" id="three">
       <!-- indice -->
       <ul class="indice">
-        <li><a href="#one">01</a></li>
-        <li><a href="#two">02</a></li>
-        <li><a href="#three" style="font-weight: 600;">03</a></li>
-        <li><a href="#four">04</a></li>
-        <li><a href="#five">05</a></li>
+        <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
+        <li class="hvr-grow"><a href="#three" id="i3" style="font-weight: 600; opacity: 100%;">03</a></li>
+        <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
       </ul>
       <!-- contenido -->
 
       <iframe width="100%" height="100%" src="https://preview.p5js.org/Xhiutther/embed/JUryhc7Pm"></iframe>
     </div>
 
+    <!-- Fauna -->
     <div class="diapositiva" id="four">
       <!-- indice -->
       <ul class="indice">
-        <li><a href="#one">01</a></li>
-        <li><a href="#two">02</a></li>
-        <li><a href="#three">03</a></li>
-        <li><a href="#four" style="font-weight: 600;">04</a></li>
-        <li><a href="#five">05</a></li>
+        <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
+        <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
+        <li class="hvr-grow"><a href="#four" id="i4" style="font-weight: 600; opacity: 100%;">04</a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
       </ul>
       <!-- contenido -->
       <iframe width="100%" height="100%" src="https://preview.p5js.org/Xhiutther/embed/JUryhc7Pm"></iframe>
     </div>
 
+    <!-- Recomendados -->
     <div class="diapositiva" id="five">
       <div class="diapositiva5">
         <!-- indice -->
         <ul class="indice">
-          <li><a href="#one">01</a></li>
-          <li><a href="#two">02</a></li>
-          <li><a href="#three">03</a></li>
-          <li><a href="#four">04</a></li>
-          <li><a href="#five" style="font-weight: 600;">05</a></li>
+          <li class="hvr-grow"><a href="#one" id="i1">01<span> Inicio</span></a></li>
+          <li class="hvr-grow"><a href="#two" id="i2">02<span> Actividades</span></a></li>
+          <li class="hvr-grow"><a href="#three" id="i3">03<span> Flora</span></a></li>
+          <li class="hvr-grow"><a href="#four" id="i4">04<span> Fauna</span></a></li>
+          <li class="hvr-grow"><a href="#five" id="i5" style="font-weight: 600; opacity: 100%;">05<span>
+                Recomendaciones</span></a></li>
         </ul>
         <!-- contenido -->
         <div class="contenido5">
@@ -238,7 +256,7 @@
     </div>
 
 
-
+    <!-- Footer -->
     <div class="diapositiva" id="footer">
       <div class="footer-izquierda">
         <div class="info-tp">
@@ -248,7 +266,7 @@
           <h3 class="h3-footer">COMISIÓN 2</h3>
         </div>
         <div class="integrantes">
-          <h2 class="h2-footer" >INTEGRANTES</h2>
+          <h2 class="h2-footer">INTEGRANTES</h2>
           <ul>
             <li>Pinto, Isabella (85075/4)</li>
             <li>Luciano, Ivan (85085/6)</li>

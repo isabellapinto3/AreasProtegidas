@@ -53,28 +53,53 @@ body {
 .indice{
   width: 300px;
   position: relative;
-  left: 3%;
+  left: 320px;
+  margin-left: -300px;
   overflow: visible;
 }
 .indice li{
   padding: 10px 0px;
 }
+.indice span{
+  font-size: 1vw;
+}
+/*efectogrow*/
+.hvr-grow {
+  /*display: inline-block;*/
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  /*opacity: 50%;*/
+}
+.indice .hvr-grow a:hover{
+  color: #ffffff;
+  opacity: 100%;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.2);  
+  opacity: 100%;  
+}
 
 .indice li a{
-  font-size: 1.7vw;
+  font-size: 1.2vw;
   padding: 10px;
   text-decoration: none;
+  opacity: 50%;
 }
 
 a:-webkit-any-link {
   text-decoration: none;
 }
 
-iframe{
-  margin-left: -16%;
-}
 /* 1 */
-#one .indice li a{
+/*#one .indice li a{
   color: white;
 }
 /* 2 - 3 - 4 */
@@ -82,9 +107,76 @@ iframe{
   color: black;
 }
 
+
 /* 5 */
 
 /* ----------------------------------- */
+/* PROPIEDADES MAPA-BOTONES*/
+.btnMapa{
+  height: 1vw;
+  width: 1vw;
+  /*background-color: DodgerBlue;*/
+  border: none;
+  border-radius: 10px;
+  color: white;
+  opacity: 50%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.btnMapa:hover{
+  opacity: 100%;
+  transform: scale(1.2);
+}
+
+#btn1{
+  position: relative;
+  left: 30%;
+  bottom: 86%;
+}
+#btn2{
+  position: relative;
+  left: 20%;
+  bottom: 83%;
+}
+#btn3{
+  position: relative;
+  left: 47%;
+  bottom: 81%;
+}
+#btn4{
+  position: relative;
+  left: 32%;
+  bottom: 66%;
+}
+#btn5{
+  position: relative;
+  left: 3%;
+  bottom: 46%;
+}
+#btn6{
+  position: relative;
+  left: 0%;
+  bottom: 42%;
+}
+#btn7{
+  position: relative;
+  left: -6%;
+  bottom: 18%;
+}
+#btn8{
+  position: relative;
+  left: -3%;
+  bottom: 6%;
+}
+#btn9{
+  position: relative;
+  left: -12%;
+  bottom: 38%;
+  opacity: 100%;
+}
+
+
 
 
 
@@ -119,6 +211,7 @@ iframe{
   align-items: left;
   grid-gap: 10vw;
   padding: 5vw 0vw 0vw 12vw;
+  margin-left: 20vw;
 }
 .texto-parque {
   /* width: 50%; */
@@ -148,6 +241,15 @@ iframe{
 #p-descripcion {
   width: 80ch;
 }
+/* ========================================== */
+/* PANTALLA 2 */
+
+/* ========================================== */
+/* PANTALLA 3 */
+
+/* ========================================== */
+/* PANTALLA 4 */
+
 
 /* ========================================== */
 /* PANTALLA 2 -ACTIVIDADES -*/
@@ -177,9 +279,10 @@ background-image: url("./img/FALagoPuelo.png");
   /*flex-direction: column;*/
   align-items: flex-start;
   /*padding: 25vh 0vw 0vh 16vw;*/
+  
 }
-.contenido5{
-  margin-left: 0vw;
+.contenido5{  
+  margin-left: 20vw;
 }
 
 .recomendaciones {
