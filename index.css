@@ -121,18 +121,21 @@ a:-webkit-any-link {
   color: white;
   opacity: 50%;
   cursor: pointer;
-  transition-duration: 0.3s;
-  transition-property: transform;
+transition: all .5s ease-in-out;
+
+
 }
 .btnMapa:hover{
   opacity: 100%;
   transform: scale(1.2);
+
 }
 
 #btn1{
   position: relative;
   left: 30%;
   bottom: 86%;
+
 }
 #btn2{
   position: relative;
@@ -210,7 +213,7 @@ a:-webkit-any-link {
   display: flex;
   align-items: left;
   grid-gap: 10vw;
-  padding: 5vw 0vw 0vw 12vw;
+  padding: 5vw 0vw 0vw 5%;
   margin-left: 20vw;
 }
 .texto-parque {
@@ -229,6 +232,7 @@ a:-webkit-any-link {
 
 #logo-puelo {
   width: 10em;
+  transition: 0.5s;
 }
 
 #descripcion {
