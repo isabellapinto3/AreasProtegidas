@@ -245,6 +245,50 @@ transition: all .5s ease-in-out;
 #p-descripcion {
   width: 80ch;
 }
+
+.servicios{
+  margin-top: 6vh;
+  display: flex;
+}
+
+
+
+.servicios div{
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  margin:0.2em 0.5em;
+  border-radius: 0.3em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.servicios div{
+  cursor:pointer;
+}
+
+#servicios-1{
+  background-image: url(./img/no-wifi.png);
+
+}
+#servicios-2{
+  background-image: url(./img/cutlery.png);
+
+}
+#servicios-3{
+  background-image: url(./img/parking.png);
+    background-size: 40%;
+
+}
+#servicios-4{
+  background-image: url(./img/no-smoking.png);
+    background-size: 70%;
+}
+#servicios-5{
+  background-image: url(./img/paw.png);
+      background-size: 60%;
+
+}
 /* ========================================== */
 /* PANTALLA 2 */
 
