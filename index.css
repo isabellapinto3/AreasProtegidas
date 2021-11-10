@@ -186,8 +186,6 @@ transition: all .5s ease-in-out;
 /* ========================================== */
 /* ID DE CADA DIAPOSITIVA */
 #one {
-  background-image: url(./img/fondo.png);
-   background-size: cover;
 }
 
 #two {
