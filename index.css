@@ -447,7 +447,7 @@ input:checked + .slider:before {
 .Mapa{
 
 height: 70%;
-
+background-image: url("./img/mapaPuelo.png");
 
 }
 
