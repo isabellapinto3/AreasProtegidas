@@ -739,7 +739,7 @@ overflow-y: hidden;
 
 
 #tarjeta-recomendacion-1 {
-  background: #52B8B0;
+
   position: relative;
 top: 0;
 transition: top ease 0.5s;
@@ -750,7 +750,7 @@ transition: top ease 0.5s;
 }
 
 #tarjeta-recomendacion-2 {
-  background: #38BBEA;
+
   position: relative;
 top: 0;
 transition: top ease 0.5s;
@@ -760,7 +760,7 @@ transition: top ease 0.5s;
 }
 
 #tarjeta-recomendacion-3 {
-  background: #38BBEA;
+
   position: relative;
 top: 0;
 transition: top ease 0.5s;
