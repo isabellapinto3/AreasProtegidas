@@ -11,16 +11,77 @@ body {
   overflow: overlay;
 }
 
+/*=========== ENCUESTA ========== */
+
 .portada-encuesta{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
+}
+
+.portada-encuesta button{
+  background-color: black;
+  padding:1.2em 4em;
+  margin-top: 2em;
+  border-radius: 2em;
+  font-size: 1rem;
+  border: 0px solid black;
 }
 
 #titulo-portada{
+  color: white;
+  text-align: center;
+  font-size:3rem;
+}
+
+.pregunta{
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  padding-left: 12rem;
+}
+
+.pregunta h2{
+  color: black;
+}.pregunta h3{
   color: black;
 }
+
+
+.preg1-img{
+  width: 20%;
+  transition: 0.5s;
+}
+.preg1-img:hover{
+  opacity: 0.8;
+}
+
+.preg2-img{
+  width: 80%;
+  padding: 1em;
+  transition: 0.5s;
+  padding-left: 0px;
+}
+.preg2-img:hover{
+    opacity: 0.8;
+}
+
+.preg4-img{
+  width: 40%;
+
+  padding: 1em;
+  padding-left: 0px;
+  transition: 0.5s;
+}
+.preg4-img:hover{
+    opacity: 0.8;
+}
+
+/*=============================== */
 
 h2{
 
