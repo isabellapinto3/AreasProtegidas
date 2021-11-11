@@ -21,20 +21,37 @@ body {
   flex-direction: column;
 }
 
-.portada-encuesta button{
-  background-color: black;
-  padding:1.2em 4em;
+.portada-encuesta div{
+background-color: rgba(255,255,255,0);
+  padding:1.5em 4em;
   margin-top: 2em;
   border-radius: 2em;
-  font-size: 1rem;
-  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 2px solid white;
+  transition: all .8s ease-in-out;
+  margin-top: 15%;
+}
+
+#botonIniciar:hover{
+  cursor: pointer;
+  background-color: rgba(255,255,255,50);
+  color: black;
 }
 
 #titulo-portada{
   color: white;
   text-align: center;
-  font-size:3rem;
+  font-size:4.5rem;
 }
+#subtitulo-portada{
+  color: white;
+  text-align: center;
+  font-size:1.6rem;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
 
 .pregunta{
   display: flex;
