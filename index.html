@@ -4,325 +4,78 @@
 <head>
   <meta charset="utf-8">
   <title>Areas Protegidas</title>
-
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-  <!-- Caratula -->
-  <div class="container">
-    <div style=" background-color: #000000;" class="diapositiva" id="one">
-      <!-- indice -->
-      <ul class="indice">
-        <li class="hvr-grow"><a href="#one" id="i1" style="font-weight: 600; opacity: 100%;">01<span> Inicio</span></a></li>
-        <li class="hvr-grow"><a href="#two" id="i2">02<span> Actividades</span></a></li>
-        <li class="hvr-grow"><a href="#three" id="i3">03<span> Flora</span></a></li>
-        <li class="hvr-grow"><a href="#four" id="i4">04<span> Fauna</span></a></li>
-        <li class="hvr-grow"><a href="#five" id="i5">05<span> Recomendaciones</span></a></li>
-      </ul>
-      <!-- contenido -->
-      <div class="diapositiva1">
-        <div class="texto-parque">
-          <h3>## encuesta ## encuesta ## encuesta ##</h3>
-          <h1 id="titulo-parque">FUTURA <br> ENCUESTA</h1>
-          <div id="descripcion">
-            <img id="logo-puelo" src="img/logo-puelo.png" alt="">
-            <p id="p-descripcion">## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta ## encuesta
-            </p>
-          </div>
-          <div class="servicios">
-            <div id="servicios-1">
 
-            </div>
-            <div id="servicios-2">
+  <div style="background-image: url(./img/fondoencuesta.jpg);
+     background-size: cover;" class="portada-encuesta" >
 
-            </div>
-            <div id="servicios-3">
+    <h1 id="titulo-portada">Descubre que Parque <br> Nacional Argentino debes visitar</h1>
+    <button class="">
+      Iniciar experiencia
+    </button>
 
-            </div>
-            <div id="servicios-4">
+  </div>
+  <div class="pregunta" id="pregunta-1">
 
-            </div>
-            <div id="servicios-5">
-
-            </div>
-          </div>
-        </div>
-        <div class="mapa">
-          <img class="mapaimg" src="img/mapa.png" alt="">
-          <a href="loscardones.html">
-            <button class="animate__animated animate__heartBeat btnMapa" id="btn1"></button>
-          </a>
-          <a href="talampaya.html">
-            <button class="animate__animated animate__heartBeat btnMapa" id="btn2"></button>
-          </a>
-          <a href="iguazu.html">
-            <button class="animate__animated animate__heartBeat btnMapa" id="btn3"></button>
-          </a>
-          <a href="elpalmar.html">
-            <button class="animate__animated animate__heartBeat btnMapa" id="btn4"></button>
-          </a>
-          <a href="nahuelhuapi.html">
-            <button class="animate__animated animate__heartBeat btnMapa" id="btn5"></button>
-          </a>
-          <a href="losarrayanes.html">
-            <button class="animate__animated animate__heartBeat btnMapa" id="btn6"></button>
-          </a>
-          <a href="losglaciares.html">
-            <button class="animate__animated animate__heartBeat btnMapa" id="btn7"></button>
-          </a>
-          <a href="tierradelfuego.html">
-            <button class="animate__animated animate__heartBeat btnMapa" id="btn8"></button>
-          </a>
-          <a href="lagopuelo.html">
-            <button class="animate__animated animate__bounce btnMapa" id="btn9"></button>
-          </a>
-        </div>
-      </div>
+    <h3>Pregunta 1</h3>
+    <h2>¿Qué tipo de paisaje te parece más interesante?</h2>
+    <div class="opciones">
+      <img class="preg1-img" src="img/preg1-rta1.png" alt="">
+      <img class="preg1-img" src="img/preg1-rta2.jpg" alt="">
+      <img class="preg1-img" src="img/preg1-rta3.jpg" alt="">
+      <img class="preg1-img" src="img/preg1-rta4.jpg" alt="">
     </div>
 
-    <!-- Actividades -->
-    <div class="diapositiva" id="two">
-      <div class="Info">
-        <div class="VisitaPorTemporada">
-          <h2 class="turquesa">Visita por temporada</h2>
-          <p style="font-size:14px" >De veranos cálidos, un lago color turquesa y variopintos verdes por ser una zona de transición entre el bosque andino patagónico y la selva valdiviana, esta joya de la Patagonia invita a agudizar los sentidos. </p>
-        </div>
-        <h3 class="turquesa" style="width: 100%" >Información Meteorológica</h3>
-        <div class="InformaciónMeteorológica">
-          <div class="TemperaturaPromedio" style="width: 100%;">
-            <h5>Temperatura promedio</h5>
-            <div class="Temperatura">
-              <img src="" alt="sol">
-              <h1 class="Grados">24</h1>
-              <h2 class="Centigrados">°C</h2>
-              <h4>Cielo despejado</h4>
-              <p>Sensación termica: <br>24°C</br></p>
-              <p>Probabilidad de lluvia: <b>4%</b></p>
-            </div>
-          </div>
-          <div class="Gráficas">
-            <button type="button" name="button" class="barra pueloMV" style="height:160px" ></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:120px"></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:130px"></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:100px"></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:95px"></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:95px"></button>
-          </div>
-        </div>
-        <div class="CuidadosyRecomendaciones">
-          <h3 class="turquesa"  >Cuidados y recomendaciones</h3>
-          <div class="Radiación">
-            <h5>Indice de radiación UV</h5>
-            <h1 class="Grados">7</h1>
-            <h4>Alto</h4>
-            <div class="IconosRadiación">
-              <img src="img/viento.svg" alt="viento">
-              <p>17 Km</p>
-            </div>
-            <div class="">
-              <img src="img/hoja.svg" alt="hoja">
-              <p>ICA 21</p>
-            </div>
-          </div>
-          <div class="Gráficas">
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-          </div>
-          <div class="Recomendaciones1">
-            <p>Uso de protector solar</p>
-            <div class="Consejo">
-              <p>cada 2 hs</p>
-            </div>
-          </div>
-          <div class="Recomendaciones1">
-            <p>Hidratacion contínua</p>
-            <div class="Consejo">
-              <p>cada 30 min</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div style="background-image: url(./img/FALagoPuelo.png);" class="Actividades">
-        <div class="Interruptor">
-          <img src="img/soleado.svg" alt="">
-          <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-  </label>
-          <img src="" alt="">
-        </div>
-        <div style="background-image: url(./img/mapaPuelo.png);
-" class="Mapa">
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-        </div>
-        <div class="ScrollHorizontal">
-          <div class="Actividad">
-              <img class="ImagenActividad" src="img/kayakPuelo.png" alt="Kayak">
-            <div class="TextoActividad">
-              <h3>Kayak</h3>
-              <p>Descubre el Lago Puelo desde el agua, disfruta de las aguas tranquilas y vive una experiencia inolvidable en sus 4 recorridos.</p>
-            </div>
-          </div>
-          <div class="Actividad">
-            <div class="ImagenActividad">
-              <img src="img/playaPuelo.png" alt="Playa">
-            </div>
-            <div class="TextoActividad">
-              <h3>Playa</h3>
-              <p>De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
-            </div>
-          </div>
-          <div class="Actividad">
-            <div class="ImagenActividad">
-              <img src="img/pescaPuelo.png" alt="Pesca">
-            </div>
-            <div class="TextoActividad">
-              <h3>Pesca</h3>
-              <p>De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  </div>
+  <div class="pregunta" id="pregunta-2">
+
+    <h3>Pregunta 2</h3>
+    <h2>¿Con qué viajero te identificas más?</h2>
+    <div class="opciones2">
+      <img class="preg2-img" src="img/preg2-rta1.jpg" alt="">
+      <img class="preg2-img" src="img/preg2-rta2.jpg" alt="">
     </div>
 
-    <!-- Flora -->
-    <div class="diapositiva" id="three">
-      <!-- indice -->
-      <ul class="indice">
-        <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
-        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
-        <li class="hvr-grow"><a href="#three" id="i3" style="font-weight: 600; opacity: 100%;">03</a></li>
-        <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
-        <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
-      </ul>
-      <!-- contenido -->
+  </div>
+  <div class="pregunta" id="pregunta-3">
 
-      <iframe width="100%" height="100%" src="https://preview.p5js.org/Xhiutther/embed/JUryhc7Pm"></iframe>
+    <h3>Pregunta 3</h3>
+    <h2>Elegí una estación del año</h2>
+    <div class="opciones">
+      <img class="preg1-img" src="img/preg3-rta1.jpg" alt="">
+      <img class="preg1-img" src="img/preg3-rta2.jpg" alt="">
+      <img class="preg1-img" src="img/preg3-rta3.jpg" alt="">
+      <img class="preg1-img" src="img/preg3-rta4.jpg" alt="">
     </div>
 
-    <!-- Fauna -->
-    <div class="diapositiva" id="four">
-      <!-- indice -->
-      <ul class="indice">
-        <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
-        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
-        <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
-        <li class="hvr-grow"><a href="#four" id="i4" style="font-weight: 600; opacity: 100%;">04</a></li>
-        <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
-      </ul>
-      <!-- contenido -->
-      <iframe width="100%" height="100%" src="https://preview.p5js.org/Xhiutther/embed/JUryhc7Pm"></iframe>
+  </div>
+  <div class="pregunta" id="pregunta-3-2">
+
+    <h3>Pregunta 3</h3>
+    <h2>¿Qué especie te llama más la atención?</h2>
+    <div class="opciones">
+      <img class="preg1-img" src="img/preg3-2-rta1.jpg" alt="">
+      <img class="preg1-img" src="img/preg3-2-rta2.jpg" alt="">
+      <img class="preg1-img" src="img/preg3-2-rta3.jpg" alt="">
+      <img class="preg1-img" src="img/preg3-2-rta4.jpg" alt="">
     </div>
 
-    <!-- Recomendados -->
-    <div class="diapositiva" id="five">
-      <div class="diapositiva5">
-        <!-- indice -->
-        <ul class="indice">
-          <li class="hvr-grow"><a href="#one" id="i1">01<span> Inicio</span></a></li>
-          <li class="hvr-grow"><a href="#two" id="i2">02<span> Actividades</span></a></li>
-          <li class="hvr-grow"><a href="#three" id="i3">03<span> Flora</span></a></li>
-          <li class="hvr-grow"><a href="#four" id="i4">04<span> Fauna</span></a></li>
-          <li class="hvr-grow"><a href="#five" id="i5" style="font-weight: 600; opacity: 100%;">05<span>
-                Recomendaciones</span></a></li>
-        </ul>
-        <!-- contenido -->
-        <div class="contenido5">
+  </div>
+  <div class="pregunta" id="pregunta-4">
 
-          <div class="texto recomendaciones">
-            <h3>Eso fue un breve vistazo del Parque Nacional</h3>
-            <h1 id="vistazo-titulo">LAGO PUELO</h1>
-            <h4 id="parques-interesantes">Parques que pueden interesarte</h4>
-          </div>
-
-          <div class="opciones">
-            <a href="#">
-              <div class="opcion Nahuel" id="tarjeta-recomendacion-1">
-                <div class="texto-recomendacion">
-                  <h5>Parque Nacional</h5>
-                  <h3 class="recomendacion-titulo">LOS <br> ARRAYANES</h3>
-                </div>
-                <div class="container-img-recomendacion">
-                  <img src="img/logo-arrayanes.png" class="img-recomendacion" alt="">
-                </div>
-              </div>
-            </a>
-
-            <a href="#">
-              <div class="opcion Nahuel" id="tarjeta-recomendacion-2">
-                <div class="texto-recomendacion">
-                  <h5>Parque Nacional</h5>
-                  <h3 class="recomendacion-titulo">TIERRA <br> DEL FUEGO</h3>
-                </div>
-                <div class="container-img-recomendacion">
-                  <img class="img-recomendacion" src="img/logo-tierradelfuego.png" alt="">
-                </div>
-              </div>
-            </a>
-
-            <a href="#">
-              <div class="opcion Nahuel" id="tarjeta-recomendacion-3">
-                <div class="texto-recomendacion">
-                  <h5>Parque Nacional</h5>
-                  <h3 class="recomendacion-titulo">LOS <br> GLACIARES</h3>
-                </div>
-                <div class="container-img-recomendacion">
-                  <img class="img-recomendacion" src="img/logo-arrayanes.png" alt="">
-                </div>
-              </div>
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
+    <h3>Pregunta 4</h3>
+    <h2>¿Dónde pasarías la noche?</h2>
+    <div class="opciones">
+      <img class="preg4-img" src="img/preg4-rta1.jpg" alt="">
+      <img class="preg4-img" src="img/preg4-rta2.jpg" alt="">
     </div>
 
-
-    <!-- Footer -->
-    <div class="diapositiva" id="footer">
-      <div class="footer-izquierda">
-        <div class="info-tp">
-          <img src="img/logo-taller.png" id="logo-taller">
-          <h3 class="h3-footer">INFOGRAFÍA INTERACTIVA</h3>
-          <h2 class="h2-footer">AREAS PROTEGIDAS</h2>
-          <h3 class="h3-footer">COMISIÓN 2</h3>
-        </div>
-        <div class="integrantes">
-          <h2 class="h2-footer">INTEGRANTES</h2>
-          <ul>
-            <li>Pinto, Isabella (85075/4)</li>
-            <li>Luciano, Ivan (85085/6)</li>
-            <li>Flores, Nicolás (85224/8)</li>
-            <li>Fallesen, Clara (85720/0)</li>
-            <li>Quattrocchi, Mariano(86533/4)</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-derecha">
-        <img src="img/logo-unlp.png" id="logo-unlp">
-        <img src="img/logo-fda.png" id="logo-fda">
-      </div>
-    </div>
   </div>
 </body>
 
