@@ -61,6 +61,24 @@ body {
   cursor: pointer;
 }
 
+.preg3-img{
+  width: 20%;
+  transition: 0.5s;
+}
+.preg3-img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.preg32-img{
+  width: 20%;
+  transition: 0.5s;
+}
+.preg32-img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 .preg2-img{
   width: 80%;
   padding: 1em;
