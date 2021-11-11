@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>Areas Protegidas</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
   <link rel="stylesheet" href="index.css">
 </head>
 
@@ -15,12 +15,12 @@
      background-size: cover;" class="portada-encuesta">
 
     <h1 id="titulo-portada">Descubre que Parque <br> Nacional Argentino debes visitar</h1>
-    <button class="">
+    <button id="botonIniciar" class="">
       Iniciar experiencia
     </button>
 
   </div>
-  <div class="pregunta" id="pregunta-1">
+  <div class="pregunta" id="pregunta-1" style="display: none;">
 
     <h3>Pregunta 1</h3>
     <h2>¿Qué tipo de paisaje te parece más interesante?</h2>
@@ -32,7 +32,7 @@
     </div>
 
   </div>
-  <div class="pregunta" id="pregunta-2">
+  <div class="pregunta" id="pregunta-2" style="display: none;">
 
     <h3>Pregunta 2</h3>
     <h2>¿Con qué viajero te identificas más?</h2>
@@ -42,7 +42,7 @@
     </div>
 
   </div>
-  <div class="pregunta" id="pregunta-3">
+  <div class="pregunta" id="pregunta-3" style="display: none;">
 
     <h3>Pregunta 3</h3>
     <h2>Elegí una estación del año</h2>
@@ -54,7 +54,7 @@
     </div>
 
   </div>
-  <div class="pregunta" id="pregunta-3-2">
+  <div class="pregunta" id="pregunta-3-2" style="display: none;">
 
     <h3>Pregunta 3</h3>
     <h2>¿Qué especie te llama más la atención?</h2>
@@ -66,7 +66,7 @@
     </div>
 
   </div>
-  <div class="pregunta" id="pregunta-4">
+  <div class="pregunta" id="pregunta-4" style="display: none;">
 
     <h3>Pregunta 4</h3>
     <h2>¿Dónde pasarías la noche?</h2>
