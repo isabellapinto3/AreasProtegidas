@@ -101,7 +101,7 @@
       <div class="Info">
         <div class="VisitaPorTemporada">
           <h2 class="turquesa">Visita por temporada</h2>
-          <p style="font-size:14px" >De veranos cálidos, un lago color turquesa y variopintos verdes por ser una zona de transición entre el bosque andino patagónico y la selva valdiviana, esta joya de la Patagonia invita a agudizar los sentidos. </p>
+          <p>De veranos cálidos, un lago color turquesa y variopintos verdes por ser una zona de transición entre el bosque andino patagónico y la selva valdiviana, esta joya de la Patagonia invita a agudizar los sentidos. </p>
         </div>
         <h3 class="turquesa" style="width: 100%" >Información Meteorológica</h3>
         <div class="InformaciónMeteorológica">
@@ -118,17 +118,17 @@
           </div>
           <div class="Gráficas">
             <button type="button" name="button" class="barra pueloMV" style="height:160px" ></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:120px"></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:130px"></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:100px"></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:95px"></button>
-            <button type="button" name="button" class="barra pueloMV" style="height:95px"></button>
+            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:120px"></button>
+            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:130px"></button>
+            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:100px"></button>
+            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:95px"></button>
+            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:95px"></button>
           </div>
         </div>
         <div class="CuidadosyRecomendaciones">
-          <h3 class="turquesa"  >Cuidados y recomendaciones</h3>
+          <h3 class="turquesa">Cuidados y recomendaciones</h3>
           <div class="Radiación">
-            <h5>Indice de radiación UV</h5>
+            <h5 style="color:#131313;">Indice de radiación UV</h5>
             <h1 class="Grados">7</h1>
             <h4>Alto</h4>
             <div class="IconosRadiación">
@@ -141,12 +141,12 @@
             </div>
           </div>
           <div class="Gráficas">
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
+            <button style="background: #C4C4C4;" type="button" name="button"></button>
+            <button style="background: #C4C4C4;" type="button" name="button"></button>
+            <button style="background: #C4C4C4;" type="button" name="button"></button>
+            <button style="background: #C4C4C4;" type="button" name="button"></button>
+            <button style="background: #C4C4C4;" type="button" name="button"></button>
+            <button style="background: #C4C4C4;" type="button" name="button"></button>
           </div>
           <div class="Recomendaciones1">
             <p>Uso de protector solar</p>
@@ -164,47 +164,41 @@
       </div>
       <div style="background-image: url(./img/FALagoPuelo.png);" class="Actividades">
         <div class="Interruptor">
-          <img src="img/soleado.svg" alt="">
+          <img class="ISwitch" src="img/ISol.png" alt="cálido">
           <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
           </label>
-          <img src="" alt="">
+          <img class="ISwitch" src="img/ICopo.png" alt="frío">
         </div>
         <div style="background-image: url(./img/mapaPuelo.png);" class="Mapa">
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
+          <input style="left: 100px; top: 40px;" class="iconosMapa" type="image" src="img/INavegar.png" name="navegar" alt="navegar"/>
+          <input style="left: 20px; top: 125px;" class="iconosMapa" type="image" src="img/IMontaña.png" name="Montaña" alt="Montaña"/>
+          <input style="left: 120px; top: 60px;" class="iconosMapa" type="image" src="img/IPlaya.png" name="playa" alt="playa"/>
+          <input style="left: 30px; top: 210px;" class="iconosMapa" type="image" src="img/ICorrer.png" name="Correr" alt="Correr"/>
+          <input style="left: 20px; top: 380px;" class="iconosMapa" type="image" src="img/IBicicleta.png" name="Bicicleta" alt="Bicicleta"/>
+          <input style="left: 400px; top: 420px;" class="iconosMapa" type="image" src="img/ICaminar.png" name="Caminar" alt="Caminar"/>
         </div>
         <div class="ScrollHorizontal">
-          <div class="Actividad">
-              <img style="background: rgba(47, 208, 204, 1)" class="ImagenActividad" src="img/kayakPuelo.png" alt="Kayak">
+          <div style="background: rgba(47, 208, 204, 1);" class="Actividad">
+              <img class="ImagenActividad" src="img/kayakPuelo.png" alt="Kayak">
             <div class="TextoActividad">
               <h3>Kayak</h3>
-              <p>Descubre el Lago Puelo desde el agua, disfruta de las aguas tranquilas y vive una experiencia inolvidable en sus 4 recorridos.</p>
+              <p style="color: #FFFFFF;">Descubre el Lago Puelo desde el agua, disfruta de las aguas tranquilas y vive una experiencia inolvidable en sus 4 recorridos.</p>
             </div>
           </div>
-          <div style="background: rgba(47, 208, 204, 0.3)" class="Actividad">
+          <div style="background: rgba(47, 208, 204, 0.3);" class="Actividad">
               <img class="ImagenActividad" src="img/playaPuelo.png" alt="Playa">
             <div class="TextoActividad">
               <h3>Playa</h3>
-              <p>De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
+              <p style="color: #FFFFFF;">De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
             </div>
           </div>
-          <div style="background: rgba(47, 208, 204, 0.3)" class="Actividad">
+          <div style="background: rgba(47, 208, 204, 0.3);" class="Actividad">
               <img class="ImagenActividad" src="img/pescaPuelo.png" alt="Pesca">
             <div class="TextoActividad">
               <h3>Pesca</h3>
-              <p>De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
+              <p style="color: #FFFFFF;">De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
             </div>
           </div>
         </div>
