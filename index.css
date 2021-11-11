@@ -58,6 +58,7 @@ body {
 }
 .preg1-img:hover{
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .preg2-img{
@@ -68,6 +69,7 @@ body {
 }
 .preg2-img:hover{
     opacity: 0.8;
+    cursor: pointer;
 }
 
 .preg4-img{
@@ -79,6 +81,7 @@ body {
 }
 .preg4-img:hover{
     opacity: 0.8;
+    cursor: pointer;
 }
 
 /*=============================== */
