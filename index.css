@@ -11,6 +11,18 @@ body {
   overflow: overlay;
 }
 
+.portada-encuesta{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#titulo-portada{
+  color: black;
+
+}
+
 h2{
 
   font-weight: 900;
