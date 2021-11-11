@@ -711,7 +711,8 @@ overflow-y: hidden;
 .Nahuel {
   border-radius: 1.02em;
   width: auto;
-  min-height: 140px;
+  min-width: 297px;
+  min-height: 155px;
   height: auto;
   padding: 1.1em 0em 1.1em 1.1em;
   display: flex;
@@ -725,7 +726,8 @@ overflow-y: hidden;
 }
 
 .img-recomendacion{
-  width: 70%;
+  width: 80%;
+  height: auto;
 }
 
 .texto-recomendacion{
@@ -735,6 +737,7 @@ overflow-y: hidden;
 .recomendacion-titulo{
   font-size: 1.5em;
   margin-top: 0.4em;
+  width: 6em;
 }
 
 
