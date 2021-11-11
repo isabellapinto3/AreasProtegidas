@@ -75,11 +75,11 @@ $(document).ready(function(){
     // preg 3
     $("#p3b1,#p3b3").click(function() {
     estacion = "calor";
-    console.log(especie);
+    console.log(estacion);
     });
     $("#p3b4,#p3b2").click(function() {
     estacion = "frio";
-    console.log(especie);
+    console.log(estacion);
     });
     // preg 3-2
     $("#p32b1,#p32b3").click(function() {
