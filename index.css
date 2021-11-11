@@ -240,7 +240,7 @@ transition: all .5s ease-in-out;
 .diapositiva1 {
   display: flex;
   align-items: left;
-  grid-gap: 10vw;
+  grid-gap: 3vw;
   padding: 5vw 0vw 0vw 5%;
   margin-left: 20vw;
 }
