@@ -99,4 +99,49 @@ $(document).ready(function(){
     hospedaje = "hotel";
     console.log(hospedaje);
     });
+
+    //  Condicionales encuesta
+    //frio
+    //Nahuel huapi
+    if(region == "frio" && visitante == "activo" && estacion == "frio"){
+      //var x = document.getElementById('nahuelhuapi.html').innerHTML;   
+      console.log("hola");   
+    }
+    //Los glaciares
+    if(region == "frio" && visitante == "activo" && estacion == "calor" && hospedaje =="hotel"){
+      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+    }
+    //Tierra del fuego
+    if(region == "frio" && visitante == "activo" && estacion == "calor" && hospedaje =="carpa"){
+      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+    }
+    //Lago puelo
+    if(region == "frio" && visitante == "pasivo" && especie == "flora"){
+      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+    }
+    //Arrayanes
+    if(region == "frio" && visitante == "pasivo" && especie == "fauna"){
+      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+    }
+
+    
+    //calor
+    //Iguazu
+    if(region == "calor" && visitante == "activo" && estacion == "calor" && hospedaje =="hotel"){
+      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+    }
+    //El palmar
+    if(region == "calor" && visitante == "activo" && estacion == "calor" && hospedaje =="carpa"){
+      console.log(hola);
+      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+    }
+    //Los cardones
+    if(region == "calor" && visitante == "pasivo" && especie == "fauna"){
+      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+    }
+    //Talampaya
+    if(region == "calor" && visitante == "pasivo" && especie == "flora"){
+      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+    }
+
 });
