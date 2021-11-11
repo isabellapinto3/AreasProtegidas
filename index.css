@@ -578,6 +578,7 @@ display: inline-block;
 .Nahuel {
   border-radius: 1.02em;
   width: auto;
+  min-height: 140px;
   height: auto;
   padding: 1.1em 0em 1.1em 1.1em;
   display: flex;
