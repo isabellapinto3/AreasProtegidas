@@ -239,7 +239,7 @@ transition: all .5s ease-in-out;
 .diapositiva1 {
   display: flex;
   align-items: left;
-  grid-gap: 10vw;
+  /*grid-gap: 3vw;*/
   padding: 5vw 0vw 0vw 5%;
   margin-left: 20vw;
 }
@@ -699,6 +699,7 @@ transition: top ease 0.5s;
 
 .h2-footer{
   margin-top: 0em;
+  font-size: 1.7em;
 }
 
 .h3-footer{
