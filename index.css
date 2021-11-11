@@ -14,13 +14,12 @@ body {
 .portada-encuesta{
   display: flex;
   align-items: center;
-  align-content: center;
   justify-content: center;
+  height: 100vh;
 }
 
 #titulo-portada{
   color: black;
-
 }
 
 h2{
