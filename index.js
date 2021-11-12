@@ -117,39 +117,71 @@ $(document).ready(function () {
     }
     //Los glaciares
     if (region == "frio" && visitante == "activo" && estacion == "calor" && hospedaje == "hotel") {
-      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+      window.location.assign('losglaciares.html');
+      $(".preg4-img").click(function() {
+        window.location.assign('losglaciares.html');
+        return false;
+     });
     }
     //Tierra del fuego
     if (region == "frio" && visitante == "activo" && estacion == "calor" && hospedaje == "carpa") {
-      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+      window.location.assign('tierradelfuego.html');
+      $(".preg4-img").click(function() {
+        window.location.assign('tierradelfuego.html');
+        return false;
+     });
     }
     //Lago puelo
     if (region == "frio" && visitante == "pasivo" && especie == "flora") {
-      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+      window.location.assign('lagopuelo.html');
+      $(".preg4-img").click(function() {
+        window.location.assign('lagopuelo.html');
+        return false;
+     });
     }
     //Arrayanes
     if (region == "frio" && visitante == "pasivo" && especie == "fauna") {
-      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+      window.location.assign('losarrayanes.html');
+      $(".preg4-img").click(function() {
+        window.location.assign('losarrayanes.html');
+        return false;
+     });
     }
 
 
     //calor
     //Iguazu
     if (region == "calor" && visitante == "activo" && estacion == "calor" && hospedaje == "hotel") {
-      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+      window.location.assign('iguazu.html');
+      $(".preg4-img").click(function() {
+        window.location.assign('iguazu.html');
+        return false;
+     });
     }
     //El palmar
     if (region == "calor" && visitante == "activo" && estacion == "calor" && hospedaje == "carpa") {
       console.log(hola);
-      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+      window.location.assign('elpalmar.html');
+      $(".preg4-img").click(function() {
+        window.location.assign('elpalmar.html');
+        return false;
+     });
     }
     //Los cardones
     if (region == "calor" && visitante == "pasivo" && especie == "fauna") {
-      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+      window.location.assign('loscardones.html');
+      $(".preg4-img").click(function() {
+        window.location.assign('loscardones.html');
+        return false;
+     });
     }
     //Talampaya
     if (region == "calor" && visitante == "pasivo" && especie == "flora") {
-      var x = document.getElementById('nahuelhuapi.html').innerHTML;
+      window.location.assign('talampaya.html');
+      $(".preg4-img").click(function() {
+        window.location.assign('talampaya.html');
+        return false;
+     });
     }
   }
 
