@@ -12,8 +12,7 @@ body {
 }
 
 /*=========== ENCUESTA ========== */
-
-.portada-encuesta{
+.portada-encuesta {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,9 +20,9 @@ body {
   flex-direction: column;
 }
 
-.portada-encuesta div{
-background-color: rgba(255,255,255,0);
-  padding:1.5em 4em;
+.portada-encuesta div {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 1.5em 4em;
   margin-top: 2em;
   border-radius: 2em;
   font-size: 1.2rem;
@@ -33,27 +32,27 @@ background-color: rgba(255,255,255,0);
   margin-top: 15%;
 }
 
-#botonIniciar:hover{
+#botonIniciar:hover {
   cursor: pointer;
-  background-color: rgba(255,255,255,50);
+  background-color: rgba(255, 255, 255, 50);
   color: black;
 }
 
-#titulo-portada{
+#titulo-portada {
   color: white;
   text-align: center;
-  font-size:4.5rem;
+  font-size: 4.5rem;
 }
-#subtitulo-portada{
+
+#subtitulo-portada {
   color: white;
   text-align: center;
-  font-size:1.6rem;
+  font-size: 1.6rem;
   font-weight: 300;
   margin-top: 1em;
 }
 
-
-.pregunta{
+.pregunta {
   display: flex;
   /*align-items: center;*/
   justify-content: center;
@@ -62,101 +61,91 @@ background-color: rgba(255,255,255,0);
   padding-left: 12rem;
 }
 
-.pregunta h2{
-  color: black;
-}.pregunta h3{
+.pregunta h2 {
   color: black;
 }
 
+.pregunta h3 {
+  color: black;
+}
 
-.preg1-img{
+.preg1-img {
   width: 20%;
   transition: 0.5s;
 }
-.preg1-img:hover{
+
+.preg1-img:hover {
   opacity: 0.8;
   cursor: pointer;
 }
 
-.preg3-img{
+.preg3-img {
   width: 20%;
   transition: 0.5s;
 }
-.preg3-img:hover{
+
+.preg3-img:hover {
   opacity: 0.8;
   cursor: pointer;
 }
 
-.preg32-img{
+.preg32-img {
   width: 20%;
   transition: 0.5s;
 }
-.preg32-img:hover{
+
+.preg32-img:hover {
   opacity: 0.8;
   cursor: pointer;
 }
 
-.preg2-img{
+.preg2-img {
   width: 80%;
   padding: 1em;
   transition: 0.5s;
   padding-left: 0px;
 }
-.preg2-img:hover{
-    opacity: 0.8;
-    cursor: pointer;
+
+.preg2-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
-.preg4-img{
+.preg4-img {
   width: 40%;
-
   padding: 1em;
   padding-left: 0px;
   transition: 0.5s;
 }
-.preg4-img:hover{
-    opacity: 0.8;
-    cursor: pointer;
+
+.preg4-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /*=============================== */
-
-h2{
-
+h2 {
   font-weight: 900;
   font-size: 44px;
   padding: 20px 0px;
-
 }
 
-h3{
-
+h3 {
   font-family: Roboto;
   font-style: black;
   font-size: 30px;
   display: block;
   margin: 8px 0px;
-
 }
 
-h4{
+h4 {}
 
+h5 {}
 
-
-}
-
-h5{
-
-
-
-}
-
-p{
-
-font-size: 16px;
-overflow-y: hidden;
-color: #131313;
-
+p {
+  font-size: 16px;
+  overflow-y: hidden;
+  color: #131313;
 }
 
 ::-webkit-scrollbar {
@@ -196,21 +185,23 @@ color: #131313;
   align-items: center;
 }
 
-
 /* --------------INDICE----------------*/
-.indice{
+.indice {
   width: 300px;
   position: relative;
-  left: 320px;
+  left: 326px;
   margin-left: -300px;
   overflow: visible;
 }
-.indice li{
+
+.indice li {
   padding: 10px 0px;
 }
-.indice span{
+
+.indice span {
   font-size: 1vw;
 }
+
 /*efectogrow*/
 .hvr-grow {
   /*display: inline-block;*/
@@ -223,7 +214,8 @@ color: #131313;
   transition-property: transform;
   /*opacity: 50%;*/
 }
-.indice .hvr-grow a:hover{
+
+.indice .hvr-grow a:hover {
   color: #ffffff;
   opacity: 100%;
 }
@@ -235,7 +227,7 @@ color: #131313;
   opacity: 100%;
 }
 
-.indice li a{
+.indice li a {
   font-size: 1.2vw;
   padding: 10px;
   text-decoration: none;
@@ -251,90 +243,33 @@ a:-webkit-any-link {
   color: white;
 }
 /* 2 - 3 - 4 */
-#two .indice li a, #three .indice li a, #four .indice li a{
+#two .indice li a, #three .indice li a, #four .indice li a {
   color: black;
 }
 
-
 /* 5 */
-
 /* ----------------------------------- */
 /* PROPIEDADES MAPA-BOTONES*/
-.btnMapa{
+.btnMapa {
   height: 1vw;
   width: 1vw;
   /*background-color: DodgerBlue;*/
   border: none;
   border-radius: 10px;
   color: white;
-  opacity: 50%;
   cursor: pointer;
-transition: all .5s ease-in-out;
-
-
+  transition: all .5s ease-in-out;
 }
-.btnMapa:hover{
+
+.btnMapa:hover {
   opacity: 100%;
   transform: scale(1.2);
-
 }
-
-#btn1{
-  position: relative;
-  left: 30%;
-  bottom: 86%;
-
-}
-#btn2{
-  position: relative;
-  left: 20%;
-  bottom: 83%;
-}
-#btn3{
-  position: relative;
-  left: 47%;
-  bottom: 81%;
-}
-#btn4{
-  position: relative;
-  left: 32%;
-  bottom: 66%;
-}
-#btn5{
-  position: relative;
-  left: 3%;
-  bottom: 46%;
-}
-#btn6{
-  position: relative;
-  left: 0%;
-  bottom: 42%;
-}
-#btn7{
-  position: relative;
-  left: -6%;
-  bottom: 18%;
-}
-#btn8{
-  position: relative;
-  left: -3%;
-  bottom: 6%;
-}
-#btn9{
-  position: relative;
-  left: -12%;
-  bottom: 38%;
-  opacity: 100%;
-}
-
-
-
 
 
 /* ========================================== */
 /* ID DE CADA DIAPOSITIVA */
-#one {
-}
+#one {}
 
 #two {
   background-color: green;
@@ -350,7 +285,6 @@ transition: all .5s ease-in-out;
 #five {
   background-image: url(./img/fondo.png);
   background-size: cover;
-
 }
 
 /* ========================================== */
@@ -362,6 +296,7 @@ transition: all .5s ease-in-out;
   padding: 5vw 0vw 0vw 5%;
   margin-left: 20vw;
 }
+
 .texto-parque {
   /* width: 50%; */
 }
@@ -390,168 +325,128 @@ transition: all .5s ease-in-out;
 
 #p-descripcion {
   width: 80ch;
-  color:white;
+  color: white;
   font-weight: 400;
 }
 
-.servicios{
+.servicios {
   margin-top: 6vh;
   display: flex;
 }
 
-
-
-.servicios div{
+.servicios div {
   padding: 2em;
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid white;
-  margin:0.2em 0.5em;
+  margin: 0.2em 0.5em;
   border-radius: 0.3em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 80%;
 }
-.servicios div{
-  cursor:pointer;
+
+.servicios div {
+  cursor: pointer;
 }
 
-#servicios-1{
+#servicios-1 {
   background-image: url(./img/no-wifi.png);
-
 }
-#servicios-2{
+
+#servicios-2 {
   background-image: url(./img/cutlery.png);
-
 }
-#servicios-3{
+
+#servicios-3 {
   background-image: url(./img/parking.png);
-    background-size: 40%;
-
+  background-size: 40%;
 }
-#servicios-4{
+
+#servicios-4 {
   background-image: url(./img/no-smoking.png);
-    background-size: 70%;
+  background-size: 70%;
 }
-#servicios-5{
-  background-image: url(./img/paw.png);
-      background-size: 60%;
 
+#servicios-5 {
+  background-image: url(./img/paw.png);
+  background-size: 60%;
 }
+
 /* ========================================== */
 /* PANTALLA 2 */
-
 /* ========================================== */
 /* PANTALLA 3 */
-
 /* ========================================== */
 /* PANTALLA 4 */
-
-
 /* ========================================== */
 /* PANTALLA 2 -ACTIVIDADES -*/
-
-#two div{
-
-box-sizing: border-box;
-
+#two div {
+  box-sizing: border-box;
 }
 
 .Info {
-
-background-color: white;
-width: 77%;
-height: 100%;
-overflow-y: hidden;
-color: #131313;
-padding: 3%;
-
+  background-color: white;
+  width: 77%;
+  height: 100%;
+  overflow-y: hidden;
+  color: #131313;
+  padding: 3%;
 }
 
-
-.TituloSección{
-
+.TituloSección {
   font-family: Roboto;
   font-style: black;
   font-weight: 900;
   font-size: 48px;
   line-height: 100.69%;
-
 }
 
-.turquesa{
-
+.turquesa {
   color: #26CAC6;
-
 }
 
-.InformaciónMeteorológica{
-
-background-color: red;
-margin: 2em 0em;
-display: flex;
-
+.InformaciónMeteorológica {
+  background-color: red;
+  margin: 2em 0em;
+  display: flex;
 }
 
-.barra{
-
+.barra {
   width: 24px;
   height: 144.84px;
   border: none;
-
 }
 
-.pueloMV{
-
+.pueloMV {
   background: linear-gradient(180deg, #FFEA2E 0%, #26CAC6 100%);
   border-radius: 20px;
-
 }
 
+.pueloMI {}
 
-.pueloMI{
-
-
-
-
-}
-
-.pueloRV{
-
+.pueloRV {
   background: linear-gradient(180deg, #FFEA2E 0%, #26CAC6 100%);
   border-radius: 20px;
-
 }
 
+.pueloRI {}
 
-.pueloRI{
-
-
-
-
+.Actividades {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  overflow-x: initial;
 }
 
-.Actividades{
-
-width: 100%;
-height: 100%;
-max-height: 100%;
-overflow: hidden;
-overflow-x: initial;
-
+.ScrollHorizontal {
+  height: 40%;
+  overflow: auto;
+  white-space: nowrap;
+  overflow-y: hidden;
 }
 
-
-.ScrollHorizontal{
-
-height: 40%;
-overflow: auto;
-white-space: nowrap;
-overflow-y: hidden;
-
-}
-
-.Actividad{
-
+.Actividad {
   width: 400px;
   height: 200px;
   display: inline-block;
@@ -562,25 +457,20 @@ overflow-y: hidden;
   padding: 0px;
   border-radius: 50px, 35px;
   border-color: white;
-
 }
 
 /*------------SWITCH------------------------
 /* The switch - the box around the slider */
-.Interruptor{
-
-position: relative;
-left: 25px;
-top: 30px;
-text-align: left;
-display: flex;
-
+.Interruptor {
+  position: relative;
+  left: 25px;
+  top: 30px;
+  text-align: left;
+  display: flex;
 }
 
-.ISwitch{
-
-padding: 0px 20px;
-
+.ISwitch {
+  padding: 0px 20px;
 }
 
 .switch {
@@ -623,15 +513,15 @@ padding: 0px 20px;
   transition: .4s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #ccc;
 }
 
-input:focus + .slider {
+input:focus+.slider {
   box-shadow: 0 0 1px #2196F3;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -646,63 +536,52 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.Mapa{
-
-height: 62%;
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center ;
-text-align: center;
-
+.Mapa {
+  height: 62%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
 }
 
-.iconosMapa{
-
-position: relative;
-
+.iconosMapa {
+  position: relative;
 }
 
 .Actividad div {
-
-display: inline-block;
-overflow-y: hidden;
+  display: inline-block;
+  overflow-y: hidden;
 }
 
-.ImagenActividad{
-
+.ImagenActividad {
   width: auto;
   height: 100%;
   border-radius: 15px 0px 0px 15px;
   overflow-y: hidden;
 }
 
-.TextoActividad{
-
-width: 50%;
-height: 100%;
-padding: 3%;
-border-radius: 0px 15px 15px 0px;
-text-align: left;
-white-space: normal;
-display: inline-block;
-overflow-y: hidden;
-
+.TextoActividad {
+  width: 50%;
+  height: 100%;
+  padding: 3%;
+  border-radius: 0px 15px 15px 0px;
+  text-align: left;
+  white-space: normal;
+  display: inline-block;
+  overflow-y: hidden;
 }
-
-
 
 /* ========================================== */
 /* RECOMENDACIONES (PANTALLA 5) */
-
-.diapositiva5{
+.diapositiva5 {
   width: 100%;
   display: flex;
   /*flex-direction: column;*/
   align-items: flex-start;
   /*padding: 25vh 0vw 0vh 16vw;*/
-
 }
-.contenido5{
+
+.contenido5 {
   margin-left: 20vw;
 }
 
@@ -738,80 +617,76 @@ overflow-y: hidden;
   margin-top: 1em;
 }
 
-.container-img-recomendacion{
+.container-img-recomendacion {
   width: auto;
   display: flex;
   justify-content: center;
 }
 
-.img-recomendacion{
+.img-recomendacion {
   min-width: 120px;
   width: 80%;
-  max-height:100%;
+  max-height: 100%;
   height: auto;
 }
 
-.texto-recomendacion{
+.texto-recomendacion {
   align-self: center;
 }
 
-.recomendacion-titulo{
+.recomendacion-titulo {
   font-size: 1.5em;
   margin-top: 0.4em;
   width: 6em;
 }
 
-
 #tarjeta-recomendacion-1 {
-
   position: relative;
-top: 0;
-transition: top ease 0.5s;
+  top: 0;
+  transition: top ease 0.5s;
 }
 
-#tarjeta-recomendacion-1:hover{
+#tarjeta-recomendacion-1:hover {
   top: -10px;
 }
 
 #tarjeta-recomendacion-2 {
-
   position: relative;
-top: 0;
-transition: top ease 0.5s;
+  top: 0;
+  transition: top ease 0.5s;
 }
-#tarjeta-recomendacion-2:hover{
+
+#tarjeta-recomendacion-2:hover {
   top: -10px;
 }
 
 #tarjeta-recomendacion-3 {
-
   position: relative;
-top: 0;
-transition: top ease 0.5s;
+  top: 0;
+  transition: top ease 0.5s;
 }
-#tarjeta-recomendacion-3:hover{
+
+#tarjeta-recomendacion-3:hover {
   top: -10px;
 }
-
-
 
 /* ========================================== */
 /* FOOTER */
 #footer {
   background: #121212;
   padding: 5em;
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer-izquierda{
+.footer-izquierda {
   justify-content: flex-end;
   align-self: flex-end;
   align-items: flex-end;
 }
 
-.footer-derecha{
+.footer-derecha {
   display: flex;
   width: auto;
   justify-content: flex-end;
@@ -819,51 +694,52 @@ transition: top ease 0.5s;
   align-items: flex-end;
 }
 
-.h2-footer{
+.h2-footer {
   margin-top: 0em;
   font-size: 1.7em;
 }
 
-.h3-footer{
+.h3-footer {
   font-size: 0.8em;
   font-weight: 200;
 }
 
-.integrantes{
-  margin-top:5em;
+.integrantes {
+  margin-top: 5em;
 }
 
-li{
-    margin: 0.4em 0;
-    font-weight: 100;
-    font-size: 0.8em;
+li {
+  margin: 0.4em 0;
+  font-weight: 100;
+  font-size: 0.8em;
 }
 
-#logo-taller{
+#logo-taller {
   width: 50%;
   transition: 0.5s;
   margin-bottom: 8em;
 }
-#logo-taller:hover{
+
+#logo-taller:hover {
   opacity: 0.7;
 }
-#logo-fda{
+
+#logo-fda {
   mix-blend-mode: screen;
   width: 20%;
   transition: 0.5s;
-
 }
 
-#logo-fda:hover{
+#logo-fda:hover {
   opacity: 0.7;
 }
-#logo-unlp{
+
+#logo-unlp {
   width: 45%;
   margin-right: 2em;
   transition: 0.5s;
-
 }
 
-#logo-unlp:hover{
+#logo-unlp:hover {
   opacity: 0.7;
 }
