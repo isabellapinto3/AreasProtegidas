@@ -452,7 +452,7 @@ a:-webkit-any-link {
   display: inline-block;
   margin: 1em 1.5em;
   border-radius: 15px;
-  overflow: none;
+  overflow: hidden;
   white-space: nowrap;
   padding: 0px;
   border-radius: 50px, 35px;
