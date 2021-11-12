@@ -434,7 +434,6 @@ a:-webkit-any-link {
 }
 
 .scroll{
-  /*background-color: white;*/
   margin: 0em;
   padding-bottom: 1em;
   align-items: flex-end;
@@ -457,6 +456,15 @@ a:-webkit-any-link {
   flex-shrink: 0;
 
 }
+.card:focus {
+background-color: rgba(38, 202, 198, 1);
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+
 .card p{
   padding: .5em;
   color: white;
