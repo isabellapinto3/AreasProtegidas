@@ -461,11 +461,11 @@ a:-webkit-any-link {
   padding: .5em;
   color: white;
   font-family: helvetica;
+  width: 50%;
 }
 
 .card img{
   width: 50%;
-
 }
 
 
