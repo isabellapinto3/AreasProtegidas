@@ -107,9 +107,9 @@ $(document).ready(function () {
     //frio
     //Nahuel huapi
     if (region == "frio" && visitante == "activo" && estacion == "frio") {
-      
+      window.location.assign('nahuelhuapi.html');
       $(".preg4-img").click(function() {
-        window.location.replace('nahuelhuapi.html');
+        window.location.assign('nahuelhuapi.html');
         return false;
      });
       //var x = document.getElementById('nahuelhuapi.html').innerHTML;
