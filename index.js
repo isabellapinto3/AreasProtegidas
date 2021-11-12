@@ -113,7 +113,7 @@ $(document).ready(function () {
         return false;
      });
       //var x = document.getElementById('nahuelhuapi.html').innerHTML;
-      console.log("hola");
+
     }
     //Los glaciares
     if (region == "frio" && visitante == "activo" && estacion == "calor" && hospedaje == "hotel") {
@@ -160,7 +160,7 @@ $(document).ready(function () {
     }
     //El palmar
     if (region == "calor" && visitante == "activo" && estacion == "calor" && hospedaje == "carpa") {
-      console.log(hola);
+    
       window.location.assign('elpalmar.html');
       $(".preg4-img").click(function() {
         window.location.assign('elpalmar.html');
