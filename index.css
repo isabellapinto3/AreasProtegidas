@@ -452,7 +452,7 @@ a:-webkit-any-link {
   height: 100%;
 }
 .image img{
-  height: 50vh;
+  height: 100%;
   margin-top: 0em;
 }
 
@@ -477,7 +477,7 @@ a:-webkit-any-link {
   border-radius: .8em;
   display: flex;
   flex-shrink: 0;
-
+  transition: all ease 0.9s;
 }
 .card:focus {
 background-color: rgba(38, 202, 198, 1);
@@ -488,11 +488,17 @@ background-color: rgba(38, 202, 198, 1);
 }
 
 
-.card p{
+.card-info{
   padding: .5em;
   color: white;
   font-family: helvetica;
   width: 50%;
+}
+
+.card-info p{
+  margin-top: .7em;
+  font-size: 80%;
+  color:white;
 }
 
 .card img{
