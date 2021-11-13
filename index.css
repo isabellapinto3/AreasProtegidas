@@ -595,6 +595,11 @@ text-align: center;
   border-radius: 20px;
 }
 
+.fondoGris {
+  background: #C4C4C4;
+    border-radius: 20px;
+}
+
 .pueloMI {}
 
 .pueloRV {
@@ -672,7 +677,7 @@ justify-content: space-around;
   top: 4em;
   text-align: left;
   display: flex;
-  height: 6.5%;
+  height: 7.5%;
 }
 
 .ISwitch {

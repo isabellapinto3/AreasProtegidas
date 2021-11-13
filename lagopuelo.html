@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Areas Protegidas</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -161,8 +162,8 @@
 
       <ul class="indice" id="indice-actividades">
         <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
-        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
-        <li class="hvr-grow"><a href="#three" id="i3" style="font-weight: 600; opacity: 100%;">03</a></li>
+        <li class="hvr-grow"><a href="#two" id="i2" style="font-weight: 600; opacity: 100%;">02</a></li>
+        <li class="hvr-grow"><a href="#three" id="i3" >03</a></li>
         <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
         <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
       </ul>
@@ -186,12 +187,12 @@
               <p>Probabilidad de lluvia: <b style="color: #131313;">4%</b></p>
           </div>
           <div class="Gráficas">
-            <button style="height:160px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:130px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:130px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:100px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:95px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:95px;" type="button" name="button" class="barra pueloMV"></button>
+            <button style="height:160px;" type="button" name="button" id="calorV0" class="barra fondoGris"></button>
+            <button style="height:130px;" type="button" name="button" id="calorV1" class="barra fondoGris"></button>
+            <button style="height:130px;" type="button" name="button" id="calorV2" class="barra pueloMV"></button>
+            <button style="height:100px;" type="button" name="button" id="calorV3" class="barra fondoGris"></button>
+            <button style="height:95px;" type="button" name="button" id="calorV4" class="barra fondoGris"></button>
+            <button style="height:95px;" type="button" name="button" id="calorV5" class="barra fondoGris"></button>
             <p><b style="color: #131313; word-spacing:0.7em; " >Ene Feb Mar Abr May Jun </b></p>
           </div>
         </div>
@@ -213,12 +214,12 @@
             </div>
           </div>
           <div style="padding: 2em 0em 0em 2em;" class="Gráficas">
-            <button style="height:160px;" type="button" name="button" class="barra pueloRV"></button>
-            <button style="background: #C4C4C4; height:130px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:130px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:100px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:95px;" type="button" name="button" class="barra pueloMV"></button>
-            <button style="background: #C4C4C4; height:95px;" type="button" name="button" class="barra pueloMV"></button>
+            <button style="height:160px;" type="button" name="button" id="radV0" class="barra pueloRV"></button>
+            <button style="background: #C4C4C4; height:130px;" type="button" name="button" id="radV1" class="barra pueloMV"></button>
+            <button style="background: #C4C4C4; height:130px;" type="button" name="button" id="radV2" class="barra pueloMV"></button>
+            <button style="background: #C4C4C4; height:100px;" type="button" name="button" id="radV3" class="barra pueloMV"></button>
+            <button style="background: #C4C4C4; height:95px;" type="button" name="button" id="radV4" class="barra pueloMV"></button>
+            <button style="background: #C4C4C4; height:95px;" type="button" name="button" id="radV5" class="barra pueloMV"></button>
             <p><b style="color: #131313; word-spacing:0.7em; " >Ene Feb Mar Abr May Jun </b></p>
           </div>
           </div>
@@ -425,6 +426,7 @@
       </div>
     </div>
   </div>
+  <script src="actividades.js"></script>
 </body>
 
 </html>
