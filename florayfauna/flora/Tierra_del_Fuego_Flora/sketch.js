@@ -14,7 +14,7 @@ function preload() {
   Avid2.size(0,0);
   Avid2.position(0,0);
   //
-  Bvid1 = createImg("img/gifs/Avideo2.gif");
+  Bvid1 = createImg("img/gifs/bvideo1.gif");
   //
   Bvid1.size(0,0);
   Bvid1.position(0,0);
