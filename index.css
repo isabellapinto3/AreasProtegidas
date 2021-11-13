@@ -138,9 +138,23 @@ h3 {
   margin: 8px 0px;
 }
 
-h4 {}
+h4 {
 
-h5 {}
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+}
+
+h5 {
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+
+}
 
 p {
   font-size: 16px;
@@ -424,7 +438,7 @@ a:-webkit-any-link {
   background-image: url(img/FALagoPuelo.png);
   background-position: center;
   background-size: cover;
-  width:50%;
+  width:55%;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
@@ -433,9 +447,10 @@ a:-webkit-any-link {
 
 .left{
   background-color: white;
-  width: 50%;
+  width: 45%;
   padding: 2em;
-  padding-left: 8em;
+  padding-left: 5em;
+  overflow-y: hidden;
 }
 
 .switch2{
@@ -460,12 +475,10 @@ a:-webkit-any-link {
   margin: 0em;
   padding-bottom: 1em;
   align-items: flex-end;
-  height: 50%;
+  height: 40%;
   display: flex;
   width: 100%;
   overflow-x: scroll;
-
-
 }
 
 .card{
@@ -530,13 +543,26 @@ background-color: rgba(38, 202, 198, 1);
 
 .turquesa {
   color: #26CAC6;
+  width: 100%;
 }
 
 .InformaciónMeteorológica {
-  background-color: red;
-  margin: 2em 0em;
-  display: flex;
+background-color: gray;
 }
+
+
+.TemperaturaPromedio{
+
+width: 50%;
+text-align: center;
+
+}
+
+.Temperatura{
+
+
+}
+
 
 .barra {
   width: 24px;
@@ -590,14 +616,15 @@ background-color: rgba(38, 202, 198, 1);
 /* The switch - the box around the slider */
 .Interruptor {
   position: relative;
-  left: 25px;
-  top: 30px;
+  left: 2em;
+  top: 4em;
   text-align: left;
   display: flex;
+  height: 6.5%;
 }
 
 .ISwitch {
-  padding: 0px 20px;
+  padding: 3px 20px 0px;
 }
 
 .switch {
