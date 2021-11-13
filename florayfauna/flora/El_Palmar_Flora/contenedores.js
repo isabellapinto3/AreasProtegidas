@@ -46,21 +46,21 @@ class Contenedores {
     this.botActivo2 = false;
     this.cdboton2 = 0;
   }
-  
+
   completarVariables(){
     //
     //
-    //### CONTENEDOR A CONTENEDOR A CONTENEDOR A ### 
+    //### CONTENEDOR A CONTENEDOR A CONTENEDOR A ###
     //
     //
     // intro
     this.AimgContenedor = loadImage("img/AimgContenedor.jpg");
     this.AimgContenedorCut = loadImage("img/AimgContenedorCut.jpg");
     this.Atitulo = "Sauce criollo";
-    this.AdescripcionLinea1= "La madera del sauce criollo se caracteriza";
-    this.AdescripcionLinea2= "por su liviandad, tenacidad y por no transmitir";
-    this.AdescripcionLinea3= "olor, propiedades importantes para la fabricación";
-    this.AdescripcionLinea4= "de cajones destinados a la industria frutícola.";
+    this.AdescripcionLinea1= "Es una especie del género Salix nativa de América,";
+    this.AdescripcionLinea2= "desde México hasta el norte de la provincia argentina";
+    this.AdescripcionLinea3= "de Santa Cruz. Su uso cotidiano aplica a la decoración";
+    this.AdescripcionLinea4= "";
     this.AdescripcionLinea5= "";
     // boton
     this.Ar = 100;
@@ -68,11 +68,11 @@ class Contenedores {
     this.Ab = 40;
     this.AimgBoton1 = loadImage("img/AimgBoton1.jpg");
     this.AtituloBoton1 = "Manofactura";
-    this.AdescripcionBoton1Linea1 = "Se utiliza para la confección de dulces,";
-    this.AdescripcionBoton1Linea2 = "mermeladas y para hacer infusiones.";
-    this.AdescripcionBoton1Linea3 = "";
-    this.AdescripcionBoton1Linea4 = "";
-    this.AdescripcionBoton1Linea5 = "";
+    this.AdescripcionBoton1Linea1 = "La madera del sauce criollo se caracteriza ";
+    this.AdescripcionBoton1Linea2 = "por su liviandad, tenacidad y por no ";
+    this.AdescripcionBoton1Linea3 = "transmitir olor, propiedades importantes";
+    this.AdescripcionBoton1Linea4 = "para la fabricación de cajones destinados";
+    this.AdescripcionBoton1Linea5 = "a la industria frutícola.";
     this.AdescripcionBoton1Linea6 = "";
     this.AimgBoton2 = loadImage("img/AimgBoton2.jpg");
     this.AtituloBoton2 = "Aceite cosmetico";
@@ -151,7 +151,7 @@ class Contenedores {
     this.CdescripcionBoton2Linea5 = "";
     this.CdescripcionBoton2Linea6 = "";
   }
-  
+
   dibujar() {
     this.ocultarVideos();
     push();
@@ -458,12 +458,12 @@ class Contenedores {
         windowHeight / 5.5,
         windowHeight / 5.5
       );
-      push(); // DIBUJO BOTON 
+      push(); // DIBUJO BOTON
       imageMode(CENTER);
       fill(this.R,this.G,this.B);
       ellipse(this.botpx, this.botpy, windowHeight/12.5, windowHeight/12.5);
       image(this.imagenBoton2, this.botpx, this.botpy, windowHeight/12.5, windowHeight/12.5);
-      pop(); // DIBUJO BOTON 
+      pop(); // DIBUJO BOTON
       //
       // TEXTO
       //
@@ -518,10 +518,10 @@ class Contenedores {
         windowHeight / 5.5,
         windowHeight / 5.5
       );
-      push(); // DIBUJO BOTON 
+      push(); // DIBUJO BOTON
       imageMode(CENTER);
       image(this.imagenBoton1, this.botpx, this.botpy, windowHeight/12.5, windowHeight/12.5);
-      pop(); // DIBUJO BOTON 
+      pop(); // DIBUJO BOTON
       if(this.contenedorA){
       noStroke();
       fill(255);
@@ -564,7 +564,7 @@ class Contenedores {
     }
     pop();
   }
-  
+
   boton2(x, y, colR, colG, colB, img) {
     push();
     this.cardpx2 = x;
@@ -586,12 +586,12 @@ class Contenedores {
         windowHeight / 5.5,
         windowHeight / 5.5
       );
-      push(); // DIBUJO BOTON 
+      push(); // DIBUJO BOTON
       imageMode(CENTER);
       fill(this.R2,this.G2,this.B2);
       ellipse(this.botpx2, this.botpy2, windowHeight/12.5, windowHeight/12.5);
       image(this.imagenBoton2, this.botpx2, this.botpy2, windowHeight/12.5, windowHeight/12.5);
-      pop(); // DIBUJO BOTON 
+      pop(); // DIBUJO BOTON
       //
       // TEXTO
       //
@@ -646,10 +646,10 @@ class Contenedores {
         windowHeight / 5.5,
         windowHeight / 5.5
       );
-      push(); // DIBUJO BOTON 
+      push(); // DIBUJO BOTON
       imageMode(CENTER);
       image(this.imagenBoton1, this.botpx2, this.botpy2, windowHeight/12.5, windowHeight/12.5);
-      pop(); // DIBUJO BOTON 
+      pop(); // DIBUJO BOTON
       if(this.contenedorA){
       noStroke();
       fill(255);
@@ -798,7 +798,7 @@ class Contenedores {
     }
     pop();
   }
-  
+
   ocultarVideos(){
     if(!this.botActivo1 || !this.botActivo2){
       //

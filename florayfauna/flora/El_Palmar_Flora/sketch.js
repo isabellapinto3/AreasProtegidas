@@ -4,32 +4,32 @@ let cont;
 
 
 function preload() {
-  Avid1 = createImg("img/gifs/Avideo1.gif");
+  Avid1 = createImg("img/gifs/Avid1.gif");
   //
   Avid1.size(0,0);
   Avid1.position(0,0);
   //
-  Avid2 = createImg("img/gifs/Avideo2.gif");
+  Avid2 = createImg("img/gifs/Avid2.gif");
   //
   Avid2.size(0,0);
   Avid2.position(0,0);
   //
-  Bvid1 = createImg("img/gifs/Avideo2.gif");
+  Bvid1 = createImg("img/gifs/Bvid1.gif");
   //
   Bvid1.size(0,0);
   Bvid1.position(0,0);
   //
-  Bvid2 = createImg("img/gifs/Bvideo2.gif");
+  Bvid2 = createImg("img/gifs/Bvid2.gif");
   //
   Bvid2.size(0,0);
   Bvid2.position(0,0);
   //
-  Cvid1 = createImg("img/gifs/Cvideo1.gif");
+  Cvid1 = createImg("img/gifs/Cvid1.gif");
   //
   Cvid1.size(0,0);
   Cvid1.position(0,0);
   //
-  Cvid2 = createImg("img/gifs/Cvideo2.gif");
+  Cvid2 = createImg("img/gifs/Cvid2.gif");
   //
   Cvid2.size(0,0);
   Cvid2.position(0,0);

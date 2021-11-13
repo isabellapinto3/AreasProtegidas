@@ -104,10 +104,10 @@ class Contenedores {
     this.Bg = 152;
     this.Bb = 1;
     this.BimgBoton1 = loadImage("img/BimgBoton1.jpg");
-    this.BtituloBoton1 = "Fruto";
-    this.BdescripcionBoton1Linea1 = "Es ideal como depurativo hepático. Actúa ";
-    this.BdescripcionBoton1Linea2 = "como antiinflamatorio de las afecciones ";
-    this.BdescripcionBoton1Linea3 = "digestivas en especial las hepáticas";
+    this.BtituloBoton1 = "Tahuonas";
+    this.BdescripcionBoton1Linea1 = "Antiguamente se utilizaba junto a plantas";
+    this.BdescripcionBoton1Linea2 = "similares para calentar las tahonas.";
+    this.BdescripcionBoton1Linea3 = "";
     this.BdescripcionBoton1Linea4 = "";
     this.BdescripcionBoton1Linea5 = "";
     this.BdescripcionBoton1Linea6 = "";
@@ -259,13 +259,13 @@ class Contenedores {
       Bvid1.position(width / 2.5, 0);
       //
       }
-      this.boton2(width / 20, height / 2.15, this.Br, this.Bg, this.Bb, this.BimgBoton2);
+      /*this.boton2(width / 20, height / 2.15, this.Br, this.Bg, this.Bb, this.BimgBoton2);
       if(this.botActivo2){
       //
       Bvid2.size(width / 2.8, height);
       Bvid2.position(width / 2.5, 0);
       //
-      }
+    }*/
       pop();
     }
     if (this.contenedorC && !this.animacion) {
