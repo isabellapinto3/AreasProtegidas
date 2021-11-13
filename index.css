@@ -126,7 +126,7 @@ body {
 /*=============================== */
 h2 {
   font-weight: 900;
-  font-size: 44px;
+  font-size: 36px;
   padding: 20px 0px;
   color: #131313;
 }
@@ -134,7 +134,7 @@ h2 {
 h3 {
   font-family: Roboto;
   font-style: black;
-  font-size: 30px;
+  font-size: 24px;
   display: block;
   margin-bottom: 0.5em;
   margin-top: 0.7em;
@@ -452,7 +452,7 @@ a:-webkit-any-link {
 .left{
   background-color: white;
   width: 45%;
-  padding: 1.5em 2em;
+  padding: 1em 2.5em;
   padding-left: 5em;
   overflow-y: hidden;
 }
@@ -611,6 +611,30 @@ justify-content: space-around;
 
 }
 
+
+.Recomendaciones1{
+
+  background: #2FD0CC;
+  margin: 1em;
+  margin-left: 0em;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Consejo{
+
+  background: #FFFFFF;
+  width: 25%;
+  margin: 0%;
+  padding: 0em 0.5em;
+  border: 1px solid #26CAC6;
+  box-sizing: border-box;
+  border-radius: 50px;
+  text-align: right;
+
+}
 
 .Actividades {
   width: 100%;
