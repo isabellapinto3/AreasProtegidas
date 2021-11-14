@@ -159,7 +159,7 @@ body {
 
 .boton-mapa:hover{
   background-color: rgba(0, 0,0, .2);
-
+  cursor:pointer;
 }
 .boton-mapa:hover #icono-boton-mapa{
   opacity: 0;0
