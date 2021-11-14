@@ -1,4 +1,10 @@
 $(document).ready(function () {
+  //BOTON Mapa
+  $(".boton-mapa").click(function () {
+      $(".container-boton-mapa").animate({"left": '-=200'});
+
+    });
+
   //
   // CAMBIOS DE PANTALLA
   //
@@ -160,7 +166,7 @@ $(document).ready(function () {
     }
     //El palmar
     if (region == "calor" && visitante == "activo" && estacion == "calor" && hospedaje == "carpa") {
-    
+
       window.location.assign('elpalmar.html');
       $(".preg4-img").click(function() {
         window.location.assign('elpalmar.html');
