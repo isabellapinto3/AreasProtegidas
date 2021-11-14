@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Areas Protegidas</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -157,123 +158,150 @@
 
     <!-- Actividades -->
     <div class="diapositiva" id="two">
-      <ul class="indice">
+      <!-- indice -->
+
+      <ul class="indice" id="indice-actividades">
         <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
-        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
-        <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
-        <li class="hvr-grow"><a href="#four" id="i4" style="font-weight: 600; opacity: 100%;">04</a></li>
+        <li class="hvr-grow"><a href="#two" id="i2" style="font-weight: 600; opacity: 100%;">02</a></li>
+        <li class="hvr-grow"><a href="#three" id="i3" >03</a></li>
+        <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
         <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
       </ul>
-      <div class="Info">
-        <div class="VisitaPorTemporada">
-          <h2 class="turquesa">Visita por temporada</h2>
-          <p>De veranos cálidos, un lago color turquesa y variopintos verdes por ser una zona de transición entre el bosque andino patagónico y la selva valdiviana, esta joya de la Patagonia invita a agudizar los sentidos. </p>
-        </div>
-        <h3 class="turquesa" style="width: 100%" >Información Meteorológica</h3>
-        <div class="InformaciónMeteorológica">
-          <div class="TemperaturaPromedio" style="width: 100%;">
+      <div class="left">
+
+      <div class="VisitaPorTemporada">
+        <h2 class="turquesa">Visita por temporada</h2>
+        <p>De veranos cálidos, un lago color turquesa y variopintos verdes por ser una zona de transición entre el bosque andino patagónico y la selva valdiviana, esta joya de la Patagonia invita a agudizar los sentidos. </p>
+      </div>
+      <h3 class="turquesa">Información meteorológica</h3>
+      <div class="InformaciónMeteorológica">
+          <div class="TemperaturaPromedio">
             <h5>Temperatura promedio</h5>
             <div class="Temperatura">
-              <img src="" alt="sol">
-              <h1 class="Grados">24</h1>
-              <h2 class="Centigrados">°C</h2>
-              <h4>Cielo despejado</h4>
-              <p>Sensación termica: <br>24°C</br></p>
-              <p>Probabilidad de lluvia: <b>4%</b></p>
+              <img style="weight: 120px; height: 120px; padding: 2em 0.5em 1em 0em;" src="img/soleado.png" alt="sol">
+              <h2 style="font-size:77px; font-weight: normal; line-height: 100%;" class="Grados">24</h2>
+              <h2  style="font-weight: normal;" class="Centigrados">°C</h2>
             </div>
+              <h4 style="padding-bottom:1em;" >Cielo despejado</h4>
+              <p>Sensación termica: <b style="color: #131313;">24°C</b></p>
+              <p>Probabilidad de lluvia: <b style="color: #131313;">4%</b></p>
           </div>
           <div class="Gráficas">
-            <button type="button" name="button" class="barra pueloMV" style="height:160px" ></button>
-            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:120px"></button>
-            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:130px"></button>
-            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:100px"></button>
-            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:95px"></button>
-            <button style="background: #C4C4C4;" type="button" name="button" class="barra pueloMV" style="height:95px"></button>
+            <button style="height:160px;" type="button" name="button" id="calorV0" class="barra fondoGris"></button>
+            <button style="height:130px;" type="button" name="button" id="calorV1" class="barra fondoGris"></button>
+            <button style="height:130px;" type="button" name="button" id="calorV2" class="barra pueloMV"></button>
+            <button style="height:100px;" type="button" name="button" id="calorV3" class="barra fondoGris"></button>
+            <button style="height:95px;" type="button" name="button" id="calorV4" class="barra fondoGris"></button>
+            <button style="height:95px;" type="button" name="button" id="calorV5" class="barra fondoGris"></button>
+            <p><b style="color: #131313; word-spacing:0.7em; " >Ene Feb Mar Abr May Jun </b></p>
           </div>
         </div>
-        <div class="CuidadosyRecomendaciones">
-          <h3 class="turquesa">Cuidados y recomendaciones</h3>
-          <div class="Radiación">
+        <h3 class="turquesa">Cuidados y recomendaciones</h3>
+        <div class="InformaciónMeteorológica">
+          <div class="TemperaturaPromedio">
             <h5 style="color:#131313;">Indice de radiación UV</h5>
-            <h1 class="Grados">7</h1>
-            <h4>Alto</h4>
+            <h2 style="font-size:77px; font-weight: normal; line-height: 100%;" class="Grados">7</h2>
+            <h4 style="padding-bottom:1em;" >Alto</h4>
+            <div class="VientoICA">
             <div class="IconosRadiación">
-              <img src="img/viento.svg" alt="viento">
+              <img src="img/viento.png" alt="viento">
               <p>17 Km</p>
             </div>
-            <div class="">
-              <img src="img/hoja.svg" alt="hoja">
+            <div class="IconosRadiación">
+              <img src="img/hoja.png" alt="hoja">
               <p>ICA 21</p>
             </div>
+            </div>
           </div>
-          <div class="Gráficas">
-            <button style="background: #C4C4C4;" type="button" name="button"></button>
-            <button style="background: #C4C4C4;" type="button" name="button"></button>
-            <button style="background: #C4C4C4;" type="button" name="button"></button>
-            <button style="background: #C4C4C4;" type="button" name="button"></button>
-            <button style="background: #C4C4C4;" type="button" name="button"></button>
-            <button style="background: #C4C4C4;" type="button" name="button"></button>
+          <div style="padding: 2em 0em 0em 2em;" class="Gráficas">
+            <button style="height:160px;" type="button" name="button" id="radV0" class="barra pueloRV"></button>
+            <button style="background: #C4C4C4; height:130px;" type="button" name="button" id="radV1" class="barra pueloMV"></button>
+            <button style="background: #C4C4C4; height:130px;" type="button" name="button" id="radV2" class="barra pueloMV"></button>
+            <button style="background: #C4C4C4; height:100px;" type="button" name="button" id="radV3" class="barra pueloMV"></button>
+            <button style="background: #C4C4C4; height:95px;" type="button" name="button" id="radV4" class="barra pueloMV"></button>
+            <button style="background: #C4C4C4; height:95px;" type="button" name="button" id="radV5" class="barra pueloMV"></button>
+            <p><b style="color: #131313; word-spacing:0.7em; " >Ene Feb Mar Abr May Jun </b></p>
           </div>
-          <div class="Recomendaciones1">
-            <p>Uso de protector solar</p>
+          </div>
+          <div style="margin-top:5em;" class="Recomendaciones">
+            <div class="Recomendaciones1">
+            <p style="color:white; padding: 0.5em 1em;">Uso de protector solar</p>
             <div class="Consejo">
-              <p>cada 2 hs</p>
+              <p style="padding: 0.5em;" class="turquesa">cada 2 hs</p>
             </div>
           </div>
           <div class="Recomendaciones1">
-            <p>Hidratacion contínua</p>
+            <p style="color:white; padding: 0.5em 1em;">Hidratacion contínua</p>
             <div class="Consejo">
-              <p>cada 30 min</p>
+              <p style="padding: 0.5em;" class="turquesa">cada 30 min</p>
             </div>
           </div>
-        </div>
+          </div>
       </div>
-      <div style="background-image: url(./img/FALagoPuelo.png);
-        background-repeat: no-repeat;   background-position: center;
-  " class="Actividades">
-        <div class="Interruptor">
-          <img class="ISwitch" src="img/ISol.png" alt="cálido">
+    <div class="right">
+      <div class="Interruptor">
+        <img class="ISwitch" src="img/ISol.png" alt="cálido">
           <label class="switch">
             <input type="checkbox">
             <span class="slider round"></span>
           </label>
           <img class="ISwitch" src="img/ICopo.png" alt="frío">
-        </div>
+      </div>
+      <div class="image">
+        <img src="img/mapaPuelo.png" class="">
+      </div>
+      <div class="scroll">
+        <div class="card" tabindex="0">
+          <img src="img/kayakPuelo.png" alt="">
+          <div class="card-info">
+            <h4>Kayak</h4>
 
-        <div style="background-image: url(./img/mapaPuelo.png);" class="Mapa">
-          <!--
-          <input style="left: 100px; top: 40px;" class="iconosMapa" type="image" src="img/INavegar.png" name="navegar" alt="navegar"/>
-          <input style="left: 20px; top: 125px;" class="iconosMapa" type="image" src="img/IMontaña.png" name="Montaña" alt="Montaña"/>
-          <input style="left: 120px; top: 60px;" class="iconosMapa" type="image" src="img/IPlaya.png" name="playa" alt="playa"/>
-          <input style="left: 30px; top: 210px;" class="iconosMapa" type="image" src="img/ICorrer.png" name="Correr" alt="Correr"/>
-          <input style="left: 20px; top: 380px;" class="iconosMapa" type="image" src="img/IBicicleta.png" name="Bicicleta" alt="Bicicleta"/>
-          <input style="left: 400px; top: 420px;" class="iconosMapa" type="image" src="img/ICaminar.png" name="Caminar" alt="Caminar"/>
-        -->
+            <p>Descubre  el Lago Puelo desde el agua, disfruta de las aguas tranquilas y vive una experiencia inolvidable en sus 4 recorridos.</p>
+          </div>
         </div>
-        <div class="ScrollHorizontal">
-          <div style="background: rgba(47, 208, 204, 1);" class="Actividad">
-              <img class="ImagenActividad" src="img/kayakPuelo.png" alt="Kayak">
-            <div class="TextoActividad">
-              <h3>Kayak</h3>
-              <p style="color: #FFFFFF;">Descubre el Lago Puelo desde el agua, disfruta de las aguas tranquilas y vive una experiencia inolvidable en sus 4 recorridos.</p>
-            </div>
+        <div class="card" tabindex="0">
+          <img src="img/playaPuelo.png" alt="">
+          <div class="card-info">
+            <h4>Playa</h4>
+
+            <p>De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja  </p>
           </div>
-          <div style="background: rgba(47, 208, 204, 0.3);" class="Actividad">
-              <img class="ImagenActividad" src="img/playaPuelo.png" alt="Playa">
-            <div class="TextoActividad">
-              <h3>Playa</h3>
-              <p style="color: #FFFFFF;">De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
-            </div>
+        </div>
+        <div class="card" tabindex="0">
+          <img src="img/pescaPuelo.png" alt="">
+          <div class="card-info">
+            <h4>Pesca</h4>
+
+            <p>Iis velit excepteur eruditionem. Ne nisi possumus fabulas,  possumus fabula</p>
           </div>
-          <div style="background: rgba(47, 208, 204, 0.3);" class="Actividad">
-              <img class="ImagenActividad" src="img/pescaPuelo.png" alt="Pesca">
-            <div class="TextoActividad">
-              <h3>Pesca</h3>
-              <p style="color: #FFFFFF;">De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
-            </div>
+        </div>
+        <div class="card" tabindex="0">
+          <img src="img/kayakPuelo.png" alt="">
+          <div class="card-info">
+            <h4>Kayak</h4>
+
+            <p>Iis velit excepteur eruditionem. Ne nisi possumus fabulas,  possumus fabula</p>
+          </div>
+        </div>
+        <div class="card" tabindex="0">
+          <img src="img/kayakPuelo.png" alt="">
+          <div class="card-info">
+            <h4>Kayak</h4>
+
+            <p>Iis velit excepteur eruditionem. Ne nisi possumus fabulas,  possumus fabula</p>
+          </div>
+        </div>
+        <div class="card" tabindex="0">
+          <img src="img/kayakPuelo.png" alt="">
+          <div class="card-info">
+            <h4>Kayak</h4>
+
+            <p>Iis velit excepteur eruditionem. Ne nisi possumus fabulas,  possumus fabula</p>
           </div>
         </div>
       </div>
+    </div>
+
     </div>
 
     <!-- Flora -->
@@ -287,8 +315,8 @@
         <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
       </ul>
       <!-- contenido -->
-      <iframe width="100%" height="100%" src="./florayfauna/flora/Lago_Puelo_Flora/index.html"></iframe>
-      <!--<iframe width="100%" height="100%" src="https://preview.p5js.org/Xhiutther/embed/JUryhc7Pm"></iframe>-->
+
+      <iframe width="100%" height="100%" src="https://preview.p5js.org/Xhiutther/embed/JUryhc7Pm"></iframe>
     </div>
 
     <!-- Fauna -->
@@ -302,8 +330,7 @@
         <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
       </ul>
       <!-- contenido -->
-      <iframe width="100%" height="100%" src="./florayfauna/fauna/Lago_Puelo_Fauna/index.html"></iframe>
-      <!--<iframe width="100%" height="100%" src="https://preview.p5js.org/marianoquattrocchi/embed/VwPcHnjXx"></iframe>-->
+      <iframe width="100%" height="100%" src="https://preview.p5js.org/marianoquattrocchi/embed/VwPcHnjXx"></iframe>
     </div>
 
     <!-- Recomendados -->
@@ -399,6 +426,7 @@
       </div>
     </div>
   </div>
+  <script src="actividades.js"></script>
 </body>
 
 </html>
