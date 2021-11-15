@@ -949,21 +949,26 @@ justify-content: space-around;
 /* The switch - the box around the slider */
 .Interruptor {
   position: relative;
-  left: 50vw;
-  top: 5em;
+  left: 2vw;
+  top:8vh;
   z-index: 2;
+
   text-align: left;
   display: flex;
+  justify-content: center;
   height: 7.5%;
+  align-items: center;
 }
 
 .ISwitch {
   padding: 3px 20px 0px;
+  height: 60%;
 }
 
 .switch {
   position: relative;
-  display: inline-block;
+  display: flex;
+
   width: 60px;
   height: 34px;
   top: 3px;
