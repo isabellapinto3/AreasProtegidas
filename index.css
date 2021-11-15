@@ -518,6 +518,24 @@ background-color: rgba(38, 202, 198, 1);
   background-color: rgba(50, 74, 98, 1);
   }
 
+.cardMarrón {
+  overflow-x:visible;
+  background-color:rgba(203, 127, 44, 0.5);
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;
+
+}
+
+.cardMarrón:focus{
+background-color: rgba(203, 127, 44, 1);
+}
+
+
 .cardArrayanes {
   overflow-x:visible;
   background-color:rgba(54, 71, 23, 0.6);
@@ -657,7 +675,7 @@ text-align: center;
 
 .fondoGris {
   background: #C4C4C4;
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .pueloMI {
@@ -677,13 +695,23 @@ text-align: center;
 
 
 /*ARRAYANES*/
+
+.arrayanesMV{
+background: linear-gradient(180deg, #FCBA70 0%, #A9A43C 100%);
+border-radius: 20px;
+}
+.arrayanesRV{
+background: linear-gradient(180deg, #D04C2F 0%, #FFC08A 100%);
+border-radius: 20px;
+}
+
 .arrayanesMI{
   background: linear-gradient(180deg, #939A50 0%, #39481D 100%);
   border-radius: 20px;
 }
 .arrayanesRI{
-  background: linear-gradient(180deg, #1F374E 0%, #CCCCCC 100%);
-  border-radius: 20px;
+background: linear-gradient(180deg, #D04C2F 0%, #FFC08A 100%);
+border-radius: 20px;
 }
 
 .VientoICA{
