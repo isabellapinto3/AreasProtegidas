@@ -663,6 +663,7 @@ background-color: rgba(203, 127, 44, 1);
   width: 50%;
 }
 
+
 /* PANTALLA 2 -ACTIVIDADES -*/
 #two div {
   box-sizing: border-box;
@@ -690,30 +691,115 @@ background-color: rgba(203, 127, 44, 1);
 }
 
 .InformaciónMeteorológica {
-  background-color: red;
-  margin: 2em 0em;
-  display: flex;
+display: flex;
+}
+
+
+.TemperaturaPromedio{
+
+width: 40%;
+text-align: center;
+padding-left: 1em;
+
+}
+
+.Temperatura{
+
+display: flex;
+}
+
+
+.Gráficas{
+
+width: 60%;
+padding: 1em 0em 0em 2em;
+text-align: center;
+
 }
 
 .barra {
   width: 24px;
-  height: 144.84px;
+  margin: 0.5em;
   border: none;
 }
-
+/*LAGO PUELO*/
 .pueloMV {
   background: linear-gradient(180deg, #FFEA2E 0%, #26CAC6 100%);
   border-radius: 20px;
 }
 
-.pueloMI {}
-
-.pueloRV {
-  background: linear-gradient(180deg, #FFEA2E 0%, #26CAC6 100%);
+.fondoGris {
+  background: #C4C4C4;
   border-radius: 20px;
 }
 
-.pueloRI {}
+.pueloMI {
+  background: linear-gradient(180deg, #26A3CA 0%, #37526C 100%);
+  border-radius: 20px;
+}
+
+.pueloRV {
+  background: linear-gradient(180deg, #E94C2D 0%, rgba(254, 151, 53, 0.97) 100%);
+  border-radius: 20px;
+}
+
+.pueloRI {
+  background: linear-gradient(180deg, #324A62 0%, #D3E1EE 100%);
+  border-radius: 20px;
+}
+
+
+/*ARRAYANES*/
+
+.arrayanesMV{
+background: linear-gradient(180deg, #FCBA70 0%, #A9A43C 100%);
+border-radius: 20px;
+}
+.arrayanesRV{
+background: linear-gradient(180deg, #D04C2F 0%, #FFC08A 100%);
+border-radius: 20px;
+}
+
+.arrayanesMI{
+  background: linear-gradient(180deg, #939A50 0%, #39481D 100%);
+  border-radius: 20px;
+}
+.arrayanesRI{
+  background: linear-gradient(180deg, #1F374E 0%, #CCCCCC 100%);
+  border-radius: 20px;
+}
+
+.VientoICA{
+
+display: flex;
+justify-content: space-around;
+
+}
+
+
+.Recomendaciones1{
+
+  background: #2FD0CC;
+  margin: 1em;
+  margin-left: 0em;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Consejo{
+
+  background: #FFFFFF;
+  width: 25%;
+  margin: 0%;
+  padding: 0em 0.5em;
+  border: 1px solid #26CAC6;
+  box-sizing: border-box;
+  border-radius: 50px;
+  text-align: right;
+
+}
 
 .Actividades {
   width: 100%;
@@ -747,14 +833,15 @@ background-color: rgba(203, 127, 44, 1);
 /* The switch - the box around the slider */
 .Interruptor {
   position: relative;
-  left: 25px;
-  top: 30px;
+  left: 2em;
+  top: 4em;
   text-align: left;
   display: flex;
+  height: 7.5%;
 }
 
 .ISwitch {
-  padding: 0px 20px;
+  padding: 3px 20px 0px;
 }
 
 .switch {
