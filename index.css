@@ -1065,6 +1065,9 @@ input:checked+.slider:before {
 #parques-interesantes {
   margin-top: 2.5em;
   margin-bottom: 1em;
+  font-size: 1.2em;
+  color: white;
+  font-weight: 500;
 }
 
 .opciones {
@@ -1101,6 +1104,10 @@ input:checked+.slider:before {
 
 .texto-recomendacion {
   align-self: center;
+}
+.texto-recomendacion h5{
+color:white;
+font-size: 1em;
 }
 
 .recomendacion-titulo {
@@ -1186,7 +1193,7 @@ li {
 #logo-taller {
   width: 50%;
   transition: 0.5s;
-  margin-bottom: 8em;
+  margin-bottom: 10vh;
 }
 
 #logo-taller:hover {
