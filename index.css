@@ -197,9 +197,25 @@ h3 {
   margin: 8px 0px;
 }
 
-h4 {}
+h4 {
 
-h5 {}
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #131313;
+
+}
+
+h5 {
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #131313;
+
+}
 
 p {
   font-size: 16px;
