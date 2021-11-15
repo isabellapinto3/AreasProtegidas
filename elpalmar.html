@@ -259,127 +259,249 @@
       </div>
     </div>
 
-    <!-- Actividades -->
-    <div class="diapositiva" id="two">
-      <div class="Info">
-        <div class="VisitaPorTemporada">
-          <h2 class="turquesa">Visita por temporada</h2>
-          <p>De veranos cálidos, un lago color turquesa y variopintos verdes por ser una zona de transición entre el bosque andino patagónico y la selva valdiviana, esta joya de la Patagonia invita a agudizar los sentidos. </p>
-        </div>
-        <div class="InformaciónMeteorológica">
-          <h3>Información Meteorológica</h3>
-          <div class="TemperaturaPromedio">
-            <h5>Temperatura promedio</h5>
-            <div class="Temperatura">
-              <img src="" alt="sol">
-              <h1 class="Grados">24</h1>
-              <h2 class="Centigrados">°C</h2>
-              <h4>Cielo despejado</h4>
-              <p>Sensación termica: <br>24°C</br></p>
-              <p>Probabilidad de lluvia: <b>4%</b></p>
-            </div>
+        <!-- Actividades calor-->
+        <div class="diapositiva2-calor" id="two">
+          <!-- indice -->
+
+          <ul class="indice" id="indice-actividades">
+            <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+            <li class="hvr-grow"><a href="#two" id="i2" style="font-weight: 600; opacity: 100%;">02</a></li>
+            <li class="hvr-grow"><a href="#three" id="i3" >03</a></li>
+            <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+            <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+          </ul>
+          <div class="left">
+
+          <div class="VisitaPorTemporada">
+            <h2 style="color: #C97214">Visita por temporada</h2>
+            <p>Su paisaje poblado de palmeras, los bosques en galería que
+            pueblan las márgenes de los ríos, el río Uruguay y la abundancia de
+            su fauna silvestre constituyen los principales atractivos de este
+            destino.</p>
           </div>
-          <div class="Gráficas">
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
+          <h3 style="color:#C97214;">Información meteorológica</h3>
+          <div class="InformaciónMeteorológica">
+              <div class="TemperaturaPromedio">
+                <h5>Temperatura promedio</h5>
+                <div class="Temperatura">
+                  <img style="weight: 120px; padding: 1.5em 0.5em 1em 0em;" src="img/soleado.png" alt="sol">
+                  <h2 style="font-weight: normal; line-height: 100%;" class="Grados">32</h2>
+                  <h2  style="font-weight: normal;" class="Centigrados">°C</h2>
+                </div>
+                  <h4 style="padding-bottom:1em;" >Cielo despejado</h4>
+                  <p>Sensación termica: <b style="color: #131313;" class="ST">34°C</b></p>
+                  <p>Probabilidad de lluvia: <b style="color: #131313;" class="PLL">1%</b></p>
+              </div>
+              <div class="Gráficas">
+                <button style="height:10em;" type="button" name="button" id="AcalorV0" class="barra arrayanesMV"></button>
+                <button style="height:8em;" type="button" name="button" id="AcalorV1" class="barra fondoGris"></button>
+                <button style="height:8em;" type="button" name="button" id="AcalorV2" class="barra fondoGris"></button>
+                <button style="height:6em;" type="button" name="button" id="AcalorV3" class="barra fondoGris"></button>
+                <button style="height:7em;" type="button" name="button" id="AcalorV4" class="barra fondoGris"></button>
+                <button style="height:3em;" type="button" name="button" id="AcalorV5" class="barra fondoGris"></button>
+                <p><b style="color: #131313; word-spacing:0.7em; " >Ene Feb Mar Abr May Jun </b></p>
+              </div>
+            </div>
+            <h3 style="color:#C97214;">Cuidados y recomendaciones</h3>
+            <div class="InformaciónMeteorológica">
+              <div class="TemperaturaPromedio">
+                <h5 style="color:#131313;">Indice de radiación UV</h5>
+                <h2 style="font-weight: normal; line-height: 100%;" class="Rad">7</h2>
+                <h4 class="valorRadiacion" style="padding-bottom:1em;" >Alto</h4>
+                <div class="VientoICA">
+                <div class="IconosRadiación">
+                  <img src="img/viento.png" alt="viento">
+                  <p class="KM">13 Km</p>
+                </div>
+                <div class="IconosRadiación">
+                  <img src="img/hoja.png" alt="hoja">
+                  <p class="ICA">ICA 21</p>
+                </div>
+                </div>
+              </div>
+              <div style="padding: 2em 0em 0em 2em;" class="Gráficas">
+                <button style="height:9em;" type="button" name="button"  id="AradV0" class="barra arrayanesRV"></button>
+                <button style="height:6em;" type="button" name="button"  id="AradV1" class="barra fondoGris"></button>
+                <button style="height:6em;" type="button" name="button"  id="AradV2" class="barra fondoGris"></button>
+                <button style="height:5em;" type="button" name="button"  id="AradV3" class="barra fondoGris"></button>
+                <button style="height:4em;" type="button" name="button"  id="AradV4" class="barra fondoGris"></button>
+                <button style="height:3em;" type="button" name="button"  id="AradV5" class="barra fondoGris"></button>
+                <p><b style="color: #131313; word-spacing:0.7em; " >Ene Feb Mar Abr May Jun </b></p>
+              </div>
+              </div>
+              <div style="margin-top:5em;" class="Recomendaciones">
+                <div style="background-color:#CB7F2C;" class="Recomendaciones1">
+                <p style="color:white; padding: 0.5em 1em;">Uso de protector solar</p>
+                <div style=" border: 1px solid #CB7F2C;" class="Consejo">
+                  <p style="padding: 0.5em; color:#CB7F2C;">cada 2 hs</p>
+                </div>
+              </div>
+              <div style="background-color:#CB7F2C;" class="Recomendaciones1">
+                <p style="color:white; padding: 0.5em 1em;">Hidratacion contínua</p>
+                <div style=" border: 1px solid #CB7F2C;" class="Consejo">
+                  <p style="padding: 0.5em; color:#CB7F2C;">cada 30 min</p>
+                </div>
+              </div>
+              </div>
           </div>
-        </div>
-        <div class="CuidadosyRecomendaciones">
-          <h3>Cuidados y recomendaciones</h3>
-          <div class="Radiación">
-            <h5>Indice de radiación UV</h5>
-            <h1 class="Grados">7</h1>
-            <h4>Alto</h4>
-            <div class="IconosRadiación">
-              <img src="img/viento.svg" alt="viento">
-              <p>17 Km</p>
-            </div>
-            <div class="">
-              <img src="img/hoja.svg" alt="hoja">
-              <p>ICA 21</p>
-            </div>
+        <div style="background-image: url(https://www.welcomeargentina.com/paseos/senderos-parque-nacional-el-palmar/senderos-el-palmar-1.jpg);" class="right">
+          <div class="Interruptor">
+            <img class="ISwitch" src="img/ISol.png" alt="cálido">
+              <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <img class="ISwitch" src="img/ICopo.png" alt="frío">
           </div>
-          <div class="Gráficas">
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
-            <button type="button" name="button"></button>
+          <div class="image">
+            <img style="height: 60%;" src="img/mapaArrayanes.png" class="">
           </div>
-          <div class="Recomendaciones1">
-            <p>Uso de protector solar</p>
-            <div class="Consejo">
-              <p>cada 2 hs</p>
+          <div class="scroll">
+            <div class="cardMarrón" tabindex="0">
+              <img src="img/senderismoArrayanes.png" alt="">
+              <div class="card-info">
+                <h4>Senderismo</h4>
+
+                <p>Durante la marcha se pueden ver árboles caídos, que en su desprendimiento dejaron sus poderosas raíces a la vista.</p>
+              </div>
             </div>
-          </div>
-          <div class="Recomendaciones1">
-            <p>Hidratacion contínua</p>
-            <div class="Consejo">
-              <p>cada 30 min</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="Actividades">
-        <div class="Interruptor">
-          <img src="" alt="">
-          <label class="switch">
-            <input type="checkbox">
-            <span class="slider round"></span>
-  </label>
-          <img src="" alt="">
-        </div>
-        <div class="Mapa">
-          <img  class="" src="img/mapaPuelo.png" alt="mapa del lugar">
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-          <button type="button" name="button"></button>
-        </div>
-        <div class="ScrollHorizontal">
-          <div class="Actividad">
-            <div class="ImagenActividad">
-              <img src="img/kayakPuelo.png" alt="Kayak">
-            </div>
-            <div class="TextoActividad">
-              <h3>Kayak</h3>
-              <p>Descubre el Lago Puelo desde el agua, disfruta de las aguas tranquilas y vive una experiencia inolvidable en sus 4 recorridos.</p>
-            </div>
-          </div>
-          <div class="Actividad">
-            <div class="ImagenActividad">
-              <img src="img/playaPuelo.png" alt="Playa">
-            </div>
-            <div class="TextoActividad">
-              <h3>Playa</h3>
-              <p>De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
-            </div>
-          </div>
-          <div class="Actividad">
-            <div class="ImagenActividad">
-              <img src="img/pescaPuelo.png" alt="Pesca">
-            </div>
-            <div class="TextoActividad">
-              <h3>Pesca</h3>
-              <p>De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea tranquila y profundidad baja.</p>
+            <div class="cardMarrón" tabindex="0">
+              <img src="img/bicicletaArrayanes.png" alt="">
+              <div class="card-info">
+                <h4>Bicicleta</h4>
+
+                <p>Puedes hacer el paseo con tu propia bici o alquilar una  y durante todo el recorrido vas a ver arrayanes, cohiues, cipreses, entre otros.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <!-- Actividades frío -->
+            <!-- ACA EMPIEZA EL LADO IZQUIERDO -->
+          <div class="diapositiva2-frio" id="two">
+            <!-- indice -->
+
+            <ul class="indice" id="indice-actividades">
+              <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+              <li class="hvr-grow"><a href="#two" id="i2" style="font-weight: 600; opacity: 100%;">02</a></li>
+              <li class="hvr-grow"><a href="#three" id="i3" >03</a></li>
+              <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+              <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+            </ul>
+          <div class="left">
+
+            <div class="VisitaPorTemporada">
+              <h2 style="color: #364717;">Visita por temporada</h2>
+              <p>Las costas bajas del río Uruguay están tapizadas por una
+              profusa vegetación. Esta formación húmeda, que es una prolongación
+              de la selva misionera, se la denomina selva en galería y contiene
+              una gran diversidad de especies vegetales.</p>
+            </div>
+            <h3 style="color: #364717;" >Información meteorológica</h3>
+            <div class="InformaciónMeteorológica">
+                <div class="TemperaturaPromedio">
+                  <h5>Temperatura promedio</h5>
+                  <div class="Temperatura">
+                    <img style="weight: 120px;padding: 1.5em 0.5em 1em 0em;" src="img/nublado.png" alt="sol">
+                    <h2 style="font-weight: normal; line-height: 100%;" class="Grados">13</h2>
+                    <h2  style="font-weight: normal;" class="Centigrados">°C</h2>
+                  </div>
+                    <h4 style="padding-bottom:1em;" >Cielo parcialmente nublado </h4>
+                    <p>Sensación termica: <b style="color: #131313;" class="ST">15°C</b></p>
+                    <p>Probabilidad de lluvia: <b style="color: #131313;" class="PLL">20%</b></p>
+                </div>
+                <div class="Gráficas">
+                  <button style="height:7em;" type="button" name="button" id="ArrayanescalorI0" class="barra arrayanesMI"></button>
+                  <button style="height:3em;" type="button" name="button" id="ArrayanescalorI1" class="barra fondoGris"></button>
+                  <button style="height:4em;" type="button" name="button" id="ArrayanescalorI2" class="barra fondoGris"></button>
+                  <button style="height:6em;" type="button" name="button" id="ArrayanescalorI3" class="barra fondoGris"></button>
+                  <button style="height:6em;" type="button" name="button" id="ArrayanescalorI4" class="barra fondoGris"></button>
+                  <button style="height:7em;" type="button" name="button" id="ArrayanescalorI5" class="barra fondoGris"></button>
+                  <p><b style="color: #131313; word-spacing:0.7em; " >Jul Ago Sep Oct Nov Dic</b></p>
+                </div>
+              </div>
+              <h3 style="color: #364717;">Cuidados y recomendaciones</h3>
+              <div class="InformaciónMeteorológica">
+                <div class="TemperaturaPromedio">
+                  <h5 style="color:#131313;">Índice de precipitación</h5>
+                  <h2 style="font-weight: normal;" class="Rad">7<small style="color:#131313; font-weight: normal;">mm</small></h2>
+                  <h4 class="valorRadiacion" style="padding-bottom:1em;">Bajo</h4>
+                  <div class="VientoICA">
+                  <div class="IconosRadiación">
+                    <img src="img/viento.png" alt="viento">
+                    <p class="KM">43 Km</p>
+                  </div>
+                  <div class="IconosRadiación">
+                    <img src="img/hoja.png" alt="hoja">
+                    <p class="ICA">ICA 27</p>
+                  </div>
+                </div>
+              </div>
+                <div style="padding: 2em 0em 0em 2em;" class="Gráficas">
+                  <button style="height:8em;" type="button" name="button" id="ArrayanesradI0" class="barra arrayanesRI"></button>
+                  <button style="height:3em;" type="button" name="button" id="ArrayanesradI1" class="barra fondoGris"></button>
+                  <button style="height:2em;" type="button" name="button" id="ArrayanesradI2" class="barra fondoGris"></button>
+                  <button style="height:3em;" type="button" name="button" id="ArrayanesradI3" class="barra fondoGris"></button>
+                  <button style="height:1em;" type="button" name="button" id="ArrayanesradI4" class="barra fondoGris"></button>
+                  <button style="height:4em;" type="button" name="button" id="ArrayanesradI5" class="barra fondoGris"></button>
+                  <p><b style="color: #131313; word-spacing:0.7em; " >Jul Ago Sep Oct Nov Dic</b></p>
+                </div>
+                </div>
+                <div style="margin-top:5em;" class="Recomendaciones">
+                  <div style="background-color:#364717;" class="Recomendaciones1">
+                  <p style="color:white; padding: 0.5em 1em;">Uso de ropa abrigada</p>
+                  <div style=" border: 1px solid#364717;" class="Consejo">
+                    <p style="padding: 0.5em; color: #364717;">obligatorio</p>
+                  </div>
+                </div>
+                <div style="background-color:#364717;" class="Recomendaciones1">
+                  <p style="color:white; padding: 0.5em 1em;">Uso de proteccion visual </p>
+                  <div style=" border: 1px solid #364717;" class="Consejo">
+                    <p style="padding: 0.5em; color: #364717;">obligatorio</p>
+                  </div>
+                </div>
+                </div>
+            </div>
+              <!-- ACA EMPIEZA EL LADO DERECHO -->
+          <div style="background-image: url(https://mujercountry.biz/wp-content/uploads/2018/10/7-palmar-de-colon.jpg);" class="right">
+            <div class="Interruptor">
+              <img class="ISwitch" src="img/ISol.png" alt="cálido">
+                <label class="switch">
+                  <input type="checkbox">
+                  <span class="slider round sliderFrio"></span>
+                </label>
+                <img class="ISwitch" src="img/ICopo.png" alt="frío">
+            </div>
+            <div class="image">
+              <img style="height: 60%;" src="img/mapaArrayanes.png" class="">
+            </div>
+            <div class="scroll">
+                <!-- Act1 -->
+              <div class="cardArrayanes" tabindex="0">
+                <img src="img/ArrayanesAct1.jpg" alt="">
+                <div class="card-info">
+                  <h4>Senderismo</h4>
+
+                  <p>Durante la marcha se pueden ver árboles caídos, que en su desprendimiento dejaron sus poderosas raíces a la vista.</p>
+                </div>
+              </div>
+              <!-- Act2 -->
+              <div class="cardArrayanes" tabindex="0">
+                <img src="img/ArrayanesAct2.jpg" alt="">
+                <div class="card-info">
+                  <h4>Bicicleta</h4>
+
+                  <p>Durante la marcha se pueden ver árboles caídos, que en su desprendimiento dejaron sus poderosas raíces a la vista.</p>
+                </div>
+              </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
 
     <!-- Flora -->
     <div class="diapositiva" id="three">
@@ -503,7 +625,7 @@
         <img src="img/logo-fda.png" id="logo-fda">
       </div>
     </div>
-  </div>    <script src="index.js"></script>
+  </div>    <script src="index.js"></script><script src="actividades.js"></script>
 </body>
 
 </html>
