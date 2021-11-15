@@ -711,7 +711,9 @@ background-color: rgba(203, 127, 44, 1);
   font-size: 48px;
   line-height: 100.69%;
 }
-
+.VisitaPorTemporada h3{
+  font-size: .4em;
+}
 .turquesa {
   color: #26CAC6;
 }
@@ -888,6 +890,7 @@ justify-content: space-around;
   font-size: .95em;
   margin-bottom: .5em;
 }
+
 
 .TemperaturaPromedio{
   justify-content: center;
