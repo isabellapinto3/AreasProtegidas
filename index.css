@@ -948,6 +948,7 @@ justify-content: space-around;
 /*------------SWITCH------------------------
 /* The switch - the box around the slider */
 .Interruptor {
+  margin-top: -7.5vh;
   position: relative;
   left: 2vw;
   top:8vh;
