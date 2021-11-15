@@ -131,6 +131,7 @@ body {
   left: 95vw;
   top:0vh;
   transition: 0.5s;
+  z-index: 3;
 }
 
 .boton-mapa{
@@ -281,6 +282,19 @@ p {
   /*justify-content: center;*/
   align-items: center;
 }
+
+.diapositivaprueba{
+  height: 100vh;
+  scroll-snap-align: center;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.diapositiva2-frio{
+  position: relative;
+  top:0%;
+}
+
 
 
 
