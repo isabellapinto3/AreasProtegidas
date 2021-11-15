@@ -497,4 +497,257 @@ $(document).ready(function () {   //esto es un IF
     $("#radI4").removeClass("pueloRI");
     $("#radI3").removeClass("pueloRI");
     });
+
+    //ARRAYANES
+    //Temperatura FRIO
+    $("#ArrayanescalorI0").click(function () {
+    $(".Grados").text('13');
+    $('.ST').text('15°C');
+    $('.PLL').text('20%');
+    $("#ArrayanescalorI0").removeClass("fondoGris");
+    $("#ArrayanescalorI0").addClass("arrayanesMI");
+
+    $("#ArrayanescalorI5").addClass("fondoGris");
+    $("#ArrayanescalorI1").addClass("fondoGris");
+    $("#ArrayanescalorI2").addClass("fondoGris");
+    $("#ArrayanescalorI3").addClass("fondoGris");
+    $("#ArrayanescalorI4").addClass("fondoGris");
+
+    $("#ArrayanescalorI5").removeClass("arrayanesMI");
+    $("#ArrayanescalorI1").removeClass("arrayanesMI");
+    $("#ArrayanescalorI2").removeClass("arrayanesMI");
+    $("#ArrayanescalorI3").removeClass("arrayanesMI");
+    $("#ArrayanescalorI4").removeClass("arrayanesMI");
+    });
+
+    $("#ArrayanescalorI1").click(function () {
+    $(".Grados").text('00');
+    $('.ST').text('00°C');
+    $('.PLL').text('00%');
+    $("#ArrayanescalorI1").removeClass("fondoGris");
+    $("#ArrayanescalorI1").addClass("arrayanesMI");
+
+    $("#ArrayanescalorI5").addClass("fondoGris");
+    $("#ArrayanescalorI0").addClass("fondoGris");
+    $("#ArrayanescalorI2").addClass("fondoGris");
+    $("#ArrayanescalorI3").addClass("fondoGris");
+    $("#ArrayanescalorI4").addClass("fondoGris");
+
+    $("#ArrayanescalorI5").removeClass("arrayanesMI");
+    $("#ArrayanescalorI0").removeClass("arrayanesMI");
+    $("#ArrayanescalorI2").removeClass("arrayanesMI");
+    $("#ArrayanescalorI3").removeClass("arrayanesMI");
+    $("#ArrayanescalorI4").removeClass("arrayanesMI");
+    });
+
+    $("#ArrayanescalorI1").click(function () {
+    $(".Grados").text('00');
+    $('.ST').text('00°C');
+    $('.PLL').text('00%');
+    $("#ArrayanescalorI1").removeClass("fondoGris");
+    $("#ArrayanescalorI1").addClass("arrayanesMI");
+
+    $("#ArrayanescalorI5").addClass("fondoGris");
+    $("#ArrayanescalorI0").addClass("fondoGris");
+    $("#ArrayanescalorI2").addClass("fondoGris");
+    $("#ArrayanescalorI3").addClass("fondoGris");
+    $("#ArrayanescalorI4").addClass("fondoGris");
+
+    $("#ArrayanescalorI5").removeClass("arrayanesMI");
+    $("#ArrayanescalorI0").removeClass("arrayanesMI");
+    $("#ArrayanescalorI2").removeClass("arrayanesMI");
+    $("#ArrayanescalorI3").removeClass("arrayanesMI");
+    $("#ArrayanescalorI4").removeClass("arrayanesMI");
+    });
+
+    $("#ArrayanescalorI1").click(function () {
+    $(".Grados").text('00');
+    $('.ST').text('00°C');
+    $('.PLL').text('00%');
+    $("#ArrayanescalorI1").removeClass("fondoGris");
+    $("#ArrayanescalorI1").addClass("arrayanesMI");
+
+    $("#ArrayanescalorI5").addClass("fondoGris");
+    $("#ArrayanescalorI0").addClass("fondoGris");
+    $("#ArrayanescalorI2").addClass("fondoGris");
+    $("#ArrayanescalorI3").addClass("fondoGris");
+    $("#ArrayanescalorI4").addClass("fondoGris");
+
+    $("#ArrayanescalorI5").removeClass("arrayanesMI");
+    $("#ArrayanescalorI0").removeClass("arrayanesMI");
+    $("#ArrayanescalorI2").removeClass("arrayanesMI");
+    $("#ArrayanescalorI3").removeClass("arrayanesMI");
+    $("#ArrayanescalorI4").removeClass("arrayanesMI");
+    });
+
+    $("#ArrayanescalorI1").click(function () {
+    $(".Grados").text('00');
+    $('.ST').text('00°C');
+    $('.PLL').text('00%');
+    $("#ArrayanescalorI1").removeClass("fondoGris");
+    $("#ArrayanescalorI1").addClass("arrayanesMI");
+
+    $("#ArrayanescalorI5").addClass("fondoGris");
+    $("#ArrayanescalorI0").addClass("fondoGris");
+    $("#ArrayanescalorI2").addClass("fondoGris");
+    $("#ArrayanescalorI3").addClass("fondoGris");
+    $("#ArrayanescalorI4").addClass("fondoGris");
+
+    $("#ArrayanescalorI5").removeClass("arrayanesMI");
+    $("#ArrayanescalorI0").removeClass("arrayanesMI");
+    $("#ArrayanescalorI2").removeClass("arrayanesMI");
+    $("#ArrayanescalorI3").removeClass("arrayanesMI");
+    $("#ArrayanescalorI4").removeClass("arrayanesMI");
+    });
+
+    $("#ArrayanescalorI1").click(function () {
+    $(".Grados").text('00');
+    $('.ST').text('00°C');
+    $('.PLL').text('00%');
+    $("#ArrayanescalorI1").removeClass("fondoGris");
+    $("#ArrayanescalorI1").addClass("arrayanesMI");
+
+    $("#ArrayanescalorI5").addClass("fondoGris");
+    $("#ArrayanescalorI0").addClass("fondoGris");
+    $("#ArrayanescalorI2").addClass("fondoGris");
+    $("#ArrayanescalorI3").addClass("fondoGris");
+    $("#ArrayanescalorI4").addClass("fondoGris");
+
+    $("#ArrayanescalorI5").removeClass("arrayanesMI");
+    $("#ArrayanescalorI0").removeClass("arrayanesMI");
+    $("#ArrayanescalorI2").removeClass("arrayanesMI");
+    $("#ArrayanescalorI3").removeClass("arrayanesMI");
+    $("#ArrayanescalorI4").removeClass("arrayanesMI");
+    });
+
+    //RADIACION
+    $("#ArrayanesradI0").click(function () {
+    $('.Rad').text('7');
+    $('.KM').text('17Km');
+    $('.ICA').text('21');
+    $('.valorRadiacion').text('Medio');
+    $("#ArrayanesradI0").removeClass("fondoGris");
+    $("#ArrayanesradI0").addClass("arrayanesRI");
+
+    $("#ArrayanesradI1").addClass("fondoGris");
+    $("#ArrayanesradI2").addClass("fondoGris");
+    $("#ArrayanesradI3").addClass("fondoGris");
+    $("#ArrayanesradI4").addClass("fondoGris");
+    $("#ArrayanesradI5").addClass("fondoGris");
+
+    $("#ArrayanesradI1").removeClass("arrayanesRI");
+    $("#ArrayanesradI2").removeClass("arrayanesRI");
+    $("#ArrayanesradI3").removeClass("arrayanesRI");
+    $("#ArrayanesradI4").removeClass("arrayanesRI");
+    $("#ArrayanesradI5").removeClass("arrayanesRI");
+    });
+
+    $("#ArrayanesradI1").click(function () {
+    $('.Rad').text('00');
+    $('.KM').text('00Km');
+    $('.ICA').text('00');
+    $('.valorRadiacion').text('xxx');
+    $("#ArrayanesradI1").removeClass("fondoGris");
+    $("#ArrayanesradI1").addClass("arrayanesRI");
+
+    $("#ArrayanesradI0").addClass("fondoGris");
+    $("#ArrayanesradI2").addClass("fondoGris");
+    $("#ArrayanesradI3").addClass("fondoGris");
+    $("#ArrayanesradI4").addClass("fondoGris");
+    $("#ArrayanesradI5").addClass("fondoGris");
+
+    $("#ArrayanesradI0").removeClass("arrayanesRI");
+    $("#ArrayanesradI2").removeClass("arrayanesRI");
+    $("#ArrayanesradI3").removeClass("arrayanesRI");
+    $("#ArrayanesradI4").removeClass("arrayanesRI");
+    $("#ArrayanesradI5").removeClass("arrayanesRI");
+    });
+
+    $("#ArrayanesradI1").click(function () {
+    $('.Rad').text('00');
+    $('.KM').text('00Km');
+    $('.ICA').text('00');
+    $('.valorRadiacion').text('xxx');
+    $("#ArrayanesradI1").removeClass("fondoGris");
+    $("#ArrayanesradI1").addClass("arrayanesRI");
+
+    $("#ArrayanesradI0").addClass("fondoGris");
+    $("#ArrayanesradI2").addClass("fondoGris");
+    $("#ArrayanesradI3").addClass("fondoGris");
+    $("#ArrayanesradI4").addClass("fondoGris");
+    $("#ArrayanesradI5").addClass("fondoGris");
+
+    $("#ArrayanesradI0").removeClass("arrayanesRI");
+    $("#ArrayanesradI2").removeClass("arrayanesRI");
+    $("#ArrayanesradI3").removeClass("arrayanesRI");
+    $("#ArrayanesradI4").removeClass("arrayanesRI");
+    $("#ArrayanesradI5").removeClass("arrayanesRI");
+    });
+
+    $("#ArrayanesradI1").click(function () {
+    $('.Rad').text('00');
+    $('.KM').text('00Km');
+    $('.ICA').text('00');
+    $('.valorRadiacion').text('xxx');
+    $("#ArrayanesradI1").removeClass("fondoGris");
+    $("#ArrayanesradI1").addClass("arrayanesRI");
+
+    $("#ArrayanesradI0").addClass("fondoGris");
+    $("#ArrayanesradI2").addClass("fondoGris");
+    $("#ArrayanesradI3").addClass("fondoGris");
+    $("#ArrayanesradI4").addClass("fondoGris");
+    $("#ArrayanesradI5").addClass("fondoGris");
+
+    $("#ArrayanesradI0").removeClass("arrayanesRI");
+    $("#ArrayanesradI2").removeClass("arrayanesRI");
+    $("#ArrayanesradI3").removeClass("arrayanesRI");
+    $("#ArrayanesradI4").removeClass("arrayanesRI");
+    $("#ArrayanesradI5").removeClass("arrayanesRI");
+    });
+
+    $("#ArrayanesradI1").click(function () {
+    $('.Rad').text('00');
+    $('.KM').text('00Km');
+    $('.ICA').text('00');
+    $('.valorRadiacion').text('xxx');
+    $("#ArrayanesradI1").removeClass("fondoGris");
+    $("#ArrayanesradI1").addClass("arrayanesRI");
+
+    $("#ArrayanesradI0").addClass("fondoGris");
+    $("#ArrayanesradI2").addClass("fondoGris");
+    $("#ArrayanesradI3").addClass("fondoGris");
+    $("#ArrayanesradI4").addClass("fondoGris");
+    $("#ArrayanesradI5").addClass("fondoGris");
+
+    $("#ArrayanesradI0").removeClass("arrayanesRI");
+    $("#ArrayanesradI2").removeClass("arrayanesRI");
+    $("#ArrayanesradI3").removeClass("arrayanesRI");
+    $("#ArrayanesradI4").removeClass("arrayanesRI");
+    $("#ArrayanesradI5").removeClass("arrayanesRI");
+    });
+
+    $("#ArrayanesradI1").click(function () {
+    $('.Rad').text('00');
+    $('.KM').text('00Km');
+    $('.ICA').text('00');
+    $('.valorRadiacion').text('xxx');
+    $("#ArrayanesradI1").removeClass("fondoGris");
+    $("#ArrayanesradI1").addClass("arrayanesRI");
+
+    $("#ArrayanesradI0").addClass("fondoGris");
+    $("#ArrayanesradI2").addClass("fondoGris");
+    $("#ArrayanesradI3").addClass("fondoGris");
+    $("#ArrayanesradI4").addClass("fondoGris");
+    $("#ArrayanesradI5").addClass("fondoGris");
+
+    $("#ArrayanesradI0").removeClass("arrayanesRI");
+    $("#ArrayanesradI2").removeClass("arrayanesRI");
+    $("#ArrayanesradI3").removeClass("arrayanesRI");
+    $("#ArrayanesradI4").removeClass("arrayanesRI");
+    $("#ArrayanesradI5").removeClass("arrayanesRI");
+    });
+
+
+    //
+
   });

@@ -519,6 +519,23 @@ background-color: rgba(38, 202, 198, 1);
 background-color: rgba(50, 74, 98, 1);
 }
 
+.cardArrayanes {
+  overflow-x:visible;
+  background-color:rgba(54, 71, 23, 0.6);
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;
+
+}
+
+.cardArrayanes:focus{
+background-color: rgba(54, 71, 23, 1);
+}
+
 .card:hover{
   cursor: pointer;
 }
@@ -607,7 +624,7 @@ text-align: center;
   margin: 0.5em;
   border: none;
 }
-
+/*LAGO PUELO*/
 .pueloMV {
   background: linear-gradient(180deg, #FFEA2E 0%, #26CAC6 100%);
   border-radius: 20px;
@@ -630,6 +647,15 @@ text-align: center;
 
 .pueloRI {
   background: linear-gradient(180deg, #324A62 0%, #D3E1EE 100%);
+  border-radius: 20px;
+}
+/*ARRAYANES*/
+.arrayanesMI{
+  background: linear-gradient(180deg, #939A50 0%, #39481D 100%);
+  border-radius: 20px;
+}
+.arrayanesRI{
+  background: linear-gradient(180deg, #1F374E 0%, #CCCCCC 100%);
   border-radius: 20px;
 }
 
