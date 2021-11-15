@@ -122,6 +122,57 @@ body {
   opacity: 0.8;
   cursor: pointer;
 }
+/*========BOTON MAPA======================= */
+.container-boton-mapa{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4em;
+  left: 95vw;
+  top:0vh;
+  transition: 0.5s;
+}
+
+.boton-mapa{
+  background-color: rgba(255, 255, 255, .4);
+  width: 20vw;
+  height: 16vh;
+  border: 1px solid white;
+  border-radius: 1em 0em 0em 1em;
+  padding: .5em;
+  transition: .5s;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+
+}
+
+#foto-boton-mapa{
+  margin-left: 3em;
+}
+
+#icono-boton-mapa{
+  width: 8vw;
+
+  position: relative;
+}
+
+.boton-mapa:hover{
+  background-color: rgba(0, 0,0, .2);
+  cursor:pointer;
+}
+.boton-mapa:hover #icono-boton-mapa{
+  opacity: 0;0
+
+}
+.container-boton-mapa:hover{
+  left:80vw;
+}
+.container-boton-mapa:hover .boton-mapa{
+  height:50vh;
+}
+
+
 
 /*=============================== */
 h2 {
@@ -148,8 +199,9 @@ p {
   color: #131313;
 }
 
+
 ::-webkit-scrollbar {
-  width: 0.8em;
+  width: 1em;
   background: rgba(116, 149, 182, 0.8);
 }
 
@@ -162,9 +214,32 @@ p {
 ::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 100vw;
+  border: 3px solid rgba(116, 149, 182, 0.8);
 }
 
 ::-webkit-scrollbar-thumb:hover {
+  background:rgba(255, 255, 255, 0.3);
+}
+
+.scroll::-webkit-scrollbar {
+  width: 1em;
+  background: rgba(255, 255, 255, 0.3);
+
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 100vw;
+  margin-block: .6em;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 100vw;
+  border: 3px solid rgba(255, 255, 255, 0.2), ;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.5);
 }
 
@@ -185,6 +260,25 @@ p {
   align-items: center;
 }
 
+
+
+.diapositiva2-calor{
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+
+}
+.diapositiva2-frio{
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+
+}
+
 /* --------------INDICE----------------*/
 .indice {
   width: 300px;
@@ -192,6 +286,13 @@ p {
   left: 326px;
   margin-left: -300px;
   overflow: visible;
+}
+
+#indice-actividades{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .indice li {
@@ -269,11 +370,12 @@ a:-webkit-any-link {
 
 /* ========================================== */
 /* ID DE CADA DIAPOSITIVA */
-#one {}
+#one {
+
+}
 
 #two {
-  background-color: green;
-  justify-content: center;
+
 }
 
 #three {
@@ -295,6 +397,7 @@ a:-webkit-any-link {
   /*grid-gap: 3vw;*/
   padding: 5vw 0vw 0vw 5%;
   margin-left: 20vw;
+
 }
 
 .texto-parque {
@@ -379,6 +482,187 @@ a:-webkit-any-link {
 /* ========================================== */
 /* PANTALLA 4 */
 /* ========================================== */
+/* ACTIVIDADES VERSIÓN ISABELLA */
+
+#two{
+  margin: 0px;
+  padding: 0px;
+  align-items: flex-start;
+  align-items: stretch;
+  overflow: auto;
+  overflow-y:visible;
+}
+
+.right{
+  background-image: url(img/FALagoPuelo.png);
+  background-position: center;
+  background-size: cover;
+  width:55%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.left{
+  background-color: white;
+  width: 45%;
+  padding: 1em 2.5em;
+  padding-left: 5em;
+  overflow-y: hidden;
+}
+
+.switch2{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 4em;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  height: 100%;
+}
+.image img{
+  height: 100%;
+  margin-top: 0em;
+}
+
+.scroll{
+  margin: 0em;
+  padding-bottom: 1em;
+  align-items: flex-end;
+  height: 40%;
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.card{
+  overflow-x:visible;
+  background-color: rgba(255,255,255,.2);
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;
+}
+
+.card:focus {
+background-color: rgba(38, 202, 198, 1);
+}
+
+.cardAzul {
+
+  overflow-x:visible;
+  background-color:rgba(50, 74, 98, 0.6);
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;
+
+}
+.cardAzul:focus{
+  background-color: rgba(50, 74, 98, 1);
+  }
+
+.cardMarrón {
+  overflow-x:visible;
+  background-color:rgba(203, 127, 44, 0.5);
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;
+
+}
+
+.cardMarrón:focus{
+background-color: rgba(203, 127, 44, 1);
+}
+
+
+.cardArrayanes {
+  overflow-x:visible;
+  background-color:rgba(54, 71, 23, 0.6);
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;
+
+  }
+
+  .cardArrayanes:focus{
+    background-color: rgba(54, 71, 23, 1);
+  }
+.cardCardones {
+  overflow-x:visible;
+  background-color:rgba(97, 88, 103, 0.6);
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;}
+  .cardCardones:focus{
+    background-color: rgba(97, 88, 103, 1);
+}
+.cardGlaciares {
+  overflow-x:visible;
+  background-color:rgba(97, 88, 103, 0.6);
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;}
+  .cardGlaciares:focus{
+    background-color: rgba(97, 88, 103, 1);
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+
+.card-info{
+  padding: .5em;
+  color: white;
+  font-family: helvetica;
+  width: 50%;
+}
+
+.card-info p{
+  margin-top: .7em;
+  font-size: 80%;
+  color:white;
+}
+
+.card-info h4{
+
+  font-size: 140%;
+  font-weight: bold;
+  color:white;
+}
+
+.card img{
+  width: 50%;
+}
+
 /* PANTALLA 2 -ACTIVIDADES -*/
 #two div {
   box-sizing: border-box;
