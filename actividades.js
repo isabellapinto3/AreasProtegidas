@@ -1,16 +1,12 @@
 $(document).ready(function() {
 
   //Show y Hide de invierno/verano
+  $(".diapositiva2-calor").show();
   $(".diapositiva2-frio").hide();
 
   $(".slider.round").click(function() {
-    $(".diapositiva2-calor").hide();
-    $(".diapositiva2-frio").show();
-  });
-
-  $(".sliderFrio").click(function() {
-    $(".diapositiva2-calor").show();
-    $(".diapositiva2-frio").hide();
+    $(".diapositiva2-calor").toggle();
+      $(".diapositiva2-frio").toggle();
   });
 
 
