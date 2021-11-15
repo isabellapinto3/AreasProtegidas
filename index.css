@@ -181,6 +181,14 @@ h2 {
   padding: 20px 0px;
 }
 
+#two h2 {
+  font-weight: 900;
+  font-size: 44px;
+  padding: 20px 0px;
+  color: #131313;
+}
+
+
 h3 {
   font-family: Roboto;
   font-style: black;
