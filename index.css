@@ -184,7 +184,7 @@ h2 {
 #two h2 {
   font-weight: 900;
   font-size: 44px;
-  padding: 20px 0px;
+  padding: .3em 0px;
   color: #131313;
 }
 
@@ -876,15 +876,41 @@ justify-content: space-around;
   border-color: white;
 }
 
+
+.VisitaPorTemporada{
+  margin-bottom: .5rem;
+}
+
+.VisitaPorTemporada p{
+  font-size: .95em;
+  margin-bottom: .5em;
+}
+
+.TemperaturaPromedio{
+  justify-content: center;
+  align-items: center;
+  margin-top: .8em;
+}
+
 .TemperaturaPromedio h5{
   font-size: 85%;
 }
 .TemperaturaPromedio h5{
   font-size: 85%;
 }
+.TemperaturaPromedio h4{
+  font-size: .8em;
+}
+
+.TemperaturaPromedio p{
+  font-size: .8em;
+}
+
 
 .Grados{
   font-size: 50%;
+  padding: 0px;
+  margin-left: 0px;
 }
 .Centigrados{
   font-size: 50%;
@@ -893,6 +919,7 @@ justify-content: space-around;
 .Temperatura img{
   width: 3vw;
 }
+
 
 /*------------SWITCH------------------------
 /* The switch - the box around the slider */
