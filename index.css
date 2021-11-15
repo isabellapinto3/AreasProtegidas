@@ -123,10 +123,6 @@ body {
   cursor: pointer;
 }
 /*========BOTON MAPA======================= */
-.hidden{
-  visibility: hidden;
-}
-
 .container-boton-mapa{
   position: absolute;
   display: flex;
@@ -135,7 +131,6 @@ body {
   left: 95vw;
   top:0vh;
   transition: 0.5s;
-  /*visibility: hidden;*/
 }
 
 .boton-mapa{
@@ -193,7 +188,10 @@ h2 {
   color: #131313;
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 h3 {
   font-family: Roboto;
   font-style: black;
@@ -633,7 +631,7 @@ background-color: rgba(203, 127, 44, 1);
 
   }
 
-  .cardArrayanes:focus{
+.cardArrayanes:focus{
     background-color: rgba(54, 71, 23, 1);
   }
 .cardCardones {
@@ -646,9 +644,11 @@ background-color: rgba(203, 127, 44, 1);
   display: flex;
   flex-shrink: 0;
   transition: all ease 0.9s;}
-  .cardCardones:focus{
+
+.cardCardones:focus{
     background-color: rgba(97, 88, 103, 1);
 }
+
 .cardGlaciares {
   overflow-x:visible;
   background-color:rgba(97, 88, 103, 0.6);
@@ -659,8 +659,9 @@ background-color: rgba(203, 127, 44, 1);
   display: flex;
   flex-shrink: 0;
   transition: all ease 0.9s;}
-  .cardGlaciares:focus{
-    background-color: rgba(97, 88, 103, 1);
+
+.cardGlaciares:focus{
+  background-color: rgba(97, 88, 103, 1);
 }
 
 .card:hover{
@@ -803,6 +804,17 @@ border-radius: 20px;
 display: flex;
 justify-content: space-around;
 
+}
+
+/*CARDONES*/
+
+.cardonesMV{
+  background: linear-gradient(180deg, #DE871C 0%, rgba(65, 109, 144, 0.84) 100%);
+  border-radius: 20px;
+}
+.cardonesRV{
+  background: linear-gradient(180deg, #C36410 0%, #D1A271 100%);
+  border-radius: 20px;
 }
 
 
