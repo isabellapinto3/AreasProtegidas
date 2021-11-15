@@ -1,17 +1,13 @@
 
+
 $(document).ready(function() {
+
   //BOTON Mapa
-
-    /* $(".boton-mapa").click(function() {
-      $(".container-boton-mapa").animate({
-        "left": '-=200'
-      });
-
-
-    });
-
-*/
-
+  $(".diapositiva1").hover(function(){
+    $('.container-boton-mapa').addClass('hidden');
+  },function(){
+      $('.container-boton-mapa').removeClass('hidden');
+  });
 
   //
   // CAMBIOS DE PANTALLA
