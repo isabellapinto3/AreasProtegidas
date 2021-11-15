@@ -500,7 +500,7 @@ $(document).ready(function () {   //esto es un IF
 
 
   //----- TEMPERATURA ARRAYANES VERANO ---------
-//los arrayanes
+
   //Temperatura LOS ARRAYANES CALOR
 
   $("#AcalorV0").click(function () {
