@@ -1,9 +1,21 @@
+$(document).ready(function() {
 
-$(document).ready(function () {   //esto es un IF
+  //Show y Hide de invierno/verano
+  $(".diapositiva2-frio").hide();
+
+  $(".slider.round").click(function() {
+    $(".diapositiva2-calor").hide();
+    $(".diapositiva2-frio").show();
+  });
+
+  $(".sliderFrio").click(function() {
+    $(".diapositiva2-calor").show();
+    $(".diapositiva2-frio").hide();
+  });
+
 
   //Temperatura LAGO PUELO CALOR
-
-  $("#calorV0").click(function () {
+  $("#calorV0").click(function() {
     $('.Grados').text('24');
     $('.ST').text('24°C');
     $('.PLL').text('4%');
@@ -24,7 +36,7 @@ $(document).ready(function () {   //esto es un IF
   });
 
   //
-  $("#calorV1").click(function () {
+  $("#calorV1").click(function() {
     $('.Grados').text('22');
     $('.ST').text('23°C');
     $('.PLL').text('6%');
@@ -45,7 +57,7 @@ $(document).ready(function () {   //esto es un IF
   });
 
   //
-  $("#calorV2").click(function () {
+  $("#calorV2").click(function() {
     $('.Grados').text('23');
     $('.ST').text('20°C');
     $('.PLL').text('9%');
@@ -66,7 +78,7 @@ $(document).ready(function () {   //esto es un IF
   });
 
 
-  $("#calorV3").click(function () {
+  $("#calorV3").click(function() {
     $(".Grados").text('20');
     $('.ST').text('22°C');
     $('.PLL').text('1%');
@@ -86,7 +98,7 @@ $(document).ready(function () {   //esto es un IF
     $("#calorV5").removeClass("pueloMV");
   });
 
-  $("#calorV4").click(function () {
+  $("#calorV4").click(function() {
     $('.Grados').text('20');
     $('.ST').text('17°C');
     $('.PLL').text('1%');
@@ -106,7 +118,7 @@ $(document).ready(function () {   //esto es un IF
     $("#calorV5").removeClass("pueloMV");
   });
 
-  $("#calorV5").click(function () {
+  $("#calorV5").click(function() {
     $('.Grados').text('19');
     $('.ST').text('17°C');
     $('.PLL').text('20%');
@@ -129,7 +141,7 @@ $(document).ready(function () {   //esto es un IF
 
   //radiación LAGO PUELO CALOR
 
-  $("#radV0").click(function () {
+  $("#radV0").click(function() {
     $('.Rad').text('7');
     $('.KM').text('17Km');
     $('.ICA').text('21');
@@ -149,7 +161,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radV5").removeClass("pueloRV");
   });
 
-  $("#radV1").click(function () {
+  $("#radV1").click(function() {
     $('.Rad').text('6');
     $('.KM').text('22Km');
     $('.ICA').text('22');
@@ -169,7 +181,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radV5").removeClass("pueloRV");
   });
 
-  $("#radV2").click(function () {
+  $("#radV2").click(function() {
     $('.Rad').text('6,5');
     $('.KM').text('10Km');
     $('.ICA').text('18');
@@ -189,7 +201,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radV5").removeClass("pueloRV");
   });
 
-  $("#radV3").click(function () {
+  $("#radV3").click(function() {
     $('.Rad').text('5');
     $('.KM').text('35Km');
     $('.ICA').text('30');
@@ -209,7 +221,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radV5").removeClass("pueloRV");
   });
 
-  $("#radV4").click(function () {
+  $("#radV4").click(function() {
     $('.Rad').text('5,5');
     $('.KM').text('40Km');
     $('.ICA').text('25');
@@ -229,7 +241,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radV5").removeClass("pueloRV");
   });
 
-  $("#radV5").click(function () {
+  $("#radV5").click(function() {
     $('.Rad').text('4,5');
     $('.KM').text('22Km');
     $('.ICA').text('25');
@@ -252,7 +264,7 @@ $(document).ready(function () {   //esto es un IF
 
   //Temperatura LAGO PUELO FRÍO
 
-  $("#calorI0").click(function () {
+  $("#calorI0").click(function() {
     $('.Grados').text('3');
     $('.ST').text('4°C');
     $('.PLL').text('20%');
@@ -273,7 +285,7 @@ $(document).ready(function () {   //esto es un IF
   });
 
   //
-  $("#calorI1").click(function () {
+  $("#calorI1").click(function() {
     $('.Grados').text('4');
     $('.ST').text('2°C');
     $('.PLL').text('40%');
@@ -294,7 +306,7 @@ $(document).ready(function () {   //esto es un IF
   });
 
   //
-  $("#calorI2").click(function () {
+  $("#calorI2").click(function() {
     $('.Grados').text('5');
     $('.ST').text('2°C');
     $('.PLL').text('30%');
@@ -315,7 +327,7 @@ $(document).ready(function () {   //esto es un IF
   });
 
 
-  $("#calorI3").click(function () {
+  $("#calorI3").click(function() {
     $(".Grados").text('5');
     $('.ST').text('3°C');
     $('.PLL').text('10%');
@@ -335,7 +347,7 @@ $(document).ready(function () {   //esto es un IF
     $("#calorI5").removeClass("pueloMI");
   });
 
-  $("#calorI4").click(function () {
+  $("#calorI4").click(function() {
     $(".Grados").text('10');
     $('.ST').text('12°C');
     $('.PLL').text('2%');
@@ -355,7 +367,7 @@ $(document).ready(function () {   //esto es un IF
     $("#calorI5").removeClass("pueloMI");
   });
 
-  $("#calorI5").click(function () {
+  $("#calorI5").click(function() {
     $(".Grados").text('15');
     $('.ST').text('12°C');
     $('.PLL').text('3%');
@@ -378,7 +390,7 @@ $(document).ready(function () {   //esto es un IF
 
   //precipitación LAGO PUELO FRIO
 
-  $("#radI0").click(function () {
+  $("#radI0").click(function() {
     $('.Rad').text('30');
     $('.KM').text('20Km');
     $('.ICA').text('27');
@@ -398,7 +410,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radI5").removeClass("pueloRI");
   });
 
-  $("#radI1").click(function () {
+  $("#radI1").click(function() {
     $('.Rad').text('25');
     $('.KM').text('20Km');
     $('.ICA').text('28');
@@ -418,7 +430,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radI5").removeClass("pueloRI");
   });
 
-  $("#radI2").click(function () {
+  $("#radI2").click(function() {
     $('.Rad').text('17');
     $('.KM').text('25Km');
     $('.ICA').text('25');
@@ -438,7 +450,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radI5").removeClass("pueloRI");
   });
 
-  $("#radI3").click(function () {
+  $("#radI3").click(function() {
     $('.Rad').text('15');
     $('.KM').text('10Km');
     $('.ICA').text('28');
@@ -458,7 +470,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radI5").removeClass("pueloRI");
   });
 
-  $("#radI4").click(function () {
+  $("#radI4").click(function() {
     $('.Rad').text('8');
     $('.KM').text('13Km');
     $('.ICA').text('25');
@@ -478,7 +490,7 @@ $(document).ready(function () {   //esto es un IF
     $("#radI5").removeClass("pueloRI");
   });
 
-  $("#radI5").click(function () {
+  $("#radI5").click(function() {
     $('.Rad').text('10');
     $('.KM').text('25Km');
     $('.ICA').text('30');
@@ -503,7 +515,7 @@ $(document).ready(function () {   //esto es un IF
 
   //Temperatura LOS ARRAYANES CALOR
 
-  $("#AcalorV0").click(function () {
+  $("#AcalorV0").click(function() {
     $('.Grados').text('32');
     $('.ST').text('34°C');
     $('.PLL').text('1%');
@@ -523,7 +535,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AcalorV5").removeClass("arrayanesMV");
   });
 
-  $("#AcalorV1").click(function () {
+  $("#AcalorV1").click(function() {
     $('.Grados').text('30');
     $('.ST').text('34°C');
     $('.PLL').text('3%');
@@ -543,7 +555,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AcalorV5").removeClass("arrayanesMV");
   });
 
-  $("#AcalorV2").click(function () {
+  $("#AcalorV2").click(function() {
     $('.Grados').text('31');
     $('.ST').text('32°C');
     $('.PLL').text('5%');
@@ -563,7 +575,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AcalorV5").removeClass("arrayanesMV");
   });
 
-  $("#AcalorV3").click(function () {
+  $("#AcalorV3").click(function() {
     $('.Grados').text('28');
     $('.ST').text('27°C');
     $('.PLL').text('25%');
@@ -583,7 +595,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AcalorV5").removeClass("arrayanesMV");
   });
 
-  $("#AcalorV4").click(function () {
+  $("#AcalorV4").click(function() {
     $('.Grados').text('26');
     $('.ST').text('27°C');
     $('.PLL').text('20%');
@@ -603,7 +615,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AcalorV5").removeClass("arrayanesMV");
   });
 
-  $("#AcalorV5").click(function () {
+  $("#AcalorV5").click(function() {
     $('.Grados').text('26');
     $('.ST').text('29°C');
     $('.PLL').text('10%');
@@ -625,7 +637,7 @@ $(document).ready(function () {   //esto es un IF
 
   //Radiación LOS ARRAYANES CALOR
 
-  $("#AradV0").click(function () {
+  $("#AradV0").click(function() {
     $('.Rad').text('7');
     $('.KM').text('13Km');
     $('.ICA').text('21');
@@ -646,7 +658,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AradV5").removeClass("arrayanesRV");
   });
 
-  $("#AradV1").click(function () {
+  $("#AradV1").click(function() {
     $('.Rad').text('6');
     $('.KM').text('17Km');
     $('.ICA').text('22');
@@ -667,7 +679,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AradV5").removeClass("arrayanesRV");
   });
 
-  $("#AradV2").click(function () {
+  $("#AradV2").click(function() {
     $('.Rad').text('6');
     $('.KM').text('20Km');
     $('.ICA').text('25');
@@ -688,7 +700,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AradV5").removeClass("arrayanesRV");
   });
 
-  $("#AradV3").click(function () {
+  $("#AradV3").click(function() {
     $('.Rad').text('5');
     $('.KM').text('21Km');
     $('.ICA').text('18');
@@ -709,7 +721,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AradV5").removeClass("arrayanesRV");
   });
 
-  $("#AradV4").click(function () {
+  $("#AradV4").click(function() {
     $('.Rad').text('5');
     $('.KM').text('27Km');
     $('.ICA').text('20');
@@ -730,7 +742,7 @@ $(document).ready(function () {   //esto es un IF
     $("#AradV5").removeClass("arrayanesRV");
   });
 
-  $("#AradV5").click(function () {
+  $("#AradV5").click(function() {
     $('.Rad').text('4');
     $('.KM').text('25Km');
     $('.ICA').text('21');

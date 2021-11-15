@@ -226,6 +226,23 @@ p {
   align-items: center;
 }
 
+.diapositiva2-calor{
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+
+}
+.diapositiva2-frio{
+  height: 100vh;
+  scroll-snap-align: center;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+
+}
+
 /* --------------INDICE----------------*/
 .indice {
   width: 300px;
