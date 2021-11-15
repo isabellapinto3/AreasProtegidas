@@ -1012,5 +1012,258 @@ $(document).ready(function() {
       $("#ArrayanesradI1").removeClass("arrayanesRI");
       });
 
+      //----- TEMPERATURA ARRAYANES VERANO ---------
 
-});
+      //Temperatura LOS ARRAYANES CALOR
+
+      $("#CcalorV0").click(function() {
+        $('.Grados').text('32');
+        $('.ST').text('34°C');
+        $('.PLL').text('1%');
+        $("#CcalorV0").removeClass("fondoGris");
+        $("#CcalorV0").addClass("cardonesMV");
+
+        $("#CcalorV1").addClass("fondoGris");
+        $("#CcalorV2").addClass("fondoGris");
+        $("#CcalorV3").addClass("fondoGris");
+        $("#CcalorV4").addClass("fondoGris");
+        $("#CcalorV5").addClass("fondoGris");
+
+        $("#CcalorV1").removeClass("cardonesMV");
+        $("#CcalorV2").removeClass("cardonesMV");
+        $("#CcalorV3").removeClass("cardonesMV");
+        $("#CcalorV4").removeClass("cardonesMV");
+        $("#CcalorV5").removeClass("cardonesMV");
+      });
+
+      $("#CcalorV1").click(function() {
+        $('.Grados').text('30');
+        $('.ST').text('34°C');
+        $('.PLL').text('5%');
+        $("#CcalorV1").removeClass("fondoGris");
+        $("#CcalorV1").addClass("cardonesMV");
+
+        $("#CcalorV0").addClass("fondoGris");
+        $("#CcalorV2").addClass("fondoGris");
+        $("#CcalorV3").addClass("fondoGris");
+        $("#CcalorV4").addClass("fondoGris");
+        $("#CcalorV5").addClass("fondoGris");
+
+        $("#CcalorV0").removeClass("cardonesMV");
+        $("#CcalorV2").removeClass("cardonesMV");
+        $("#CcalorV3").removeClass("cardonesMV");
+        $("#CcalorV4").removeClass("cardonesMV");
+        $("#CcalorV5").removeClass("cardonesMV");
+      });
+
+      $("#CcalorV2").click(function() {
+        $('.Grados').text('28');
+        $('.ST').text('30°C');
+        $('.PLL').text('0%');
+        $("#CcalorV2").removeClass("fondoGris");
+        $("#CcalorV2").addClass("cardonesMV");
+
+        $("#CcalorV0").addClass("fondoGris");
+        $("#CcalorV1").addClass("fondoGris");
+        $("#CcalorV3").addClass("fondoGris");
+        $("#CcalorV4").addClass("fondoGris");
+        $("#CcalorV5").addClass("fondoGris");
+
+        $("#CcalorV0").removeClass("cardonesMV");
+        $("#CcalorV1").removeClass("cardonesMV");
+        $("#CcalorV3").removeClass("cardonesMV");
+        $("#CcalorV4").removeClass("cardonesMV");
+        $("#CcalorV5").removeClass("cardonesMV");
+      });
+
+
+      $("#CcalorV3").click(function() {
+        $('.Grados').text('27');
+        $('.ST').text('26°C');
+        $('.PLL').text('14%');
+        $("#CcalorV3").removeClass("fondoGris");
+        $("#CcalorV3").addClass("cardonesMV");
+
+        $("#CcalorV0").addClass("fondoGris");
+        $("#CcalorV1").addClass("fondoGris");
+        $("#CcalorV2").addClass("fondoGris");
+        $("#CcalorV4").addClass("fondoGris");
+        $("#CcalorV5").addClass("fondoGris");
+
+        $("#CcalorV0").removeClass("cardonesMV");
+        $("#CcalorV1").removeClass("cardonesMV");
+        $("#CcalorV2").removeClass("cardonesMV");
+        $("#CcalorV4").removeClass("cardonesMV");
+        $("#CcalorV5").removeClass("cardonesMV");
+      });
+
+
+      $("#CcalorV4").click(function() {
+        $('.Grados').text('25');
+        $('.ST').text('20°C');
+        $('.PLL').text('10%');
+        $("#CcalorV4").removeClass("fondoGris");
+        $("#CcalorV4").addClass("cardonesMV");
+
+        $("#CcalorV0").addClass("fondoGris");
+        $("#CcalorV1").addClass("fondoGris");
+        $("#CcalorV2").addClass("fondoGris");
+        $("#CcalorV3").addClass("fondoGris");
+        $("#CcalorV5").addClass("fondoGris");
+
+        $("#CcalorV0").removeClass("cardonesMV");
+        $("#CcalorV1").removeClass("cardonesMV");
+        $("#CcalorV2").removeClass("cardonesMV");
+        $("#CcalorV3").removeClass("cardonesMV");
+        $("#CcalorV5").removeClass("cardonesMV");
+      });
+
+      $("#CcalorV5").click(function() {
+        $('.Grados').text('25');
+        $('.ST').text('23°C');
+        $('.PLL').text('5%');
+        $("#CcalorV5").removeClass("fondoGris");
+        $("#CcalorV5").addClass("cardonesMV");
+
+        $("#CcalorV0").addClass("fondoGris");
+        $("#CcalorV1").addClass("fondoGris");
+        $("#CcalorV2").addClass("fondoGris");
+        $("#CcalorV3").addClass("fondoGris");
+        $("#CcalorV4").addClass("fondoGris");
+
+        $("#CcalorV0").removeClass("cardonesMV");
+        $("#CcalorV1").removeClass("cardonesMV");
+        $("#CcalorV2").removeClass("cardonesMV");
+        $("#CcalorV3").removeClass("cardonesMV");
+        $("#CcalorV4").removeClass("cardonesMV");
+      });
+
+      //Radiación LOS ARRAYANES CALOR
+
+      $("#CradV0").click(function() {
+        $('.Rad').text('7');
+        $('.KM').text('13Km');
+        $('.ICA').text('21');
+        $('.valorRadiacion').text('Alto');
+        $("#CradV0").removeClass("fondoGris");
+        $("#CradV0").addClass("cardonesRV");
+
+        $("#CradV1").addClass("fondoGris");
+        $("#CradV2").addClass("fondoGris");
+        $("#CradV3").addClass("fondoGris");
+        $("#CradV4").addClass("fondoGris");
+        $("#CradV5").addClass("fondoGris");
+
+        $("#CradV1").removeClass("cardonesRV");
+        $("#CradV2").removeClass("cardonesRV");
+        $("#CradV3").removeClass("cardonesRV");
+        $("#CradV4").removeClass("cardonesRV");
+        $("#CradV5").removeClass("cardonesRV");
+      });
+
+      $("#CradV1").click(function() {
+        $('.Rad').text('5');
+        $('.KM').text('15Km');
+        $('.ICA').text('20');
+        $('.valorRadiacion').text('Medio');
+        $("#CradV1").removeClass("fondoGris");
+        $("#CradV1").addClass("cardonesRV");
+
+        $("#CradV0").addClass("fondoGris");
+        $("#CradV2").addClass("fondoGris");
+        $("#CradV3").addClass("fondoGris");
+        $("#CradV4").addClass("fondoGris");
+        $("#CradV5").addClass("fondoGris");
+
+        $("#CradV0").removeClass("cardonesRV");
+        $("#CradV2").removeClass("cardonesRV");
+        $("#CradV3").removeClass("cardonesRV");
+        $("#CradV4").removeClass("cardonesRV");
+        $("#CradV5").removeClass("cardonesRV");
+      });
+
+      $("#CradV2").click(function() {
+        $('.Rad').text('4');
+        $('.KM').text('15Km');
+        $('.ICA').text('25');
+        $('.valorRadiacion').text('Medio');
+        $("#CradV2").removeClass("fondoGris");
+        $("#CradV2").addClass("cardonesRV");
+
+        $("#CradV0").addClass("fondoGris");
+        $("#CradV1").addClass("fondoGris");
+        $("#CradV3").addClass("fondoGris");
+        $("#CradV4").addClass("fondoGris");
+        $("#CradV5").addClass("fondoGris");
+
+        $("#CradV0").removeClass("cardonesRV");
+        $("#CradV1").removeClass("cardonesRV");
+        $("#CradV3").removeClass("cardonesRV");
+        $("#CradV4").removeClass("cardonesRV");
+        $("#CradV5").removeClass("cardonesRV");
+      });
+
+      $("#CradV3").click(function() {
+        $('.Rad').text('3');
+        $('.KM').text('20Km');
+        $('.ICA').text('18');
+        $('.valorRadiacion').text('Medio');
+        $("#CradV3").removeClass("fondoGris");
+        $("#CradV3").addClass("cardonesRV");
+
+        $("#CradV0").addClass("fondoGris");
+        $("#CradV1").addClass("fondoGris");
+        $("#CradV2").addClass("fondoGris");
+        $("#CradV4").addClass("fondoGris");
+        $("#CradV5").addClass("fondoGris");
+
+        $("#CradV0").removeClass("cardonesRV");
+        $("#CradV1").removeClass("cardonesRV");
+        $("#CradV2").removeClass("cardonesRV");
+        $("#CradV4").removeClass("cardonesRV");
+        $("#CradV5").removeClass("cardonesRV");
+      });
+
+      $("#CradV4").click(function() {
+        $('.Rad').text('3');
+        $('.KM').text('23Km');
+        $('.ICA').text('22');
+        $('.valorRadiacion').text('Medio');
+        $("#CradV4").removeClass("fondoGris");
+        $("#CradV4").addClass("cardonesRV");
+
+        $("#CradV0").addClass("fondoGris");
+        $("#CradV1").addClass("fondoGris");
+        $("#CradV2").addClass("fondoGris");
+        $("#CradV3").addClass("fondoGris");
+        $("#CradV5").addClass("fondoGris");
+
+        $("#CradV0").removeClass("cardonesRV");
+        $("#CradV1").removeClass("cardonesRV");
+        $("#CradV2").removeClass("cardonesRV");
+        $("#CradV3").removeClass("cardonesRV");
+        $("#CradV5").removeClass("cardonesRV");
+      });
+
+      $("#CradV5").click(function() {
+        $('.Rad').text('2');
+        $('.KM').text('25Km');
+        $('.ICA').text('21');
+        $('.valorRadiacion').text('Bajo');
+        $("#CradV5").removeClass("fondoGris");
+        $("#CradV5").addClass("cardonesRV");
+
+        $("#CradV0").addClass("fondoGris");
+        $("#CradV1").addClass("fondoGris");
+        $("#CradV2").addClass("fondoGris");
+        $("#CradV3").addClass("fondoGris");
+        $("#CradV4").addClass("fondoGris");
+
+        $("#CradV0").removeClass("cardonesRV");
+        $("#CradV1").removeClass("cardonesRV");
+        $("#CradV2").removeClass("cardonesRV");
+        $("#CradV3").removeClass("cardonesRV");
+        $("#CradV4").removeClass("cardonesRV");
+      });
+
+    });
