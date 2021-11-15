@@ -144,7 +144,6 @@ body {
   display: flex;
   /*justify-content: center;*/
   align-items: center;
-
 }
 
 #foto-boton-mapa{
@@ -931,8 +930,9 @@ justify-content: space-around;
 /* The switch - the box around the slider */
 .Interruptor {
   position: relative;
-  left: 2em;
-  top: 4em;
+  left: 50vw;
+  top: 5em;
+  z-index: 2;
   text-align: left;
   display: flex;
   height: 7.5%;
