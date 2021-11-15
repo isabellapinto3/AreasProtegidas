@@ -757,6 +757,13 @@ b{
   width: 1.8em;
   margin: 0.5em;
   border: none;
+  opacity: 1;
+  transition: .3s;
+}
+
+.barra:hover{
+  cursor: pointer;
+  opacity: 0.8;
 }
 /*LAGO PUELO*/
 .pueloMV {
