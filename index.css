@@ -564,7 +564,7 @@ a:-webkit-any-link {
   align-items: center;
   justify-content: center;
   padding: 2em;
-  height: 80%;
+  height: 100%;
 }
 .image img{
   height: 100%;
@@ -677,6 +677,23 @@ background-color: rgba(203, 127, 44, 1);
 .cardGlaciares:focus{
   background-color: rgba(97, 88, 103, 1);
 }
+
+.cardTalampaya {
+  overflow-x:visible;
+  background-color: rgba(180, 88, 43, 0.5);
+;
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;}
+
+.cardTalampaya:focus{
+  background-color: rgba(180, 88, 43, 1);
+}
+
 
 .card:hover{
   cursor: pointer;
@@ -811,11 +828,11 @@ b{
 /*ARRAYANES*/
 
 .arrayanesMV{
-background: linear-gradient(180deg, #FCBA70 0%, #A9A43C 100%);
+background: linear-gradient(180deg, #B96A44 0%, #376FA6 100%);
 border-radius: 20px;
 }
 .arrayanesRV{
-background: linear-gradient(180deg, #D04C2F 0%, #FFC08A 100%);
+background: linear-gradient(180deg, #AA473F 0%, rgba(254, 151, 53, 0.97) 100%);
 border-radius: 20px;
 }
 
