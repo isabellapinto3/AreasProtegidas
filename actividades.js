@@ -1008,9 +1008,9 @@ $(document).ready(function() {
       $("#ArrayanesradI1").removeClass("arrayanesRI");
       });
 
-      //----- TEMPERATURA ARRAYANES VERANO ---------
+      //----- TEMPERATURA CARDONES VERANO ---------
 
-      //Temperatura LOS ARRAYANES CALOR
+      //Temperatura LOS CARDONES CALOR
 
       $("#CcalorV0").click(function() {
         $('.Grados').text('32');
@@ -1134,7 +1134,7 @@ $(document).ready(function() {
         $("#CcalorV4").removeClass("cardonesMV");
       });
 
-      //Radiación LOS ARRAYANES CALOR
+      //Radiación LOS CARDONES CALOR
 
       $("#CradV0").click(function() {
         $('.Rad').text('7');
@@ -1261,5 +1261,259 @@ $(document).ready(function() {
         $("#CradV3").removeClass("cardonesRV");
         $("#CradV4").removeClass("cardonesRV");
       });
+
+
+      //----- TEMPERATURA TALAMPAYA VERANO ---------
+
+      //Temperatura TALAMPAYA CALOR
+
+      $("#TcalorV0").click(function() {
+        $('.Grados').text('24');
+        $('.ST').text('24°C');
+        $('.PLL').text('4%');
+        $("#TcalorV0").removeClass("fondoGris");
+        $("#TcalorV0").addClass("talampayaMV");
+
+        $("#TcalorV1").addClass("fondoGris");
+        $("#TcalorV2").addClass("fondoGris");
+        $("#TcalorV3").addClass("fondoGris");
+        $("#TcalorV4").addClass("fondoGris");
+        $("#TcalorV5").addClass("fondoGris");
+
+        $("#TcalorV1").removeClass("talampayaMV");
+        $("#TcalorV2").removeClass("talampayaMV");
+        $("#TcalorV3").removeClass("talampayaMV");
+        $("#TcalorV4").removeClass("talampayaMV");
+        $("#TcalorV5").removeClass("talampayaMV");
+      });
+
+      $("#TcalorV1").click(function() {
+        $('.Grados').text('22');
+        $('.ST').text('24°C');
+        $('.PLL').text('3%');
+        $("#TcalorV1").removeClass("fondoGris");
+        $("#TcalorV1").addClass("talampayaMV");
+
+        $("#TcalorV0").addClass("fondoGris");
+        $("#TcalorV2").addClass("fondoGris");
+        $("#TcalorV3").addClass("fondoGris");
+        $("#TcalorV4").addClass("fondoGris");
+        $("#TcalorV5").addClass("fondoGris");
+
+        $("#TcalorV0").removeClass("talampayaMV");
+        $("#TcalorV2").removeClass("talampayaMV");
+        $("#TcalorV3").removeClass("talampayaMV");
+        $("#TcalorV4").removeClass("talampayaMV");
+        $("#TcalorV5").removeClass("talampayaMV");
+      });
+
+      $("#TcalorV2").click(function() {
+        $('.Grados').text('23');
+        $('.ST').text('25°C');
+        $('.PLL').text('1%');
+        $("#TcalorV2").removeClass("fondoGris");
+        $("#TcalorV2").addClass("talampayaMV");
+
+        $("#TcalorV0").addClass("fondoGris");
+        $("#TcalorV1").addClass("fondoGris");
+        $("#TcalorV3").addClass("fondoGris");
+        $("#TcalorV4").addClass("fondoGris");
+        $("#TcalorV5").addClass("fondoGris");
+
+        $("#TcalorV0").removeClass("talampayaMV");
+        $("#TcalorV1").removeClass("talampayaMV");
+        $("#TcalorV3").removeClass("talampayaMV");
+        $("#TcalorV4").removeClass("talampayaMV");
+        $("#TcalorV5").removeClass("talampayaMV");
+      });
+
+      $("#TcalorV3").click(function() {
+        $('.Grados').text('20');
+        $('.ST').text('21°C');
+        $('.PLL').text('3%');
+        $("#TcalorV3").removeClass("fondoGris");
+        $("#TcalorV3").addClass("talampayaMV");
+
+        $("#TcalorV0").addClass("fondoGris");
+        $("#TcalorV1").addClass("fondoGris");
+        $("#TcalorV2").addClass("fondoGris");
+        $("#TcalorV4").addClass("fondoGris");
+        $("#TcalorV5").addClass("fondoGris");
+
+        $("#TcalorV0").removeClass("talampayaMV");
+        $("#TcalorV1").removeClass("talampayaMV");
+        $("#TcalorV2").removeClass("talampayaMV");
+        $("#TcalorV4").removeClass("talampayaMV");
+        $("#TcalorV5").removeClass("talampayaMV");
+      });
+
+      $("#TcalorV4").click(function() {
+        $('.Grados').text('20');
+        $('.ST').text('22°C');
+        $('.PLL').text('1%');
+        $("#TcalorV4").removeClass("fondoGris");
+        $("#TcalorV4").addClass("talampayaMV");
+
+        $("#TcalorV0").addClass("fondoGris");
+        $("#TcalorV1").addClass("fondoGris");
+        $("#TcalorV2").addClass("fondoGris");
+        $("#TcalorV3").addClass("fondoGris");
+        $("#TcalorV5").addClass("fondoGris");
+
+        $("#TcalorV0").removeClass("talampayaMV");
+        $("#TcalorV1").removeClass("talampayaMV");
+        $("#TcalorV2").removeClass("talampayaMV");
+        $("#TcalorV3").removeClass("talampayaMV");
+        $("#TcalorV5").removeClass("talampayaMV");
+      });
+
+      $("#TcalorV5").click(function() {
+        $('.Grados').text('19');
+        $('.ST').text('19°C');
+        $('.PLL').text('5%');
+        $("#TcalorV5").removeClass("fondoGris");
+        $("#TcalorV5").addClass("talampayaMV");
+
+        $("#TcalorV0").addClass("fondoGris");
+        $("#TcalorV1").addClass("fondoGris");
+        $("#TcalorV2").addClass("fondoGris");
+        $("#TcalorV3").addClass("fondoGris");
+        $("#TcalorV4").addClass("fondoGris");
+
+        $("#TcalorV0").removeClass("talampayaMV");
+        $("#TcalorV1").removeClass("talampayaMV");
+        $("#TcalorV2").removeClass("talampayaMV");
+        $("#TcalorV3").removeClass("talampayaMV");
+        $("#TcalorV4").removeClass("talampayaMV");
+      });
+
+      //Radiación LOS CARDONES CALOR
+
+      $("#TradV0").click(function() {
+        $('.Rad').text('7');
+        $('.KM').text('17Km');
+        $('.ICA').text('21');
+        $('.valorRadiacion').text('Alto');
+        $("#TradV0").removeClass("fondoGris");
+        $("#TradV0").addClass("talampayaRV");
+
+        $("#TradV1").addClass("fondoGris");
+        $("#TradV2").addClass("fondoGris");
+        $("#TradV3").addClass("fondoGris");
+        $("#TradV4").addClass("fondoGris");
+        $("#TradV5").addClass("fondoGris");
+
+        $("#TradV1").removeClass("talampayaRV");
+        $("#TradV2").removeClass("talampayaRV");
+        $("#TradV3").removeClass("talampayaRV");
+        $("#TradV4").removeClass("talampayaRV");
+        $("#TradV5").removeClass("talampayaRV");
+      });
+
+      $("#TradV1").click(function() {
+        $('.Rad').text('6');
+        $('.KM').text('18Km');
+        $('.ICA').text('23');
+        $('.valorRadiacion').text('Alto');
+        $("#TradV1").removeClass("fondoGris");
+        $("#TradV1").addClass("talampayaRV");
+
+        $("#TradV0").addClass("fondoGris");
+        $("#TradV2").addClass("fondoGris");
+        $("#TradV3").addClass("fondoGris");
+        $("#TradV4").addClass("fondoGris");
+        $("#TradV5").addClass("fondoGris");
+
+        $("#TradV0").removeClass("talampayaRV");
+        $("#TradV2").removeClass("talampayaRV");
+        $("#TradV3").removeClass("talampayaRV");
+        $("#TradV4").removeClass("talampayaRV");
+        $("#TradV5").removeClass("talampayaRV");
+      });
+
+      $("#TradV2").click(function() {
+        $('.Rad').text('5');
+        $('.KM').text('13Km');
+        $('.ICA').text('20');
+        $('.valorRadiacion').text('Medio');
+        $("#TradV2").removeClass("fondoGris");
+        $("#TradV2").addClass("talampayaRV");
+
+        $("#TradV0").addClass("fondoGris");
+        $("#TradV1").addClass("fondoGris");
+        $("#TradV3").addClass("fondoGris");
+        $("#TradV4").addClass("fondoGris");
+        $("#TradV5").addClass("fondoGris");
+
+        $("#TradV0").removeClass("talampayaRV");
+        $("#TradV1").removeClass("talampayaRV");
+        $("#TradV3").removeClass("talampayaRV");
+        $("#TradV4").removeClass("talampayaRV");
+        $("#TradV5").removeClass("talampayaRV");
+      });
+
+      $("#TradV3").click(function() {
+        $('.Rad').text('3');
+        $('.KM').text('17Km');
+        $('.ICA').text('25');
+        $('.valorRadiacion').text('Medio');
+        $("#TradV3").removeClass("fondoGris");
+        $("#TradV3").addClass("talampayaRV");
+
+        $("#TradV0").addClass("fondoGris");
+        $("#TradV1").addClass("fondoGris");
+        $("#TradV2").addClass("fondoGris");
+        $("#TradV4").addClass("fondoGris");
+        $("#TradV5").addClass("fondoGris");
+
+        $("#TradV0").removeClass("talampayaRV");
+        $("#TradV1").removeClass("talampayaRV");
+        $("#TradV2").removeClass("talampayaRV");
+        $("#TradV4").removeClass("talampayaRV");
+        $("#TradV5").removeClass("talampayaRV");
+      });
+
+      $("#TradV4").click(function() {
+        $('.Rad').text('4');
+        $('.KM').text('13Km');
+        $('.ICA').text('23');
+        $('.valorRadiacion').text('Medio');
+        $("#TradV4").removeClass("fondoGris");
+        $("#TradV4").addClass("talampayaRV");
+
+        $("#TradV0").addClass("fondoGris");
+        $("#TradV1").addClass("fondoGris");
+        $("#TradV2").addClass("fondoGris");
+        $("#TradV3").addClass("fondoGris");
+        $("#TradV5").addClass("fondoGris");
+
+        $("#TradV0").removeClass("talampayaRV");
+        $("#TradV1").removeClass("talampayaRV");
+        $("#TradV2").removeClass("talampayaRV");
+        $("#TradV3").removeClass("talampayaRV");
+        $("#TradV5").removeClass("talampayaRV");
+      });
+
+      $("#TradV5").click(function() {
+        $('.Rad').text('2');
+        $('.KM').text('28Km');
+        $('.ICA').text('25');
+        $('.valorRadiacion').text('Bajo');
+        $("#TradV5").removeClass("fondoGris");
+        $("#TradV5").addClass("talampayaRV");
+
+        $("#TradV0").addClass("fondoGris");
+        $("#TradV1").addClass("fondoGris");
+        $("#TradV2").addClass("fondoGris");
+        $("#TradV3").addClass("fondoGris");
+        $("#TradV4").addClass("fondoGris");
+
+        $("#TradV0").removeClass("talampayaRV");
+        $("#TradV1").removeClass("talampayaRV");
+        $("#TradV2").removeClass("talampayaRV");
+        $("#TradV3").removeClass("talampayaRV");
+        $("#TradV4").removeClass("talampayaRV");
+      });
+
 
     });

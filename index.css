@@ -694,6 +694,23 @@ background-color: rgba(203, 127, 44, 1);
   background-color: rgba(180, 88, 43, 1);
 }
 
+.cardTalampayaI {
+  overflow-x:visible;
+  background-color: rgba(85, 105, 120, 0.5);
+
+;
+  width: 20em;
+  height: 10em;
+  margin: 0em 1em;
+  border-radius: .8em;
+  display: flex;
+  flex-shrink: 0;
+  transition: all ease 0.9s;}
+
+.cardTalampayaI:focus{
+  background-color: rgba(85, 105, 120, 1);
+}
+
 
 .card:hover{
   cursor: pointer;
@@ -828,11 +845,10 @@ b{
 /*ARRAYANES*/
 
 .arrayanesMV{
-background: linear-gradient(180deg, #B96A44 0%, #376FA6 100%);
-border-radius: 20px;
-}
+background: linear-gradient(180deg, #FCBA70 0%, #A9A43C 100%);
+border-radius: 20px;}
 .arrayanesRV{
-background: linear-gradient(180deg, #AA473F 0%, rgba(254, 151, 53, 0.97) 100%);
+background: linear-gradient(180deg, #D04C2F 0%, #FFC08A 100%);
 border-radius: 20px;
 }
 
@@ -862,6 +878,30 @@ justify-content: space-around;
   background: linear-gradient(180deg, #C36410 0%, #D1A271 100%);
   border-radius: 20px;
 }
+
+/*TALAMPAYA*/
+
+.talampayaMV{
+background: linear-gradient(180deg, #B96A44 0%, #376FA6 100%);
+border-radius: 20px;
+}
+.talampayaRV{
+background: linear-gradient(180deg, #AA473F 0%, rgba(254, 151, 53, 0.97) 100%);
+border-radius: 20px;
+}
+
+.talampayaMI{
+background: linear-gradient(180deg, #5B96A4 0%, #687B87 100%);
+border-radius: 20px;
+}
+.talampayaRI{
+background: linear-gradient(180deg, #5993A1 0%, #D3E1EE 100%);
+border-radius: 20px;
+}
+
+
+
+
 
 
 .Recomendaciones1{
