@@ -1515,5 +1515,256 @@ $(document).ready(function() {
         $("#TradV4").removeClass("talampayaRV");
       });
 
+      //----- TEMPERATURA TALAMPAYA INVIERNO ---------
+
+      //Temperatura TALAMPAYA FRÍO
+
+      $("#TcalorI0").click(function() {
+        $('.Grados').text('3');
+        $('.ST').text('1°C');
+        $('.PLL').text('4%');
+        $("#TcalorI0").removeClass("fondoGris");
+        $("#TcalorI0").addClass("talampayaMI");
+
+        $("#TcalorI1").addClass("fondoGris");
+        $("#TcalorI2").addClass("fondoGris");
+        $("#TcalorI3").addClass("fondoGris");
+        $("#TcalorI4").addClass("fondoGris");
+        $("#TcalorI5").addClass("fondoGris");
+
+        $("#TcalorI1").removeClass("talampayaMI");
+        $("#TcalorI2").removeClass("talampayaMI");
+        $("#TcalorI3").removeClass("talampayaMI");
+        $("#TcalorI4").removeClass("talampayaMI");
+        $("#TcalorI5").removeClass("talampayaMI");
+      });
+
+      $("#TcalorI1").click(function() {
+        $('.Grados').text('4');
+        $('.ST').text('1°C');
+        $('.PLL').text('3%');
+        $("#TcalorI1").removeClass("fondoGris");
+        $("#TcalorI1").addClass("talampayaMI");
+
+        $("#TcalorI0").addClass("fondoGris");
+        $("#TcalorI2").addClass("fondoGris");
+        $("#TcalorI3").addClass("fondoGris");
+        $("#TcalorI4").addClass("fondoGris");
+        $("#TcalorI5").addClass("fondoGris");
+
+        $("#TcalorI0").removeClass("talampayaMI");
+        $("#TcalorI2").removeClass("talampayaMI");
+        $("#TcalorI3").removeClass("talampayaMI");
+        $("#TcalorI4").removeClass("talampayaMI");
+        $("#TcalorI5").removeClass("talampayaMI");
+      });
+
+      $("#TcalorI2").click(function() {
+        $('.Grados').text('5');
+        $('.ST').text('4°C');
+        $('.PLL').text('3%');
+        $("#TcalorI2").removeClass("fondoGris");
+        $("#TcalorI2").addClass("talampayaMI");
+
+        $("#TcalorI1").addClass("fondoGris");
+        $("#TcalorI0").addClass("fondoGris");
+        $("#TcalorI3").addClass("fondoGris");
+        $("#TcalorI4").addClass("fondoGris");
+        $("#TcalorI5").addClass("fondoGris");
+
+        $("#TcalorI1").removeClass("talampayaMI");
+        $("#TcalorI0").removeClass("talampayaMI");
+        $("#TcalorI3").removeClass("talampayaMI");
+        $("#TcalorI4").removeClass("talampayaMI");
+        $("#TcalorI5").removeClass("talampayaMI");
+      });
+
+      $("#TcalorI3").click(function() {
+        $('.Grados').text('5');
+        $('.ST').text('3°C');
+        $('.PLL').text('5%');
+        $("#TcalorI3").removeClass("fondoGris");
+        $("#TcalorI3").addClass("talampayaMI");
+
+        $("#TcalorI1").addClass("fondoGris");
+        $("#TcalorI2").addClass("fondoGris");
+        $("#TcalorI0").addClass("fondoGris");
+        $("#TcalorI4").addClass("fondoGris");
+        $("#TcalorI5").addClass("fondoGris");
+
+        $("#TcalorI1").removeClass("talampayaMI");
+        $("#TcalorI2").removeClass("talampayaMI");
+        $("#TcalorI0").removeClass("talampayaMI");
+        $("#TcalorI4").removeClass("talampayaMI");
+        $("#TcalorI5").removeClass("talampayaMI");
+      });
+
+      $("#TcalorI4").click(function() {
+        $('.Grados').text('13');
+        $('.ST').text('18°C');
+        $('.PLL').text('10%');
+        $("#TcalorI4").removeClass("fondoGris");
+        $("#TcalorI4").addClass("talampayaMI");
+
+        $("#TcalorI1").addClass("fondoGris");
+        $("#TcalorI2").addClass("fondoGris");
+        $("#TcalorI3").addClass("fondoGris");
+        $("#TcalorI0").addClass("fondoGris");
+        $("#TcalorI5").addClass("fondoGris");
+
+        $("#TcalorI1").removeClass("talampayaMI");
+        $("#TcalorI2").removeClass("talampayaMI");
+        $("#TcalorI3").removeClass("talampayaMI");
+        $("#TcalorI0").removeClass("talampayaMI");
+        $("#TcalorI5").removeClass("talampayaMI");
+      });
+
+      $("#TcalorI5").click(function() {
+        $('.Grados').text('22');
+        $('.ST').text('25°C');
+        $('.PLL').text('18%');
+        $("#TcalorI5").removeClass("fondoGris");
+        $("#TcalorI5").addClass("talampayaMI");
+
+        $("#TcalorI1").addClass("fondoGris");
+        $("#TcalorI2").addClass("fondoGris");
+        $("#TcalorI3").addClass("fondoGris");
+        $("#TcalorI0").addClass("fondoGris");
+        $("#TcalorI4").addClass("fondoGris");
+
+        $("#TcalorI1").removeClass("talampayaMI");
+        $("#TcalorI2").removeClass("talampayaMI");
+        $("#TcalorI3").removeClass("talampayaMI");
+        $("#TcalorI0").removeClass("talampayaMI");
+        $("#TcalorI4").removeClass("talampayaMI");
+      });
+
+      //Radiación TALAMPAYA
+
+      $("#TradI0").click(function() {
+        $('.Rad').text('13');
+        $('.KM').text('20Km');
+        $('.ICA').text('27');
+        $('.valorRadiacion').text('Medio');
+        $("#TradI0").removeClass("fondoGris");
+        $("#TradI0").addClass("talampayaRI");
+
+        $("#TradI1").addClass("fondoGris");
+        $("#TradI2").addClass("fondoGris");
+        $("#TradI3").addClass("fondoGris");
+        $("#TradI4").addClass("fondoGris");
+        $("#TradI5").addClass("fondoGris");
+
+        $("#TradI1").removeClass("talampayaRI");
+        $("#TradI2").removeClass("talampayaRI");
+        $("#TradI3").removeClass("talampayaRI");
+        $("#TradI4").removeClass("talampayaRI");
+        $("#TradI5").removeClass("talampayaRI");
+      });
+
+      $("#TradI1").click(function() {
+        $('.Rad').text('10');
+        $('.KM').text('25Km');
+        $('.ICA').text('27');
+        $('.valorRadiacion').text('Bajo');
+        $("#TradI1").removeClass("fondoGris");
+        $("#TradI1").addClass("talampayaRI");
+
+        $("#TradI0").addClass("fondoGris");
+        $("#TradI2").addClass("fondoGris");
+        $("#TradI3").addClass("fondoGris");
+        $("#TradI4").addClass("fondoGris");
+        $("#TradI5").addClass("fondoGris");
+
+        $("#TradI0").removeClass("talampayaRI");
+        $("#TradI2").removeClass("talampayaRI");
+        $("#TradI3").removeClass("talampayaRI");
+        $("#TradI4").removeClass("talampayaRI");
+        $("#TradI5").removeClass("talampayaRI");
+      });
+
+      $("#TradI2").click(function() {
+        $('.Rad').text('4');
+        $('.KM').text('28Km');
+        $('.ICA').text('21');
+        $('.valorRadiacion').text('Bajo');
+        $("#TradI2").removeClass("fondoGris");
+        $("#TradI2").addClass("talampayaRI");
+
+        $("#TradI0").addClass("fondoGris");
+        $("#TradI1").addClass("fondoGris");
+        $("#TradI3").addClass("fondoGris");
+        $("#TradI4").addClass("fondoGris");
+        $("#TradI5").addClass("fondoGris");
+
+        $("#TradI0").removeClass("talampayaRI");
+        $("#TradI1").removeClass("talampayaRI");
+        $("#TradI3").removeClass("talampayaRI");
+        $("#TradI4").removeClass("talampayaRI");
+        $("#TradI5").removeClass("talampayaRI");
+      });
+
+      $("#TradI3").click(function() {
+        $('.Rad').text('5');
+        $('.KM').text('10Km');
+        $('.ICA').text('21');
+        $('.valorRadiacion').text('Bajo');
+        $("#TradI3").removeClass("fondoGris");
+        $("#TradI3").addClass("talampayaRI");
+
+        $("#TradI0").addClass("fondoGris");
+        $("#TradI1").addClass("fondoGris");
+        $("#TradI2").addClass("fondoGris");
+        $("#TradI4").addClass("fondoGris");
+        $("#TradI5").addClass("fondoGris");
+
+        $("#TradI0").removeClass("talampayaRI");
+        $("#TradI1").removeClass("talampayaRI");
+        $("#TradI2").removeClass("talampayaRI");
+        $("#TradI4").removeClass("talampayaRI");
+        $("#TradI5").removeClass("talampayaRI");
+      });
+
+      $("#TradI4").click(function() {
+        $('.Rad').text('2');
+        $('.KM').text('17Km');
+        $('.ICA').text('20');
+        $('.valorRadiacion').text('Bajo');
+        $("#TradI4").removeClass("fondoGris");
+        $("#TradI4").addClass("talampayaRI");
+
+        $("#TradI0").addClass("fondoGris");
+        $("#TradI1").addClass("fondoGris");
+        $("#TradI2").addClass("fondoGris");
+        $("#TradI3").addClass("fondoGris");
+        $("#TradI5").addClass("fondoGris");
+
+        $("#TradI0").removeClass("talampayaRI");
+        $("#TradI1").removeClass("talampayaRI");
+        $("#TradI2").removeClass("talampayaRI");
+        $("#TradI3").removeClass("talampayaRI");
+        $("#TradI5").removeClass("talampayaRI");
+      });
+
+      $("#TradI5").click(function() {
+        $('.Rad').text('3');
+        $('.KM').text('15Km');
+        $('.ICA').text('28');
+        $('.valorRadiacion').text('Bajo');
+        $("#TradI5").removeClass("fondoGris");
+        $("#TradI5").addClass("talampayaRI");
+
+        $("#TradI0").addClass("fondoGris");
+        $("#TradI1").addClass("fondoGris");
+        $("#TradI2").addClass("fondoGris");
+        $("#TradI3").addClass("fondoGris");
+        $("#TradI4").addClass("fondoGris");
+
+        $("#TradI0").removeClass("talampayaRI");
+        $("#TradI1").removeClass("talampayaRI");
+        $("#TradI2").removeClass("talampayaRI");
+        $("#TradI3").removeClass("talampayaRI");
+        $("#TradI4").removeClass("talampayaRI");
+      });
 
     });
