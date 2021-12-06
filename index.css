@@ -906,12 +906,28 @@ border-radius: 20px;
 
 .Recomendaciones1{
 
-  background: #2FD0CC;
-  margin: 1em;
-  margin-left: 0em;
-  border-radius: 50px;
+  margin: 0.5em;
+  margin-left: 2em;
   display: flex;
   justify-content: space-between;
+
+}
+
+b {
+
+color: #131313;
+
+}
+
+ul{
+
+  color: black;
+}
+
+li{
+
+  font-size: 1em;
+  color: #131313;
 
 }
 
@@ -1134,10 +1150,6 @@ input:checked+.slider:before {
 
 .contenido5 {
   margin-left: 20vw;
-}
-
-.recomendaciones {
-  display: block;
 }
 
 #vistazo-titulo {
