@@ -600,7 +600,7 @@ background-color: rgba(38, 202, 198, 1);
 .cardAzul {
 
   overflow-x:visible;
-  background-color:rgba(50, 74, 98, 0.6);
+  background-color:rgba(50, 74, 98, 0.5);
   width: 20em;
   height: 10em;
   margin: 0em 1em;
@@ -613,6 +613,44 @@ background-color: rgba(38, 202, 198, 1);
 .cardAzul:focus{
   background-color: rgba(50, 74, 98, 1);
   }
+
+  .cardAzulOscuro {
+
+    overflow-x:visible;
+    background-color:rgba(50, 74, 98, 0.4);
+    width: 20em;
+    height: 10em;
+    margin: 0em 1em;
+    border-radius: .8em;
+    display: flex;
+    flex-shrink: 0;
+    transition: all ease 0.9s;
+
+  }
+  .cardAzulOscuro:focus{
+  background-color:rgba(50, 74, 98, 1);
+    }
+
+  .cardAzulIntenso {
+
+      overflow-x:visible;
+      background-color: rgba(54, 95, 154, 0.4);
+
+      width: 20em;
+      height: 10em;
+      margin: 0em 1em;
+      border-radius: .8em;
+      display: flex;
+      flex-shrink: 0;
+      transition: all ease 0.9s;
+
+    }
+
+  .cardAzulIntenso:focus{
+    background-color:rgba(54, 95, 154, 1);
+
+    }
+
 
 .cardMarrón {
   overflow-x:visible;
@@ -634,7 +672,7 @@ background-color: rgba(203, 127, 44, 1);
 
 .cardArrayanes {
   overflow-x:visible;
-  background-color:rgba(54, 71, 23, 0.6);
+  background-color:rgba(54, 71, 23, 0.4);
   width: 20em;
   height: 10em;
   margin: 0em 1em;
@@ -648,6 +686,24 @@ background-color: rgba(203, 127, 44, 1);
 .cardArrayanes:focus{
     background-color: rgba(54, 71, 23, 1);
   }
+
+  .cardVerdeClaro {
+    overflow-x:visible;
+    background-color:rgba(145, 154, 65, 0.4);
+    width: 20em;
+    height: 10em;
+    margin: 0em 1em;
+    border-radius: .8em;
+    display: flex;
+    flex-shrink: 0;
+    transition: all ease 0.9s;
+
+    }
+
+  .cardVerdeClaro:focus{
+    background-color:rgba(145, 154, 65, 1);
+    }
+
 .cardCardones {
   overflow-x:visible;
   background-color:rgba(97, 88, 103, 0.6);
