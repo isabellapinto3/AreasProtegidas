@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Areas Protegidas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+    #mini-btn1 {
+      position: absolute;
+      left: 42%;
+      bottom: 66%;
+      opacity: 50%;
+
+    }
+
+    /* TALAMPAYA */
+    #mini-btn2 {
+      position: absolute;
+      left: 37%;
+      bottom: 65%;
+      opacity: 100%;
+
+    }
+
+    /* IGUAZU */
+    #mini-btn3 {
+      position: absolute;
+      left: 60%;
+      bottom: 69%;
+      opacity: 50%;
+
+    }
+
+    /* EL PALMAR */
+    #mini-btn4 {
+      position: absolute;
+      left: 50%;
+      bottom: 60%;
+      opacity: 50%;
+
+    }
+
+    /* NAHUEL HUAPI */
+    #mini-btn5 {
+      position: absolute;
+      left: 32%;
+      bottom: 46%;
+      opacity: 50%;
+
+    }
+
+    /* LOS ARRAYANES */
+    #mini-btn6 {
+      position: absolute;
+      left: 30%;
+      bottom: 42%;
+      opacity: 50%;
+
+    }
+
+    /* LOS GLACIARES */
+    #mini-btn7 {
+      position: absolute;
+      left: 30%;
+      bottom: 28%;
+      opacity: 50%;
+
+    }
+
+    /* TIERRA DEL FUEGO*/
+    #mini-btn8 {
+      position: absolute;
+      left: 40%;
+      bottom: 20%;
+      opacity: 50%;
+    }
+
+    /* LAGO PUELO */
+    #mini-btn9 {
+      position: absolute;
+      left: 30%;
+      bottom: 38%;
+      opacity: 50%;
+
+    }
+
+    /* LOS CARDONES */
+    #btn1 {
+      position: relative;
+      left: 30%;
+      bottom: 86%;
+      opacity: 50%;
+    }
+
+    /* TALAMPAYA */
+    #btn2 {
+      position: relative;
+      left: 20%;
+      bottom: 83%;
+      opacity: 100%;
+    }
+
+    /* IGUAZU */
+    #btn3 {
+      position: relative;
+      left: 47%;
+      bottom: 81%;
+      opacity: 50%;
+    }
+
+    /* EL PALMAR */
+    #btn4 {
+      position: relative;
+      left: 32%;
+      bottom: 66%;
+      opacity: 50%;
+    }
+
+    /* NAHUEL HUAPI */
+    #btn5 {
+      position: relative;
+      left: 4%;
+      bottom: 46%;
+      opacity: 50%;
+    }
+
+    /* LOS ARRAYANES */
+    #btn6 {
+      position: relative;
+      left: 0%;
+      bottom: 42%;
+      opacity: 50%;
+    }
+
+    /* LOS GLACIARES */
+    #btn7 {
+      position: relative;
+      left: -3%;
+      bottom: 18%;
+      opacity: 50%;
+    }
+
+    /* TIERRA DEL FUEGO*/
+    #btn8 {
+      position: relative;
+      left: 1%;
+      bottom: 6%;
+      opacity: 50%;
+    }
+
+    /* LAGO PUELO */
+    #btn9 {
+      position: relative;
+      left: -8%;
+      bottom: 38%;
+      opacity: 50%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Caratula -->
+  <div class="container">
+    <div style="background-image: url(./img/fondotalampaya.png);
+       background-size: cover;" class="diapositiva" id="one">
+      <!-- indice -->
+      <ul class="indice">
+        <li class="hvr-grow"><a href="#one" id="i1" style="font-weight: 600; opacity: 100%;">01<span> Inicio</span></a>
+        </li>
+        <li class="hvr-grow"><a href="#two" id="i2">02<span> Actividades</span></a></li>
+        <li class="hvr-grow"><a href="#three" id="i3">03<span> Flora</span></a></li>
+        <li class="hvr-grow"><a href="#four" id="i4">04<span> Fauna</span></a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05<span> Recomendaciones</span></a></li>
+      </ul>
+      <!-- contenido -->
+      <div class="container-boton-mapa">
+
+        <div class="boton-mapa">
+          <img src="img/boton-mapa.png" id="icono-boton-mapa">
+          <img id="foto-boton-mapa" src="img/mapa.png" alt="">
+          <a href="loscardones.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn1"></button>
+          </a>
+          <a href="talampaya.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn2"></button>
+          </a>
+          <a href="iguazu.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn3"></button>
+          </a>
+          <a href="elpalmar.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn4"></button>
+          </a>
+          <a href="nahuelhuapi.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn5"></button>
+          </a>
+          <a href="losarrayanes.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn6"></button>
+          </a>
+          <a href="losglaciares.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn7"></button>
+          </a>
+          <a href="tierradelfuego.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn8"></button>
+          </a>
+          <a href="lagopuelo.html">
+            <button class="animate__animated animate__bounce btnMapa" id="mini-btn9"></button>
+          </a>
+        </div>
+      </div>
+      <div class="diapositiva1">
+        <div class="texto-parque">
+          <h3>La Rioja, Noroeste</h3>
+          <h1 id="titulo-parque">TALAMPAYA</h1>
+          <div id="descripcion">
+            <img id="logo-puelo" src="img/logo-talampaya.png" alt="">
+            <p id="p-descripcion">Además de la espectacularidad de sus paredones
+              rojizos que le han dado fama internacional, el Parque alberga una
+              naturaleza por demás sorprendente por sus adaptaciones para vivir en
+              un ambiente desértico.
+            </p>
+          </div>
+          <div class="servicios">
+            <div id="servicios-1">
+
+            </div>
+            <div id="servicios-2">
+
+            </div>
+            <div id="servicios-3">
+
+            </div>
+            <div id="servicios-4">
+
+            </div>
+            <div id="servicios-5">
+
+            </div>
+          </div>
+        </div>
+        <div class="mapa">
+          <img class="mapaimg" src="img/mapa.png" alt="">
+          <a href="loscardones.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn1"></button>
+          </a>
+          <a href="talampaya.html">
+            <button class="animate__animated animate__bounce btnMapa" id="btn2"></button>
+          </a>
+          <a href="iguazu.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn3"></button>
+          </a>
+          <a href="elpalmar.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn4"></button>
+          </a>
+          <a href="nahuelhuapi.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn5"></button>
+          </a>
+          <a href="losarrayanes.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn6"></button>
+          </a>
+          <a href="losglaciares.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn7"></button>
+          </a>
+          <a href="tierradelfuego.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn8"></button>
+          </a>
+          <a href="lagopuelo.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn9"></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actividades calor-->
+    <div class="Interruptor">
+      <img class="ISwitch" src="img/ISol.png" alt="cálido">
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round sliderFrio"></span>
+      </label>
+      <img class="ISwitch" src="img/ICopo.png" alt="frío">
+    </div>
+    <div class="diapositivaprueba prueba-absolute">
+      <div class="diapositiva2-calor" id="two">
+        <!-- indice -->
+
+        <ul class="indice" id="indice-actividades">
+          <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+          <li class="hvr-grow"><a href="#two" id="i2" style="font-weight: 600; opacity: 100%;">02</a></li>
+          <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
+          <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+          <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+        </ul>
+        <div class="left">
+
+          <div class="VisitaPorTemporada">
+            <h2 style="color: #B4582B">Visita por temporada</h2>
+            <p>De veranos cálidos, un lago color turquesa y variopintos verdes
+              por ser una zona de transición entre el bosque andino patagónico y
+              la selva valdiviana, esta joya de la Patagonia invita a agudizar los
+              sentidos. </p>
+          </div>
+          <h3 style="color:#B96A44;">Información meteorológica</h3>
+          <div class="InformaciónMeteorológica">
+            <div class="TemperaturaPromedio">
+              <h5>Temperatura promedio</h5>
+              <div class="Temperatura">
+                <img style="weight: 120px; padding: 1.5em 0.5em 1em 0em;" src="img/soleado.png" alt="sol">
+                <h2 style="font-weight: normal; line-height: 100%;" class="Grados">24</h2>
+                <h2 style="font-weight: normal;" class="Centigrados">°C</h2>
+              </div>
+              <h4 style="padding-bottom:1em;">Cielo despejado</h4>
+              <p>Sensación termica: <b style="color: #131313;" class="ST">34°C</b></p>
+              <p>Probabilidad de lluvia: <b style="color: #131313;" class="PLL">4%</b></p>
+            </div>
+            <div class="Gráficas">
+              <button style="height:8.5em;" type="button" name="button" id="TcalorV0"
+                class="barra talampayaMV"></button>
+              <button style="height:7em;" type="button" name="button" id="TcalorV1" class="barra fondoGris"></button>
+              <button style="height:7.5em;" type="button" name="button" id="TcalorV2" class="barra fondoGris"></button>
+              <button style="height:5em;" type="button" name="button" id="TcalorV3" class="barra fondoGris"></button>
+              <button style="height:5em;" type="button" name="button" id="TcalorV4" class="barra fondoGris"></button>
+              <button style="height:5em;" type="button" name="button" id="TcalorV5" class="barra fondoGris"></button>
+              <p><b style="color: #131313; word-spacing:0.7em; ">Ene Feb Mar Abr May Jun </b></p>
+            </div>
+          </div>
+          <h3 style="color:#B96A44;">Cuidados y recomendaciones</h3>
+          <div class="InformaciónMeteorológica">
+            <div class="TemperaturaPromedio">
+              <h5 style="color:#131313;">Indice de radiación UV</h5>
+              <h2 style="font-weight: normal; line-height: 100%;" class="Rad">7</h2>
+              <h4 class="valorRadiacion" style="padding-bottom:1em;">Alto</h4>
+              <div class="VientoICA">
+                <div class="IconosRadiación">
+                  <img src="img/viento.png" alt="viento">
+                  <p class="KM">17 Km</p>
+                </div>
+                <div class="IconosRadiación">
+                  <img src="img/hoja.png" alt="hoja">
+                  <p class="ICA">ICA 21</p>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 2em 0em 0em 2em;" class="Gráficas">
+              <button style="height:10em;" type="button" name="button" id="TradV0" class="barra talampayaRV"></button>
+              <button style="height:8em;" type="button" name="button" id="TradV1" class="barra fondoGris"></button>
+              <button style="height:7em;" type="button" name="button" id="TradV2" class="barra fondoGris"></button>
+              <button style="height:5em;" type="button" name="button" id="TradV3" class="barra fondoGris"></button>
+              <button style="height:5.5em;" type="button" name="button" id="TradV4" class="barra fondoGris"></button>
+              <button style="height:4em;" type="button" name="button" id="TradV5" class="barra fondoGris"></button>
+              <p><b style="color: #131313; word-spacing:0.7em; ">Ene Feb Mar Abr May Jun </b></p>
+            </div>
+          </div>
+          <div style="margin-top:5em;" class="Recomendaciones">
+            <div style="background-color:#B4582B;" class="Recomendaciones1">
+              <p style="color:white; padding: 0.5em 1em;">Uso de protector solar</p>
+              <div style=" border: 1px solid #B4582B;" class="Consejo">
+                <p style="padding: 0.5em; color:#B4582B;">cada 30 min</p>
+              </div>
+            </div>
+            <div style="background-color:#B4582B;" class="Recomendaciones1">
+              <p style="color:white; padding: 0.5em 1em;">Hidratacion contínua</p>
+              <div style=" border: 1px solid #CB7F2C;" class="Consejo">
+                <p style="padding: 0.5em; color:#B4582B;">cada 30 min</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="background-image: url(img/FVTampalaya.jpg);" class="right">
+
+          <div class="image">
+            <img style="height: 100%;" src="img/mapaTalampaya.png" class="">
+          </div>
+          <div class="scroll">
+            <div class="cardTalampaya" tabindex="0">
+              <img src="img/senderismoTalampaya.png" alt="">
+              <div class="card-info">
+                <h4>Senderismo</h4>
+
+                <p>12 Rutas de montaña con estaciones intermedias y puntos de hidratación observación de aves.</p>
+              </div>
+            </div>
+            <div class="cardTalampaya" tabindex="0">
+              <img src="img/acampeTalampaya.png" alt="">
+              <div class="card-info">
+                <h4>Acampe</h4>
+
+                <p>Dos zonas de acape con refugios cercanos, zona de parrilla y servicios higienicos para disfrutar de
+                  la naturaleza de lleno.</p>
+              </div>
+            </div>
+            <div class="cardTalampaya" tabindex="0">
+              <img src="img/bicicletaTalampaya.png" alt="">
+              <div class="card-info">
+                <h4>Bicicleta</h4>
+
+                <p>Dos zonas de acape con refugios cercanos, zona de parrilla y servicios higienicos para disfrutar de
+                  la naturaleza de lleno.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actividades frío -->
+      <!-- ACA EMPIEZA EL LADO IZQUIERDO -->
+      <div class="diapositiva2-frio" id="two">
+        <!-- indice -->
+
+        <ul class="indice" id="indice-actividades">
+          <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+          <li class="hvr-grow"><a href="#two" id="i2" style="font-weight: 600; opacity: 100%;">02</a></li>
+          <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
+          <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+          <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+        </ul>
+        <div class="left">
+
+          <div class="VisitaPorTemporada">
+            <h2 style="color: #556978;">Visita por temporada</h2>
+            <p>En invierno la temperatura puede alcanzar los 0 grados e incluso llegar a los bajo cero. En el cañón
+              llueve muy poco Y en caso de lluvias por la crecida del río que atraviesa el cañón las visitas suelen
+              suspenderse por la presencia de viento zonda.</p>
+          </div>
+          <h3 style="color: #556978;">Información meteorológica</h3>
+          <div class="InformaciónMeteorológica">
+            <div class="TemperaturaPromedio">
+              <h5>Temperatura promedio</h5>
+              <div class="Temperatura">
+                <img style="weight: 120px;padding: 1.5em 0.5em 1em 0em;" src="img/nublado.png" alt="sol">
+                <h2 style="font-weight: normal; line-height: 100%;" class="Grados">13</h2>
+                <h2 style="font-weight: normal;" class="Centigrados">°C</h2>
+              </div>
+              <h4 style="padding-bottom:1em;">Cielo parcialmente nublado </h4>
+              <p>Sensación termica: <b style="color: #131313;" class="ST">15°C</b></p>
+              <p>Probabilidad de lluvia: <b style="color: #131313;" class="PLL">20%</b></p>
+            </div>
+            <div class="Gráficas">
+              <button style="height:3em;" type="button" name="button" id="TcalorI0" class="barra talampayaMI"></button>
+              <button style="height:4em;" type="button" name="button" id="TcalorI1" class="barra fondoGris"></button>
+              <button style="height:4.5em;" type="button" name="button" id="TcalorI2" class="barra fondoGris"></button>
+              <button style="height:4.5em;" type="button" name="button" id="TcalorI3" class="barra fondoGris"></button>
+              <button style="height:6.5em;" type="button" name="button" id="TcalorI4" class="barra fondoGris"></button>
+              <button style="height:8em;" type="button" name="button" id="TcalorI5" class="barra fondoGris"></button>
+              <p><b style="color: #131313; word-spacing:0.7em; ">Jul Ago Sep Oct Nov Dic</b></p>
+            </div>
+          </div>
+          <h3 style="color: #556978;">Cuidados y recomendaciones</h3>
+          <div class="InformaciónMeteorológica">
+            <div class="TemperaturaPromedio">
+              <h5 style="color:#131313;">Índice de precipitación</h5>
+              <h2 style="font-weight: normal;" class="Rad">7<small
+                  style="color:#131313; font-weight: normal;">mm</small></h2>
+              <h4 class="valorRadiacion" style="padding-bottom:1em;">Bajo</h4>
+              <div class="VientoICA">
+                <div class="IconosRadiación">
+                  <img src="img/viento.png" alt="viento">
+                  <p class="KM">43 Km</p>
+                </div>
+                <div class="IconosRadiación">
+                  <img src="img/hoja.png" alt="hoja">
+                  <p class="ICA">ICA 27</p>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 2em 0em 0em 2em;" class="Gráficas">
+              <button style="height:5em;" type="button" name="button" id="TradI0" class="barra talampayaRI"></button>
+              <button style="height:3.5em;" type="button" name="button" id="TradI1" class="barra fondoGris"></button>
+              <button style="height:2em;" type="button" name="button" id="TradI2" class="barra fondoGris"></button>
+              <button style="height:1em;" type="button" name="button" id="TradI3" class="barra fondoGris"></button>
+              <button style="height:0.5em;" type="button" name="button" id="TradI4" class="barra fondoGris"></button>
+              <button style="height:0.8em;" type="button" name="button" id="TradI5" class="barra fondoGris"></button>
+              <p><b style="color: #131313; word-spacing:0.7em; ">Jul Ago Sep Oct Nov Dic</b></p>
+            </div>
+          </div>
+          <div style="margin-top:5em;" class="Recomendaciones">
+            <div style="background-color:#364717;" class="Recomendaciones1">
+              <p style="color:white; padding: 0.5em 1em;">Uso de ropa abrigada</p>
+              <div style=" border: 1px solid#364717;" class="Consejo">
+                <p style="padding: 0.5em; color: #364717;">obligatorio</p>
+              </div>
+            </div>
+            <div style="background-color:#364717;" class="Recomendaciones1">
+              <p style="color:white; padding: 0.5em 1em;">Uso de proteccion visual </p>
+              <div style=" border: 1px solid #364717;" class="Consejo">
+                <p style="padding: 0.5em; color: #364717;">obligatorio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ACA EMPIEZA EL LADO DERECHO -->
+        <div style="background-image: url(img/FITalampaya.jpg);" class="right">
+
+          <div class="image">
+            <img style="height: 100%;" src="img/mapaTalampaya.png" class="">
+          </div>
+          <div class="scroll">
+            <div class="cardTalampayaI" tabindex="0">
+              <img src="img/senderismoTalampayaF.png" alt="">
+              <div class="card-info">
+                <h4>Senderismo</h4>
+
+                <p>12 Rutas de montaña con estaciones intermedias y puntos de hidratación observación de aves.</p>
+              </div>
+            </div>
+            <div class="cardTalampayaI" tabindex="0">
+              <img src="img/bicicletaTalampaya.png" alt="">
+              <div class="card-info">
+                <h4>Bicicleta</h4>
+
+                <p>Dos zonas de acape con refugios cercanos, zona de parrilla y servicios higienicos para disfrutar de
+                  la naturaleza de lleno.</p>
+              </div>
+            </div>
+            <div class="cardTalampayaI" tabindex="0">
+              <img src="img/acampeTalampaya.png" alt="">
+              <div class="card-info">
+                <h4>Acampe</h4>
+
+                <p>Dos zonas de acape con refugios cercanos, zona de parrilla y servicios higienicos para disfrutar de
+                  la naturaleza de lleno.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Flora -->
+    <div class="diapositiva" id="three">
+      <!-- indice -->
+      <ul class="indice">
+        <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
+        <li class="hvr-grow"><a href="#three" id="i3" style="font-weight: 600; opacity: 100%;">03</a></li>
+        <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+      </ul>
+      <!-- contenido -->
+      <iframe width="100%" height="100%" src="https://ivanluciano.github.io/talampaya_flora/"></iframe>
+      <!--<iframe width="100%" height="100%" src="https://preview.p5js.org/Xhiutther/embed/23zjWEuRL"></iframe>-->
+
+    </div>
+
+    <!-- Fauna -->
+    <div class="diapositiva" id="four">
+      <!-- indice -->
+      <ul class="indice">
+        <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
+        <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
+        <li class="hvr-grow"><a href="#four" id="i4" style="font-weight: 600; opacity: 100%;">04</a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+      </ul>
+      <!-- contenido -->
+      <iframe width="100%" height="100%" src="https://ivanlucianooo.github.io/talampaya_fauna/"></iframe>
+      <!--<iframe width="100%" height="100%"  src="https://preview.p5js.org/marianoquattrocchi/embed/PpNlWZ6DX"></iframe>-->
+    </div>
+
+    <!-- Recomendados -->
+    <div style="background-image: url(./img/fondotalampaya.png);
+       background-size: cover;" class="diapositiva" id="five">
+      <div class="diapositiva5">
+        <!-- indice -->
+        <ul class="indice">
+          <li class="hvr-grow"><a href="#one" id="i1">01<span> Inicio</span></a></li>
+          <li class="hvr-grow"><a href="#two" id="i2">02<span> Actividades</span></a></li>
+          <li class="hvr-grow"><a href="#three" id="i3">03<span> Flora</span></a></li>
+          <li class="hvr-grow"><a href="#four" id="i4">04<span> Fauna</span></a></li>
+          <li class="hvr-grow"><a href="#five" id="i5" style="font-weight: 600; opacity: 100%;">05<span>
+                Recomendaciones</span></a></li>
+        </ul>
+        <!-- contenido -->
+        <div class="contenido5">
+
+          <div class="texto recomendaciones">
+            <h3>Eso fue un breve vistazo del Parque Nacional</h3>
+            <h1 id="vistazo-titulo">TALAMPAYA</h1>
+            <h4 id="parques-interesantes">Parques que pueden interesarte</h4>
+          </div>
+
+          <div class="opciones">
+            <a href="elpalmar.html">
+              <div class="opcion Nahuel" id="tarjeta-recomendacion-1" style="background-color:#FFCF35;">
+                <div class="texto-recomendacion">
+                  <h5>Parque Nacional</h5>
+                  <h3 class="recomendacion-titulo">EL <br>PALMAR</h3>
+                </div>
+                <div class="container-img-recomendacion">
+                  <img src="img/logo-talampaya.png" class="img-recomendacion" alt="">
+                </div>
+              </div>
+            </a>
+
+            <a href="iguazu.html">
+              <div class="opcion Nahuel" id="tarjeta-recomendacion-2" style="background-color:#CFD65D;">
+                <div class="texto-recomendacion">
+                  <h5>Parque Nacional</h5>
+                  <h3 class="recomendacion-titulo">IGUAZÚ</h3>
+                </div>
+                <div class="container-img-recomendacion">
+                  <img class="img-recomendacion" src="img/logo-iguazu.png" alt="">
+                </div>
+              </div>
+            </a>
+
+            <a href="loscardones.html">
+              <div class="opcion Nahuel" id="tarjeta-recomendacion-3" style="background-color:#F69233;">
+                <div class="texto-recomendacion">
+                  <h5>Parque Nacional</h5>
+                  <h3 class="recomendacion-titulo">LOS <br> CARDONES</h3>
+                </div>
+                <div class="container-img-recomendacion">
+                  <img class="img-recomendacion" src="img/logo-loscardones.png" alt="">
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="volver-index">
+            <a href="index.html">
+              <h3>Volver a responder la encuesta</h3>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="diapositiva" id="footer">
+      <div class="footer-izquierda">
+        <div class="info-tp">
+          <img src="img/logo-taller.png" id="logo-taller">
+          <h3 class="h3-footer">INFOGRAFÍA INTERACTIVA</h3>
+          <h2 class="h2-footer">AREAS PROTEGIDAS</h2>
+          <h3 class="h3-footer">COMISIÓN 2</h3>
+        </div>
+        <div class="integrantes">
+          <h2 class="h2-footer">INTEGRANTES</h2>
+          <ul>
+            <li>Pinto, Isabella (85075/4)</li>
+            <li>Luciano, Ivan (85085/6)</li>
+            <li>Flores, Nicolás (85224/8)</li>
+            <li>Fallesen, Clara (85720/0)</li>
+            <li>Quattrocchi, Mariano(86533/4)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-derecha">
+        <img src="img/logo-unlp.png" id="logo-unlp">
+        <img src="img/logo-fda.png" id="logo-fda">
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <script src="actividades.js"></script>
+</body>
+
+</html>

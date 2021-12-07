@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Areas Protegidas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+    #mini-btn1 {
+      position: absolute;
+      left: 42%;
+      bottom: 66%;
+      opacity: 50%;
+
+    }
+
+    /* TALAMPAYA */
+    #mini-btn2 {
+      position: absolute;
+      left: 37%;
+      bottom: 65%;
+      opacity: 50%;
+
+    }
+
+    /* IGUAZU */
+    #mini-btn3 {
+      position: absolute;
+      left: 60%;
+      bottom: 69%;
+      opacity: 50%;
+
+    }
+
+    /* EL PALMAR */
+    #mini-btn4 {
+      position: absolute;
+      left: 50%;
+      bottom: 60%;
+      opacity: 50%;
+
+    }
+
+    /* NAHUEL HUAPI */
+    #mini-btn5 {
+      position: absolute;
+      left: 32%;
+      bottom: 46%;
+      opacity: 100%;
+
+    }
+
+    /* LOS ARRAYANES */
+    #mini-btn6 {
+      position: absolute;
+      left: 30%;
+      bottom: 42%;
+      opacity: 50%;
+
+    }
+
+    /* LOS GLACIARES */
+    #mini-btn7 {
+      position: absolute;
+      left: 30%;
+      bottom: 28%;
+      opacity: 50%;
+
+    }
+
+    /* TIERRA DEL FUEGO*/
+    #mini-btn8 {
+      position: absolute;
+      left: 40%;
+      bottom: 20%;
+      opacity: 50%;
+    }
+
+    /* LAGO PUELO */
+    #mini-btn9 {
+      position: absolute;
+      left: 30%;
+      bottom: 38%;
+      opacity: 50%;
+
+    }
+
+    /* LOS CARDONES */
+    #btn1 {
+      position: relative;
+      left: 30%;
+      bottom: 86%;
+      opacity: 50%;
+    }
+
+    /* TALAMPAYA */
+    #btn2 {
+      position: relative;
+      left: 20%;
+      bottom: 83%;
+      opacity: 50%;
+    }
+
+    /* IGUAZU */
+    #btn3 {
+      position: relative;
+      left: 47%;
+      bottom: 81%;
+      opacity: 50%;
+    }
+
+    /* EL PALMAR */
+    #btn4 {
+      position: relative;
+      left: 32%;
+      bottom: 66%;
+      opacity: 50%;
+    }
+
+    /* NAHUEL HUAPI */
+    #btn5 {
+      position: relative;
+      left: 4%;
+      bottom: 46%;
+      opacity: 50%;
+    }
+
+    /* LOS ARRAYANES */
+    #btn6 {
+      position: relative;
+      left: 0%;
+      bottom: 42%;
+      opacity: 50%;
+    }
+
+    /* LOS GLACIARES */
+    #btn7 {
+      position: relative;
+      left: -3%;
+      bottom: 18%;
+      opacity: 50%;
+    }
+
+    /* TIERRA DEL FUEGO*/
+    #btn8 {
+      position: relative;
+      left: 1%;
+      bottom: 6%;
+      opacity: 50%;
+    }
+
+    /* LAGO PUELO */
+    #btn9 {
+      position: relative;
+      left: -8%;
+      bottom: 38%;
+      opacity: 50%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Caratula -->
+  <div class="container">
+    <div style="background-image: url(./img/fondonahuelhuapi.jpg);
+       background-size: cover;" class="diapositiva" id="one">
+      <!-- indice -->
+      <ul class="indice">
+        <li class="hvr-grow"><a href="#one" id="i1" style="font-weight: 600; opacity: 100%;">01<span> Inicio</span></a>
+        </li>
+        <li class="hvr-grow"><a href="#two" id="i2">02<span> Actividades</span></a></li>
+        <li class="hvr-grow"><a href="#three" id="i3">03<span> Flora</span></a></li>
+        <li class="hvr-grow"><a href="#four" id="i4">04<span> Fauna</span></a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05<span> Recomendaciones</span></a></li>
+      </ul>
+      <!-- contenido -->
+      <div class="container-boton-mapa">
+
+        <div class="boton-mapa">
+          <img src="img/boton-mapa.png" id="icono-boton-mapa">
+          <img id="foto-boton-mapa" src="img/mapa.png" alt="">
+          <a href="loscardones.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn1"></button>
+          </a>
+          <a href="talampaya.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn2"></button>
+          </a>
+          <a href="iguazu.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn3"></button>
+          </a>
+          <a href="elpalmar.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn4"></button>
+          </a>
+          <a href="nahuelhuapi.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn5"></button>
+          </a>
+          <a href="losarrayanes.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn6"></button>
+          </a>
+          <a href="losglaciares.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn7"></button>
+          </a>
+          <a href="tierradelfuego.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="mini-btn8"></button>
+          </a>
+          <a href="lagopuelo.html">
+            <button class="animate__animated animate__bounce btnMapa" id="mini-btn9"></button>
+          </a>
+        </div>
+      </div>
+      <div class="diapositiva1">
+        <div class="texto-parque">
+          <h3>Neuquén y Rio Negro, Estepa Patagónica</h3>
+          <h1 id="titulo-parque">NAHUEL <br>HUAPI</h1>
+          <div id="descripcion">
+            <img id="logo-puelo" src="img/logo-nahuelhuapi.png" alt="">
+            <p id="p-descripcion">El primer parque nacional de Latinoamérica,
+              actualmente conocido con el nombre de Nahuel Huapi. El área
+              protegida supo albergar al primer vivero forestal de la Argentina,
+              hoy consolidado como un jardín botánico distinguido
+              internacionalmente.
+            </p>
+          </div>
+          <div class="servicios">
+            <div id="servicios-1">
+
+            </div>
+            <div id="servicios-2">
+
+            </div>
+            <div id="servicios-3">
+
+            </div>
+            <div id="servicios-4">
+
+            </div>
+            <div id="servicios-5">
+
+            </div>
+          </div>
+        </div>
+        <div class="mapa">
+          <img class="mapaimg" src="img/mapa.png" alt="">
+          <a href="loscardones.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn1"></button>
+          </a>
+          <a href="talampaya.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn2"></button>
+          </a>
+          <a href="iguazu.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn3"></button>
+          </a>
+          <a href="elpalmar.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn4"></button>
+          </a>
+          <a href="nahuelhuapi.html">
+            <button class="animate__animated animate__bounce btnMapa" id="btn5"></button>
+          </a>
+          <a href="losarrayanes.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn6"></button>
+          </a>
+          <a href="losglaciares.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn7"></button>
+          </a>
+          <a href="tierradelfuego.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn8"></button>
+          </a>
+          <a href="lagopuelo.html">
+            <button class="animate__animated animate__heartBeat btnMapa" id="btn9"></button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Actividades -->
+    <div class="Interruptor">
+      <img class="ISwitch" src="img/ISol.png" alt="cálido">
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round sliderFrio"></span>
+      </label>
+      <img class="ISwitch" src="img/ICopo.png" alt="frío">
+    </div>
+    <div class="diapositivaprueba prueba-absolute">
+      <div class="diapositiva2-calor" id="two">
+        <!-- indice -->
+
+        <ul class="indice" id="indice-actividades">
+          <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+          <li class="hvr-grow"><a href="#two" id="i2" style="font-weight: 600; opacity: 100%;">02</a></li>
+          <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
+          <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+          <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+        </ul>
+        <div class="left">
+
+          <div class="VisitaPorTemporada">
+            <h2 style="color: #265998">Visita por temporada</h2>
+            <p>Al sur de la República Argentina y al noroeste de la Patagonia. Las
+              más de 710.000 hectáreas que componen su territorio se emplazan en dos
+              provincias: Neuquén y Río Negro. un destino imperdible.
+            </p>
+          </div>
+          <h3 style="color: #265998">Información meteorológica</h3>
+          <div style="color: #265998" class="InformaciónMeteorológica">
+            <div class="TemperaturaPromedio">
+              <h5>Temperatura promedio</h5>
+              <div class="Temperatura">
+                <img style="weight: 120px; " src="img/soleado.png" alt="sol">
+                <h2 style=" font-weight: normal; line-height: 100%;" class="Grados">24</h2>
+                <h2 style="font-weight: normal;" class="centigrados">°C</h2>
+              </div>
+              <h4 style="padding-bottom:1em;">Cielo despejado</h4>
+              <p>Sensación termica: <b style="color: #131313;" class="ST">24°C</b></p>
+              <p>Probabilidad de lluvia: <b style="color: #131313;" class="PLL">4%</b></p>
+            </div>
+            <div class="Gráficas">
+              <button style="height:10em;" type="button" name="button" id="calorV0" class="barra fondoGris"></button>
+              <button style="height:9em;" type="button" name="button" id="calorV1" class="barra fondoGris"></button>
+              <button style="height:9em;" type="button" name="button" id="calorV2" class="barra pueloMV"></button>
+              <button style="height:6em;" type="button" name="button" id="calorV3" class="barra fondoGris"></button>
+              <button style="height:6em;" type="button" name="button" id="calorV4" class="barra fondoGris"></button>
+              <button style="height:4em;" type="button" name="button" id="calorV5" class="barra fondoGris"></button>
+              <p><b style="color:#131313; word-spacing:0.7em;">Ene Feb Mar Abr May Jun </b></p>
+            </div>
+          </div>
+          <h3 style="color: #265998">Cuidados y recomendaciones</h3>
+          <div class="InformaciónMeteorológica">
+            <div class="TemperaturaPromedio">
+              <h5 style="color:#131313;">Indice de radiación UV</h5>
+              <h2 style="font-weight: normal; line-height: 100%;" class="Rad">7</h2>
+              <h4 style="padding-bottom:1em;">Alto</h4>
+              <div class="VientoICA">
+                <div class="IconosRadiación">
+                  <img src="img/viento.png" alt="viento">
+                  <p class="KM">17 Km</p>
+                </div>
+                <div class="IconosRadiación">
+                  <img src="img/hoja.png" alt="hoja">
+                  <p class="ICA">ICA 21</p>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 2em 0em 0em 2em;" class="Gráficas">
+              <button style="height:8em;" type="button" name="button" id="radV0" class="barra pueloRV"></button>
+              <button style="height:6em;" type="button" name="button" id="radV1" class="barra fondoGris"></button>
+              <button style="height:6.5em;" type="button" name="button" id="radV2" class="barra fondoGris"></button>
+              <button style="height:5em;" type="button" name="button" id="radV3" class="barra fondoGris"></button>
+              <button style="height:5em;" type="button" name="button" id="radV4" class="barra fondoGris"></button>
+              <button style="height:4em;" type="button" name="button" id="radV5" class="barra fondoGris"></button>
+              <p><b style="color: #131313; word-spacing:0.7em; ">Ene Feb Mar Abr May Jun </b></p>
+            </div>
+          </div>
+          <div style="margin-top:5em;" class="Recomendaciones">
+            <div class="Recomendaciones1">
+              <p style="color:white; padding: 0.5em 1em;">Uso de protector solar</p>
+              <div class="Consejo">
+                <p style="padding: 0.5em;" class="turquesa">cada 2 hs</p>
+              </div>
+            </div>
+            <div class="Recomendaciones1">
+              <p style="color:white; padding: 0.5em 1em;">Hidratacion contínua</p>
+              <div class="Consejo">
+                <p style="padding: 0.5em;" class="turquesa">cada 30 min</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right" style="background-image:url(img/FVHuapi.jpg);">
+
+          <div class="image">
+            <img src="img/mapaNahuelHuapi.png" class="">
+          </div>
+          <div class="scroll">
+            <div class="card" tabindex="0">
+              <img src="img/kayakPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Kayak</h4>
+
+                <p>Descubre el Lago Puelo desde el agua, disfruta de las aguas tranquilas y vive una experiencia
+                  inolvidable en sus 4 recorridos.</p>
+              </div>
+            </div>
+            <div class="card" tabindex="0">
+              <img src="img/playaPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Playa</h4>
+
+                <p>De orillas pedregozas, destaca por sus aguas dulces y refrescantes parte del Lago Puelo, marea
+                  tranquila y profundidad baja.</p>
+              </div>
+            </div>
+            <div class="card" tabindex="0">
+              <img src="img/pescaPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Pesca</h4>
+
+                <p>Disfuta de una experiencia inolvidable si eres apacionado a la pesca recreativa en las aguas
+                  cristalinas del Lago Puelo.</p>
+              </div>
+            </div>
+            <div class="card" tabindex="0">
+              <img src="img/senderismoPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Senderismo</h4>
+
+                <p>Recorre todas y caa una de las rutas disponibles en el parque, disfruta de un paseo al aire libre
+                  digno de recordar.</p>
+              </div>
+            </div>
+            <div class="card" tabindex="0">
+              <img src="img/bicicletaPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Bicicleta</h4>
+
+                <p>Con sus 4 rutas de ciclismo de aventura, Lago Puelo ofrece una experiencia inolvidable para los
+                  aventureros a dos ruedas.</p>
+              </div>
+            </div>
+            <div class="card" tabindex="0">
+              <img src="img/paisajismoPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Paisajismo</h4>
+
+                <p>Asómbrate e inspírate con la vista desde con los diversos miradores ubicados a lo largo de las rutas
+                  turísticas y puntos de hidratación.</p>
+              </div>
+            </div>
+            <div class="card" tabindex="0">
+              <img src="img/fotografíaPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Fotografía</h4>
+
+                <p>Descubre paisajes paradisiacos y animales majestuosos, dignos de una postal e inmortalízalos en una
+                  fotografía.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Actividades frío -->
+      <div class="diapositiva2-frio" id="two">
+        <!-- indice -->
+
+        <ul class="indice" id="indice-actividades">
+          <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+          <li class="hvr-grow"><a href="#two" id="i2" style="font-weight: 600; opacity: 100%;">02</a></li>
+          <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
+          <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+          <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+        </ul>
+        <div class="left">
+
+          <div class="VisitaPorTemporada">
+            <h2 style="color: #324A62;">Visita por temporada</h2>
+            <p>De inviernos blancos que cubren los cerros, un lago Azulado y paisajes boscosos por ser una zona de
+              transición entre el bosque andino patagónico y la selva valdiviana, esta joya de la Patagonia invita a
+              agudizar los sentidos. </p>
+          </div>
+          <h3 style="color: #324A62;">Información meteorológica</h3>
+          <div class="InformaciónMeteorológica">
+            <div class="TemperaturaPromedio">
+              <h5>Temperatura promedio</h5>
+              <div class="Temperatura">
+                <img style="padding: 1.5em 0.5em 1em 0em;" src="img/copo.png" alt="sol">
+                <h2 style="font-weight: normal; line-height: 100%;" class="Grados">24</h2>
+                <h2 style="font-weight: normal;" class="Centigrados">°C</h2>
+              </div>
+              <h4 style="padding-bottom:1em;">Cielo despejado</h4>
+              <p>Sensación termica: <b style="color: #131313;" class="ST">4°C</b></p>
+              <p>Probabilidad de lluvia: <b style="color: #131313;" class="PLL">3%</b></p>
+            </div>
+            <div class="Gráficas">
+              <button style="height:46px;" type="button" name="button" id="calorI0" class="barra fondoGris"></button>
+              <button style="height:54px;" type="button" name="button" id="calorI1" class="barra fondoGris"></button>
+              <button style="height:58px;" type="button" name="button" id="calorI2" class="barra pueloMI"></button>
+              <button style="height:58px;" type="button" name="button" id="calorI3" class="barra fondoGris"></button>
+              <button style="height:90px;" type="button" name="button" id="calorI4" class="barra fondoGris"></button>
+              <button style="height:125px;" type="button" name="button" id="calorI5" class="barra fondoGris"></button>
+              <p><b style="color: #131313; word-spacing:0.7em; ">Jul Ago Sep Oct Nov Dic</b></p>
+            </div>
+          </div>
+          <h3 style="color: #324A62;">Cuidados y recomendaciones</h3>
+          <div class="InformaciónMeteorológica">
+            <div class="TemperaturaPromedio">
+              <h5 style="color:#131313;">Índice de precipitación</h5>
+              <h2 style=" font-weight: normal; line-height: 100%;" class="Rad">30<small
+                  style="color:#131313; font-weight: normal;">mm</small></h2>
+              <h4 style="padding-bottom:1em;">Alto</h4>
+              <div class="VientoICA">
+                <div class="IconosRadiación">
+                  <img src="img/viento.png" alt="viento">
+                  <p class="KM">20 Km</p>
+                </div>
+                <div class="IconosRadiación">
+                  <img src="img/hoja.png" alt="hoja">
+                  <p class="ICA">ICA 27</p>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 2em 0em 0em 2em;" class="Gráficas">
+              <button style="height:100px;" type="button" name="button" id="radI0" class="barra pueloRI"></button>
+              <button style="height:80px;" type="button" name="button" id="radI1" class="barra fondoGris"></button>
+              <button style="height:40px;" type="button" name="button" id="radI2" class="barra fondoGris"></button>
+              <button style="height:25px;" type="button" name="button" id="radI3" class="barra fondoGris"></button>
+              <button style="height:10px;" type="button" name="button" id="radI4" class="barra fondoGris"></button>
+              <button style="height:15px;" type="button" name="button" id="radI5" class="barra fondoGris"></button>
+              <p><b style="color: #131313; word-spacing:0.7em; ">Jul Ago Sep Oct Nov Dic</b></p>
+            </div>
+          </div>
+          <div style="margin-top:5em;" class="Recomendaciones">
+            <div style="background-color:#324A62;" class="Recomendaciones1">
+              <p style="color:white; padding: 0.5em 1em;">Uso de ropa abrigada</p>
+              <div class="Consejo">
+                <p style="padding: 0.5em; color: #324A62;">obligatorio</p>
+              </div>
+            </div>
+            <div style="background-color:#324A62;" class="Recomendaciones1">
+              <p style="color:white; padding: 0.5em 1em;">Uso de protección visual</p>
+              <div class="Consejo">
+                <p style="padding: 0.5em; color: #324A62;">recomendable</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          style="background-image: url(img/FIHuapi.jpg);"
+          class="right">
+
+          <div class="image">
+            <img src="img/mapaNahuelHuapi.png" class="">
+          </div>
+          <div class="scroll">
+            <div class="cardAzul" tabindex="0">
+              <img src="img/senderismoPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Senderismo</h4>
+
+                <p>Recorre todas y caa una de las rutas disponibles en el parque, disfruta de un paseo al aire libre
+                  digno de recordar.</p>
+              </div>
+            </div>
+            <div class="cardAzul" tabindex="0">
+              <img src="img/acampePuelo.png" alt="">
+              <div class="card-info">
+                <h4>Acampe</h4>
+
+                <p>Dos zonas de acape con refugios cercanos, zona de parrilla y servicios higienicos para disfrutar de
+                  la naturaleza de lleno.</p>
+              </div>
+            </div>
+            <div class="cardAzul" tabindex="0">
+              <img src="img/pescaPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Pesca</h4>
+
+                <p>Disfuta de una experiencia inolvidable si eres apacionado a la pesca recreativa en las aguas
+                  cristalinas del Lago Puelo.</p>
+              </div>
+            </div>
+            <div class="cardAzul" tabindex="0">
+              <img src="img/bicicletaPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Bicicleta</h4>
+
+                <p>Con sus 4 rutas de ciclismo de aventura, Lago Puelo ofrece una experiencia inolvidable para los
+                  aventureros a dos ruedas.</p>
+              </div>
+            </div>
+            <div class="cardAzul" tabindex="0">
+              <img src="img/paisajismoPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Paisajismo</h4>
+
+                <p>Asómbrate e inspírate con la vista desde con los diversos miradores ubicados a lo largo de las rutas
+                  turísticas y puntos de hidratación.</p>
+              </div>
+            </div>
+            <div class="card P" tabindex="0">
+              <img src="img/fotografíaPuelo.png" alt="">
+              <div class="card-info">
+                <h4>Fotografía</h4>
+
+                <p>Descubre paisajes paradisiacos y animales majestuosos, dignos de una postal e inmortalízalos en una
+                  fotografía.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Flora -->
+    <div class="diapositiva" id="three">
+      <!-- indice -->
+      <ul class="indice">
+        <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
+        <li class="hvr-grow"><a href="#three" id="i3" style="font-weight: 600; opacity: 100%;">03</a></li>
+        <li class="hvr-grow"><a href="#four" id="i4">04</a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+      </ul>
+      <!-- contenido -->
+      <iframe width="100%" height="100%" src="https://ivanluciano.github.io/losglaciares_flora/"></iframe>
+      <!--<iframe width="100%" height="100%" src="https://preview.p5js.org/clarafallesen/embed/QHiJJOk5C"></iframe>-->
+    </div>
+
+    <!-- Fauna -->
+    <div class="diapositiva" id="four">
+      <!-- indice -->
+      <ul class="indice">
+        <li class="hvr-grow"><a href="#one" id="i1">01</a></li>
+        <li class="hvr-grow"><a href="#two" id="i2">02</a></li>
+        <li class="hvr-grow"><a href="#three" id="i3">03</a></li>
+        <li class="hvr-grow"><a href="#four" id="i4" style="font-weight: 600; opacity: 100%;">04</a></li>
+        <li class="hvr-grow"><a href="#five" id="i5">05</a></li>
+      </ul>
+      <!-- contenido -->
+      <iframe width="100%" height="100%" src="https://ivanlucianooo.github.io/nahuelhuapi_fauna/"></iframe>
+      <!--<iframe width="100%" height="100%" src="https://preview.p5js.org/clarafallesen/embed/2PtOYS8Bt"></iframe>-->
+    </div>
+
+    <!-- Recomendados -->
+    <div style="background-image: url(./img/fondonahuelhuapi.jpg);
+       background-size: cover;" class="diapositiva" id="five">
+      <div class="diapositiva5">
+        <!-- indice -->
+        <ul class="indice">
+          <li class="hvr-grow"><a href="#one" id="i1">01<span> Inicio</span></a></li>
+          <li class="hvr-grow"><a href="#two" id="i2">02<span> Actividades</span></a></li>
+          <li class="hvr-grow"><a href="#three" id="i3">03<span> Flora</span></a></li>
+          <li class="hvr-grow"><a href="#four" id="i4">04<span> Fauna</span></a></li>
+          <li class="hvr-grow"><a href="#five" id="i5" style="font-weight: 600; opacity: 100%;">05<span>
+                Recomendaciones</span></a></li>
+        </ul>
+        <!-- contenido -->
+        <div class="contenido5">
+
+          <div class="texto recomendaciones">
+            <h3>Eso fue un breve vistazo del Parque Nacional</h3>
+            <h1 id="vistazo-titulo">NAHUEL HUAPI</h1>
+            <h4 id="parques-interesantes">Parques que pueden interesarte</h4>
+          </div>
+
+          <div class="opciones">
+            <a href="losarrayanes.html">
+              <div class="opcion Nahuel" id="tarjeta-recomendacion-1" style="background-color:#52B8B0;">
+                <div class="texto-recomendacion">
+                  <h5>Parque Nacional</h5>
+                  <h3 class="recomendacion-titulo">LOS <br> ARRAYANES</h3>
+                </div>
+                <div class="container-img-recomendacion">
+                  <img src="img/logo-arrayanes.png" class="img-recomendacion" alt="">
+                </div>
+              </div>
+            </a>
+
+            <a href="lagopuelo.html">
+              <div class="opcion Nahuel" id="tarjeta-recomendacion-2" style="background-color:#52B8B0;">
+                <div class="texto-recomendacion">
+                  <h5>Parque Nacional</h5>
+                  <h3 class="recomendacion-titulo">LAGO <br> PUELO</h3>
+                </div>
+                <div class="container-img-recomendacion">
+                  <img class="img-recomendacion" src="img/logo-puelo.png" alt="">
+                </div>
+              </div>
+            </a>
+
+            <a href="losglaciares.html">
+              <div class="opcion Nahuel" id="tarjeta-recomendacion-3" style="background-color:#38BBEA;">
+                <div class="texto-recomendacion">
+                  <h5>Parque Nacional</h5>
+                  <h3 class="recomendacion-titulo">LOS <br> GLACIARES</h3>
+                </div>
+                <div class="container-img-recomendacion">
+                  <img class="img-recomendacion" src="img/logo-losglaciares.png" alt="">
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="volver-index">
+            <a href="index.html">
+              <h3>Volver a responder la encuesta</h3>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="diapositiva" id="footer">
+      <div class="footer-izquierda">
+        <div class="info-tp">
+          <img src="img/logo-taller.png" id="logo-taller">
+          <h3 class="h3-footer">INFOGRAFÍA INTERACTIVA</h3>
+          <h2 class="h2-footer">AREAS PROTEGIDAS</h2>
+          <h3 class="h3-footer">COMISIÓN 2</h3>
+        </div>
+        <div class="integrantes">
+          <h2 class="h2-footer">INTEGRANTES</h2>
+          <ul>
+            <li>Pinto, Isabella (85075/4)</li>
+            <li>Luciano, Ivan (85085/6)</li>
+            <li>Flores, Nicolás (85224/8)</li>
+            <li>Fallesen, Clara (85720/0)</li>
+            <li>Quattrocchi, Mariano(86533/4)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-derecha">
+        <img src="img/logo-unlp.png" id="logo-unlp">
+        <img src="img/logo-fda.png" id="logo-fda">
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <script src="actividades.js"></script>
+</body>
+
+</html>
